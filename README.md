@@ -22,12 +22,13 @@ Sources of the files I will be using for training:
 ## Requirements and Dependancies
 
 * Python 3.\*
+* PyTorch
 * Pandas (For [MICI-csv <-> Text] conversion)
 * Numpy (For [MICI-csv <-> Text] conversion and visualization)
 * Matplotlib (For visualization)
 
 ## Update History
-
+---
 ### Oct 19th 2018
 
 It took quite a lot of effort and time for me to understand the components in MIDI files.
@@ -53,9 +54,10 @@ After a bit of more testing, I will put the codes into a python script, possibly
 
 Oh, by the way, I decided not to use the medley. The complete ost midi file is long and good enough for training. I'm planning to augment it later, anyway.
 
+---
 ### Oct 7th 2018 (just before my bed time)
 
-Inspired by music generation project videos by [carykh on YouTube](https://www.youtube.com/user/carykh), I decided to do something similar with one of my favorite game soundtrack: Undertale OST.
+Inspired by videos by [carykh on YouTube](https://www.youtube.com/user/carykh), I decided to do something similar with one of my favorite game soundtrack: Undertale OST.
 
 After creating the repo, I looked for the right midi files and I found 2 great midi files (one of which had the entire soundtrack played with piano and the other being a shorter medley). Both of them have only piano tracks, which simplifies my job, and are long enough (I hope) to train my neural networks on.
 

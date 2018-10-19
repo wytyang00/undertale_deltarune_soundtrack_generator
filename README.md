@@ -2,21 +2,56 @@
 
 ## Description
 
-Just started! Work in progress!
+Conversion between simple MIDI files and text files is almost done!
+
+Still Work in progress!
+
+Neural Networks to use:
+* Simple dense 3-Hidden-Layer FeedFoward Network (Just to see how bad it does)
+* Simple dense 6-Hidden-Layer FeedFoward Network (To see if it improves)
+* 3-Layer LSTM with 300 units 
 
 Sources of the files I will be using for training:
 * Undertale: Complete OST - https://musescore.com/user/29625/scores/2075346
-* Undertale Piano Medley (not sure if I will use this one) - https://musescore.com/user/3550016/scores/1722571
 
 ## To-Do
 
-* Come up with a way to represent the data in the midi files
-* Choose which neural network(s) to use for the generator
-* Convert the midi files into an usable format and divide them into several examples I can use for training
+* Divide converted MIDI texts into several examples I can use for training
+* Augment the data by transposing them (This will possibly yield more than 6 times more data)
 
-## Requirements
+## Requirements and Dependancies
+
+* Python 3.\*
+* Pandas (For [MICI-csv <-> Text] conversion)
+* Numpy (For [MICI-csv <-> Text] conversion and visualization)
+* Matplotlib (For visualization)
 
 ## Update History
+
+### Oct 19th 2018
+
+It took quite a lot of effort and time for me to understand the components in MIDI files.
+
+I decided to take everything out of them except for the header, end of file, start and end track, and notes; no key signatures, time signatures, tempo change, or any other controls. Moreover, when I turned them into texts, I only took notes and their times.
+
+I started with taking each component out and see how it changes the music. Luckily for me, key signatures and time signatures did not directly impact the sound, so I could just drop them. Some minor controls, such as reverb and sustain, did cause some changes in the music, but they weren't significant so I just dropped them as well.
+
+Tracks were a bit tricky to handle. Notes were separated into 2 tracks. They are played together, but considered as separate parts. To further simplify the format, I removed all Start_tracks and End_tracks other than the ones with lowest time value and highest time value, then changed all track values greater than 1 to 1.
+
+Removing tempo changed the music drastically. Since the pace of a music differed from part to part, having a same tempo throughout the music was... not really good. So, I adjusted all time values according to the tempo changes by stretching and squashing time intervals with different tempos. As a result, even though there is no tempo change, I managed to make the music sound identical to the original one (except I previously removed reverbs and chorus and all).
+  
+  
+Also, I succeeded at visualizing the notes and saving them as jpeg images. Here are the first 3 parts of the music, from 0 sec to approximately 156 sec:
+
+![midi image 1](https://github.com/dragonoken/undertale_soundtrack_generator/blob/master/source/images/midimage0.jpg)
+
+![midi image 2](https://github.com/dragonoken/undertale_soundtrack_generator/blob/master/source/images/midimage1.jpg)
+
+![midi image 3](https://github.com/dragonoken/undertale_soundtrack_generator/blob/master/source/images/midimage2.jpg)
+
+After a bit of more testing, I will put the codes into a python script, possibly with argument parsing!
+
+Oh, by the way, I decided not to use the medley. The complete ost midi file is long and good enough for training. I'm planning to augment it later, anyway.
 
 ### Oct 7th 2018 (just before my bed time)
 

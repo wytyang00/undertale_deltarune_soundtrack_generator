@@ -42,7 +42,7 @@ Tracks were a bit tricky to handle. Notes were separated into 2 tracks. They are
 Removing tempo changed the music drastically. Since the pace of a music differed from part to part, having a same tempo throughout the music was... not really good. So, I adjusted all time values according to the tempo changes by stretching and squashing time intervals with different tempos. As a result, even though there is no tempo change, I managed to make the music sound identical to the original one (except I previously removed reverbs and chorus and all).
   
   
-Also, I succeeded at visualizing the notes and saving them as jpeg images. Here are the first 3 parts of the music, from 0 sec to approximately 156 sec:
+Also, I successfully visualized the notes and saved them as jpeg images. Here are the first 3 parts of the music, from 0 sec to approximately 156 sec:
 
 ![midi image 1](https://github.com/dragonoken/undertale_soundtrack_generator/blob/master/source/images/midimage0.jpg)
 

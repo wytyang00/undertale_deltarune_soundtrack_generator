@@ -28,7 +28,23 @@ Sources of the files I will be using for training:
 * Matplotlib (For visualization)
 
 ## Update History
+
 ---
+
+### Oct 20th 2018
+
+There was an issue with my conversion code between midi and text: namely, the loss of data. Even when I tried to account for every single timestep, there was some amount of loss in the number of notes.
+
+This turned out to be due to subsequent notes that are only 1 tick away. Because of the structure I was forcing them in, subsequent notes were converted to one long note when I used them to reconstruct the midi csv file.
+
+However, I came up with a solution to this problem without having to change the whole structures of my data. Instead of having subsequent notes combined into one, I droped every other note in those series in order to seperate those notes and minimize the loss.
+
+The result was quite amazing. With 25 ticks per timestep, the ratio of notes lost went down from 5% to 0.4%. Here are the results I gathered before and after this modification:
+
+![Note Loss Log Screenshot](https://github.com/dragonoken/undertale_soundtrack_generator/blob/master/source/note_losses.jpg)
+
+---
+
 ### Oct 19th 2018
 
 It took quite a lot of effort and time for me to understand the components in MIDI files.

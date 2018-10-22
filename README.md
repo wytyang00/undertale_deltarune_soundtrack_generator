@@ -2,16 +2,22 @@
 
 ## Description
 
-Conversion between simple MIDI files and text files is almost done!
-
 Still Work in progress!
 
+This is my own project where I try to generate original music using one of my favorite OST, Undertale OST!
+
+I had set up the utility functions for conversions between csv and text files.
+
+Conversions between midi and csv files are done by a 3rd party program: [midi <-> csv converter](http://www.fourmilab.ch/webtools/midicsv/)
+
+Also, I am using this simple [free midi player](http://falcosoft.hu/softwares.html#midiplayer) to listen to the music from midi files.
+
+Actual machine learning model is yet to be built.
+
 Neural Networks to use:
-* Simple dense 3-Hidden-Layer FeedFoward Network (Just to see how bad it does)
-* Simple dense 6-Hidden-Layer FeedFoward Network (To see if it improves)
 * 3-Layer LSTM with 300 units 
 
-Sources of the files I will be using for training:
+Sources of the file I will be using for training:
 * Undertale: Complete OST - https://musescore.com/user/29625/scores/2075346
 
 ## To-Do
@@ -28,6 +34,20 @@ Sources of the files I will be using for training:
 * Matplotlib (For visualization)
 
 ## Update History
+
+---
+
+### Oct 21st 2018
+
+Adding a parser or two wasn't really that hard! All the essential functions were already laid out in my notebook, so I didn't have much work to do other than making argument parsers and grabing those functions to my scripts!
+
+I probably still need to add more checks for the arguments, but at least it works.
+
+3 Utility scripts are created in the utils folder. Use them in a terminal (e.g. cmd) and see the help documents!
+
+I'll add more functionalities to visualize.py so that it can show the images, not just saving them.
+
+By the way, I'm considering using another module to read and possibly play midi files. It will allow me to do conversions between midi and csv within my project -- and not using other software that might not work in other platforms -- and to directly play the results!
 
 ---
 

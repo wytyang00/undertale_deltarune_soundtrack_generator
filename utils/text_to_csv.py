@@ -74,7 +74,7 @@ def _parse_args():
     if not args.velocity >= 0:
         parser.error("The value for ticks per time step must be non-negative.")
 
-    if not osp.isfile(args.txt):
+    if not osp.isfile(args.text):
         parser.error("The input text file does not exist. Please, check the file path and try again.")
 
     if args.csv and not osp.isdir(osp.dirname(args.csv)):
@@ -148,7 +148,7 @@ if __name__ == '__main__':
 
     args = _parse_args()
 
-    txt_path = args.txt
+    txt_path = args.text
     csv_path = args.csv if args.csv else (args.txt.rsplit('.', 1)[0] + '.csv')
     ticks_per_step = args.ticks
     vel = args.velocity

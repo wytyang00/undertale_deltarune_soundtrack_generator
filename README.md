@@ -37,6 +37,30 @@ Sources of the file I will be using for training:
 
 ---
 
+### Oct 30th 2018
+
+I again created a jupyter notebook -- this time, to get used to pytorch, to try converting texts into training datasets, and to experiment with my own LSTM models. I'm uploading the notebook, but remember that I made it just for me to figure things out... the code is very messy and some will not work at all.
+
+I turned each character in the text, including nextlines, to a one-hot vector representing either a note (1-128) or a timestep (0). The target for each character is the next following character. I checked that it works as I intended, then made a data loader for the training.
+
+As for the neural networks, I created 3 classes: one with only 1 layer of LSTM, 129 inputs and 129 outputs; one with adjustable LSTM layers, input and output dimensions; and one with 3 LSTM layers, layer normalizations, and skip connections.
+
+The first network, the one with only 1 hidden LSTM layer, was not used for the actual training session, but instead, used to check whether the way I made models was correct.
+
+The second one was the one I used a lot. I created 2 instances of it with different hyperparameters; one had 1 LSTM layer with 300 neurons, the other one had 3 layers with 700. I trained both of them for many hours and the results were... disappointing. They all became extremely biased about the data they were given; they ended up guessing one or few specific notes regardless of the inputs they take. With further training and loss weight tweaking, I managed to get the simpler one give more varied results, but they could not generate any 'music'. The 3-layered model generated 0s only, generating empty music. The 1-layered model often gave me the same results, but sometimes created only one chord; three notes pressed at the start and never released...
+
+The negative log likelyhood losses were about 4.5-4.8 in the early part of the training. This loss went down as low as about 1.3 for the simple model. However, the loss for the model with 3 layers stayed above 4 and kept oscilating.
+
+Later, I modified the training code so that the overall accuracy and the the accuracy excluding timesteps (0s) were reported. It allowed me to observe when the model becomes biased -- that is, when it starts to guess only 0s or any single note. With extra information provided, I could clearly see that the models quickly settled with biased states where some local minimas were located. I tried to adjust the loss for each class and add dropouts -- even though it wasn't overfitting -- but they did not improve.
+
+The third model did give me an interesting result. I fixed the number of LSTM layers, and added skip connections and layer normalizations. At first, this model, too, became biased just like others. However, it suddenly escaped from that state and showed a remarkable increase in accuracies. The loss stayed around 3.8, but the accuracies kept increasing. Excited, I let it train overnight and then checked the prediction for the dataset. It was messy, but clearly imitating the music very closely. Strangely, the loss did not decrease much while the overall accuracy reached almost 90%. I let it generate a music from scratch and got shocked; it, too, generated empty music filled with 0s. After manually feeding it some specific note sequences, I realized the problem here. (I'm not 100% sure about this, but) This model became biased in a 'smart way'; it figured out that the next note is likely be the same note as the current note or just 0. Due to the nature of the method I used for preparing the data, this way of making predictions could achieve a very high accuracy.
+
+As to why it happend only to this model and not to the previous models, my guess is that it's due to the skip connections. I think the skip connections allowed the input data to flow fairly unmodified throughout the network, turning the LSTM layers to approximate-identity mapping functions... Though I'm not sure why it did not happened to one of my simple models.
+
+Next, I'm planning to try 2 things: spliting the data into bigger time interval per timestep, and using an adversarial loss. Hopefully, the first method will reduce the repetitions in the data and the second method will force the model to be coherent.
+
+---
+
 ### Oct 21st 2018
 
 Adding a parser or two wasn't really that hard! All the essential functions were already laid out in my notebook, so I didn't have much work to do other than making argument parsers and grabing those functions to my scripts!

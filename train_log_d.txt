@@ -1,0 +1,5975 @@
+Training Time : 67s
+Loss at epoch 0 : 3.151076555252075
+Overall Accuracy : 30.685%
+Note Accuracy (Except for timesteps) : 0.006%
+
+Training Time : 133s
+Loss at epoch 1 : 3.0121490955352783
+Overall Accuracy : 23.306%
+Note Accuracy (Except for timesteps) : 2.548%
+
+Training Time : 200s
+Loss at epoch 2 : 2.6974289417266846
+Overall Accuracy : 25.085%
+Note Accuracy (Except for timesteps) : 5.146%
+
+Training Time : 266s
+Loss at epoch 3 : 2.5888233184814453
+Overall Accuracy : 25.377%
+Note Accuracy (Except for timesteps) : 5.327%
+
+Training Time : 333s
+Loss at epoch 4 : 2.469022512435913
+Overall Accuracy : 22.027%
+Note Accuracy (Except for timesteps) : 11.996%
+
+Training Time : 400s
+Loss at epoch 5 : 2.4233155250549316
+Overall Accuracy : 23.810%
+Note Accuracy (Except for timesteps) : 8.476%
+
+Training Time : 466s
+Loss at epoch 6 : 2.2916572093963623
+Overall Accuracy : 25.512%
+Note Accuracy (Except for timesteps) : 13.098%
+
+Training Time : 573s
+Loss at epoch 7 : 2.158961296081543
+Overall Accuracy : 25.565%
+Note Accuracy (Except for timesteps) : 16.511%
+
+Training Time : 639s
+Loss at epoch 8 : 2.1694891452789307
+Overall Accuracy : 30.727%
+Note Accuracy (Except for timesteps) : 18.170%
+
+Training Time : 706s
+Loss at epoch 9 : 2.0047495365142822
+Overall Accuracy : 40.981%
+Note Accuracy (Except for timesteps) : 23.030%
+
+Training Time : 773s
+Loss at epoch 10 : 1.8387140035629272
+Overall Accuracy : 45.838%
+Note Accuracy (Except for timesteps) : 29.459%
+
+Training Time : 841s
+Loss at epoch 11 : 1.6921943426132202
+Overall Accuracy : 55.777%
+Note Accuracy (Except for timesteps) : 43.441%
+
+Training Time : 908s
+Loss at epoch 12 : 1.49043607711792
+Overall Accuracy : 58.606%
+Note Accuracy (Except for timesteps) : 44.523%
+
+Training Time : 976s
+Loss at epoch 13 : 1.5744612216949463
+Overall Accuracy : 61.658%
+Note Accuracy (Except for timesteps) : 51.096%
+
+Training Time : 1043s
+Loss at epoch 14 : 1.15142822265625
+Overall Accuracy : 77.515%
+Note Accuracy (Except for timesteps) : 71.906%
+
+Training Time : 1110s
+Loss at epoch 15 : 1.234547734260559
+Overall Accuracy : 71.560%
+Note Accuracy (Except for timesteps) : 63.432%
+
+Training Time : 1177s
+Loss at epoch 16 : 1.1643415689468384
+Overall Accuracy : 72.696%
+Note Accuracy (Except for timesteps) : 62.421%
+
+Training Time : 1244s
+Loss at epoch 17 : 1.3000727891921997
+Overall Accuracy : 71.760%
+Note Accuracy (Except for timesteps) : 65.496%
+
+Training Time : 1311s
+Loss at epoch 18 : 0.9698120355606079
+Overall Accuracy : 80.646%
+Note Accuracy (Except for timesteps) : 76.583%
+
+Training Time : 1378s
+Loss at epoch 19 : 1.1447817087173462
+Overall Accuracy : 77.094%
+Note Accuracy (Except for timesteps) : 72.859%
+
+Training Time : 1444s
+Loss at epoch 20 : 0.8480943441390991
+Overall Accuracy : 83.579%
+Note Accuracy (Except for timesteps) : 80.582%
+
+Training Time : 1511s
+Loss at epoch 21 : 1.169562816619873
+Overall Accuracy : 73.856%
+Note Accuracy (Except for timesteps) : 68.744%
+
+Training Time : 1577s
+Loss at epoch 22 : 1.0495386123657227
+Overall Accuracy : 77.281%
+Note Accuracy (Except for timesteps) : 72.201%
+
+Training Time : 1644s
+Loss at epoch 23 : 1.049115538597107
+Overall Accuracy : 77.283%
+Note Accuracy (Except for timesteps) : 71.733%
+
+Training Time : 1711s
+Loss at epoch 24 : 0.8956683874130249
+Overall Accuracy : 83.363%
+Note Accuracy (Except for timesteps) : 80.448%
+
+Training Time : 1777s
+Loss at epoch 25 : 0.8484042882919312
+Overall Accuracy : 83.906%
+Note Accuracy (Except for timesteps) : 81.479%
+
+Training Time : 1844s
+Loss at epoch 26 : 0.8141077756881714
+Overall Accuracy : 84.365%
+Note Accuracy (Except for timesteps) : 81.878%
+
+Training Time : 1910s
+Loss at epoch 27 : 0.8043237924575806
+Overall Accuracy : 84.298%
+Note Accuracy (Except for timesteps) : 80.654%
+
+Training Time : 1977s
+Loss at epoch 28 : 0.7463619112968445
+Overall Accuracy : 86.646%
+Note Accuracy (Except for timesteps) : 84.888%
+
+Training Time : 2044s
+Loss at epoch 29 : 1.1150177717208862
+Overall Accuracy : 76.477%
+Note Accuracy (Except for timesteps) : 71.681%
+
+Training Time : 2111s
+Loss at epoch 30 : 0.8412020802497864
+Overall Accuracy : 84.790%
+Note Accuracy (Except for timesteps) : 82.239%
+
+Training Time : 2177s
+Loss at epoch 31 : 0.6861921548843384
+Overall Accuracy : 87.075%
+Note Accuracy (Except for timesteps) : 84.548%
+
+Training Time : 2244s
+Loss at epoch 32 : 0.703366219997406
+Overall Accuracy : 86.287%
+Note Accuracy (Except for timesteps) : 83.271%
+
+Training Time : 2310s
+Loss at epoch 33 : 0.8956831693649292
+Overall Accuracy : 80.865%
+Note Accuracy (Except for timesteps) : 76.674%
+
+Training Time : 2377s
+Loss at epoch 34 : 0.8272666931152344
+Overall Accuracy : 83.365%
+Note Accuracy (Except for timesteps) : 80.455%
+
+Training Time : 2444s
+Loss at epoch 35 : 0.7270143032073975
+Overall Accuracy : 85.513%
+Note Accuracy (Except for timesteps) : 82.713%
+
+Training Time : 2511s
+Loss at epoch 36 : 0.6412082314491272
+Overall Accuracy : 88.256%
+Note Accuracy (Except for timesteps) : 86.319%
+
+Training Time : 2577s
+Loss at epoch 37 : 0.546248197555542
+Overall Accuracy : 90.004%
+Note Accuracy (Except for timesteps) : 88.925%
+
+Training Time : 2644s
+Loss at epoch 38 : 0.7312074899673462
+Overall Accuracy : 85.783%
+Note Accuracy (Except for timesteps) : 82.462%
+
+Training Time : 2711s
+Loss at epoch 39 : 0.7425345182418823
+Overall Accuracy : 85.367%
+Note Accuracy (Except for timesteps) : 81.919%
+
+Training Time : 2777s
+Loss at epoch 40 : 0.5783945918083191
+Overall Accuracy : 89.425%
+Note Accuracy (Except for timesteps) : 88.020%
+
+Training Time : 2844s
+Loss at epoch 41 : 0.7417067289352417
+Overall Accuracy : 85.327%
+Note Accuracy (Except for timesteps) : 81.831%
+
+Training Time : 2911s
+Loss at epoch 42 : 0.8154533505439758
+Overall Accuracy : 82.919%
+Note Accuracy (Except for timesteps) : 79.595%
+
+Training Time : 2978s
+Loss at epoch 43 : 0.665259063243866
+Overall Accuracy : 86.977%
+Note Accuracy (Except for timesteps) : 84.532%
+
+Training Time : 3044s
+Loss at epoch 44 : 0.511114239692688
+Overall Accuracy : 90.660%
+Note Accuracy (Except for timesteps) : 89.462%
+
+Training Time : 3111s
+Loss at epoch 45 : 0.6707023978233337
+Overall Accuracy : 87.202%
+Note Accuracy (Except for timesteps) : 84.632%
+
+Training Time : 3177s
+Loss at epoch 46 : 0.6827597618103027
+Overall Accuracy : 87.177%
+Note Accuracy (Except for timesteps) : 84.685%
+
+Training Time : 3244s
+Loss at epoch 47 : 0.5620431303977966
+Overall Accuracy : 89.213%
+Note Accuracy (Except for timesteps) : 87.995%
+
+Training Time : 3311s
+Loss at epoch 48 : 0.5089719891548157
+Overall Accuracy : 90.577%
+Note Accuracy (Except for timesteps) : 89.238%
+
+Training Time : 3377s
+Loss at epoch 49 : 0.7489112019538879
+Overall Accuracy : 85.900%
+Note Accuracy (Except for timesteps) : 83.542%
+
+Training Time : 3444s
+Loss at epoch 50 : 0.5836233496665955
+Overall Accuracy : 89.369%
+Note Accuracy (Except for timesteps) : 87.541%
+
+Training Time : 3511s
+Loss at epoch 51 : 0.6710245609283447
+Overall Accuracy : 87.163%
+Note Accuracy (Except for timesteps) : 85.598%
+
+Training Time : 3577s
+Loss at epoch 52 : 0.6981688737869263
+Overall Accuracy : 84.887%
+Note Accuracy (Except for timesteps) : 81.912%
+
+Training Time : 3644s
+Loss at epoch 53 : 0.5816254019737244
+Overall Accuracy : 88.692%
+Note Accuracy (Except for timesteps) : 86.952%
+
+Training Time : 3711s
+Loss at epoch 54 : 0.6200225949287415
+Overall Accuracy : 88.125%
+Note Accuracy (Except for timesteps) : 85.749%
+
+Training Time : 3777s
+Loss at epoch 55 : 0.4627872407436371
+Overall Accuracy : 92.083%
+Note Accuracy (Except for timesteps) : 91.049%
+
+Training Time : 3844s
+Loss at epoch 56 : 0.6149442791938782
+Overall Accuracy : 88.685%
+Note Accuracy (Except for timesteps) : 86.974%
+
+Training Time : 3911s
+Loss at epoch 57 : 0.5672544240951538
+Overall Accuracy : 89.198%
+Note Accuracy (Except for timesteps) : 88.144%
+
+Training Time : 3978s
+Loss at epoch 58 : 0.5397350192070007
+Overall Accuracy : 90.148%
+Note Accuracy (Except for timesteps) : 89.286%
+
+Training Time : 4045s
+Loss at epoch 59 : 0.6571332812309265
+Overall Accuracy : 87.273%
+Note Accuracy (Except for timesteps) : 85.454%
+
+Training Time : 4111s
+Loss at epoch 60 : 0.5244407653808594
+Overall Accuracy : 90.140%
+Note Accuracy (Except for timesteps) : 88.730%
+
+Training Time : 4178s
+Loss at epoch 61 : 0.6302415132522583
+Overall Accuracy : 87.873%
+Note Accuracy (Except for timesteps) : 85.944%
+
+Training Time : 4245s
+Loss at epoch 62 : 0.5820958018302917
+Overall Accuracy : 88.915%
+Note Accuracy (Except for timesteps) : 87.164%
+
+Training Time : 4312s
+Loss at epoch 63 : 0.7932291626930237
+Overall Accuracy : 84.448%
+Note Accuracy (Except for timesteps) : 81.527%
+
+Training Time : 4378s
+Loss at epoch 64 : 0.5415191650390625
+Overall Accuracy : 89.821%
+Note Accuracy (Except for timesteps) : 87.950%
+
+Training Time : 4445s
+Loss at epoch 65 : 0.5820275545120239
+Overall Accuracy : 87.917%
+Note Accuracy (Except for timesteps) : 86.553%
+
+Training Time : 4512s
+Loss at epoch 66 : 0.6338968873023987
+Overall Accuracy : 87.375%
+Note Accuracy (Except for timesteps) : 85.801%
+
+Training Time : 4579s
+Loss at epoch 67 : 0.6143049597740173
+Overall Accuracy : 88.394%
+Note Accuracy (Except for timesteps) : 86.349%
+
+Training Time : 4646s
+Loss at epoch 68 : 0.570692241191864
+Overall Accuracy : 89.162%
+Note Accuracy (Except for timesteps) : 87.931%
+
+Training Time : 4712s
+Loss at epoch 69 : 0.46412599086761475
+Overall Accuracy : 90.990%
+Note Accuracy (Except for timesteps) : 90.378%
+
+Training Time : 4779s
+Loss at epoch 70 : 0.5681610107421875
+Overall Accuracy : 88.850%
+Note Accuracy (Except for timesteps) : 87.464%
+
+Training Time : 4846s
+Loss at epoch 71 : 0.6399977207183838
+Overall Accuracy : 87.119%
+Note Accuracy (Except for timesteps) : 85.102%
+
+Training Time : 4912s
+Loss at epoch 72 : 0.4933362603187561
+Overall Accuracy : 90.229%
+Note Accuracy (Except for timesteps) : 89.530%
+
+Training Time : 4979s
+Loss at epoch 73 : 0.5569601058959961
+Overall Accuracy : 88.825%
+Note Accuracy (Except for timesteps) : 87.254%
+
+Training Time : 5046s
+Loss at epoch 74 : 0.6527550220489502
+Overall Accuracy : 86.369%
+Note Accuracy (Except for timesteps) : 84.406%
+
+Training Time : 5113s
+Loss at epoch 75 : 0.673860490322113
+Overall Accuracy : 86.058%
+Note Accuracy (Except for timesteps) : 84.262%
+
+Training Time : 5179s
+Loss at epoch 76 : 0.5904144048690796
+Overall Accuracy : 88.594%
+Note Accuracy (Except for timesteps) : 86.901%
+
+Training Time : 5246s
+Loss at epoch 77 : 0.748141348361969
+Overall Accuracy : 83.162%
+Note Accuracy (Except for timesteps) : 79.545%
+
+Training Time : 5313s
+Loss at epoch 78 : 0.6862461566925049
+Overall Accuracy : 86.160%
+Note Accuracy (Except for timesteps) : 84.411%
+
+Training Time : 5380s
+Loss at epoch 79 : 0.5735375285148621
+Overall Accuracy : 89.094%
+Note Accuracy (Except for timesteps) : 87.429%
+
+Training Time : 5446s
+Loss at epoch 80 : 0.4968538284301758
+Overall Accuracy : 90.308%
+Note Accuracy (Except for timesteps) : 89.138%
+
+Training Time : 5513s
+Loss at epoch 81 : 0.4965580105781555
+Overall Accuracy : 89.904%
+Note Accuracy (Except for timesteps) : 88.676%
+
+Training Time : 5580s
+Loss at epoch 82 : 0.6074116826057434
+Overall Accuracy : 86.610%
+Note Accuracy (Except for timesteps) : 84.776%
+
+Training Time : 5647s
+Loss at epoch 83 : 0.628659725189209
+Overall Accuracy : 86.954%
+Note Accuracy (Except for timesteps) : 84.980%
+
+Training Time : 5713s
+Loss at epoch 84 : 0.5542413592338562
+Overall Accuracy : 88.933%
+Note Accuracy (Except for timesteps) : 87.394%
+
+Training Time : 5780s
+Loss at epoch 85 : 0.46956464648246765
+Overall Accuracy : 91.117%
+Note Accuracy (Except for timesteps) : 89.834%
+
+Training Time : 5847s
+Loss at epoch 86 : 0.4721033573150635
+Overall Accuracy : 90.985%
+Note Accuracy (Except for timesteps) : 89.909%
+
+Training Time : 5913s
+Loss at epoch 87 : 0.5688105225563049
+Overall Accuracy : 88.804%
+Note Accuracy (Except for timesteps) : 86.836%
+
+Training Time : 5980s
+Loss at epoch 88 : 0.5233494639396667
+Overall Accuracy : 89.779%
+Note Accuracy (Except for timesteps) : 88.836%
+
+Training Time : 6047s
+Loss at epoch 89 : 0.4856777489185333
+Overall Accuracy : 90.675%
+Note Accuracy (Except for timesteps) : 89.653%
+
+Training Time : 6113s
+Loss at epoch 90 : 0.5134655237197876
+Overall Accuracy : 90.471%
+Note Accuracy (Except for timesteps) : 89.533%
+
+Training Time : 6180s
+Loss at epoch 91 : 0.5683011412620544
+Overall Accuracy : 89.094%
+Note Accuracy (Except for timesteps) : 87.360%
+
+Training Time : 6247s
+Loss at epoch 92 : 0.5549787878990173
+Overall Accuracy : 88.383%
+Note Accuracy (Except for timesteps) : 86.477%
+
+Training Time : 6314s
+Loss at epoch 93 : 0.5865533351898193
+Overall Accuracy : 88.279%
+Note Accuracy (Except for timesteps) : 86.540%
+
+Training Time : 6380s
+Loss at epoch 94 : 0.5174180269241333
+Overall Accuracy : 89.581%
+Note Accuracy (Except for timesteps) : 88.000%
+
+Training Time : 6447s
+Loss at epoch 95 : 0.5345574021339417
+Overall Accuracy : 88.667%
+Note Accuracy (Except for timesteps) : 87.342%
+
+Training Time : 6514s
+Loss at epoch 96 : 0.5282857418060303
+Overall Accuracy : 89.298%
+Note Accuracy (Except for timesteps) : 87.354%
+
+Training Time : 6581s
+Loss at epoch 97 : 0.47034451365470886
+Overall Accuracy : 90.819%
+Note Accuracy (Except for timesteps) : 89.487%
+
+Training Time : 6647s
+Loss at epoch 98 : 0.37809431552886963
+Overall Accuracy : 92.604%
+Note Accuracy (Except for timesteps) : 91.981%
+
+Training Time : 6714s
+Loss at epoch 99 : 0.6339132189750671
+Overall Accuracy : 86.915%
+Note Accuracy (Except for timesteps) : 84.345%
+
+Training Time : 6781s
+Loss at epoch 100 : 0.5881343483924866
+Overall Accuracy : 88.215%
+Note Accuracy (Except for timesteps) : 87.015%
+
+Training Time : 6848s
+Loss at epoch 101 : 0.6226434111595154
+Overall Accuracy : 87.437%
+Note Accuracy (Except for timesteps) : 84.854%
+
+Training Time : 6914s
+Loss at epoch 102 : 0.5413516163825989
+Overall Accuracy : 89.158%
+Note Accuracy (Except for timesteps) : 87.699%
+
+Training Time : 6981s
+Loss at epoch 103 : 0.5534359812736511
+Overall Accuracy : 88.448%
+Note Accuracy (Except for timesteps) : 86.796%
+
+Training Time : 7048s
+Loss at epoch 104 : 0.4402013421058655
+Overall Accuracy : 91.390%
+Note Accuracy (Except for timesteps) : 90.517%
+
+Training Time : 7115s
+Loss at epoch 105 : 0.5423641800880432
+Overall Accuracy : 88.025%
+Note Accuracy (Except for timesteps) : 85.990%
+
+Training Time : 7181s
+Loss at epoch 106 : 0.5530438423156738
+Overall Accuracy : 88.410%
+Note Accuracy (Except for timesteps) : 86.967%
+
+Training Time : 7248s
+Loss at epoch 107 : 0.52985018491745
+Overall Accuracy : 89.333%
+Note Accuracy (Except for timesteps) : 87.496%
+
+Training Time : 7315s
+Loss at epoch 108 : 0.6066644787788391
+Overall Accuracy : 87.775%
+Note Accuracy (Except for timesteps) : 86.367%
+
+Training Time : 7381s
+Loss at epoch 109 : 0.44541141390800476
+Overall Accuracy : 91.558%
+Note Accuracy (Except for timesteps) : 90.445%
+
+Training Time : 7448s
+Loss at epoch 110 : 0.5970311164855957
+Overall Accuracy : 88.069%
+Note Accuracy (Except for timesteps) : 85.958%
+
+Training Time : 7515s
+Loss at epoch 111 : 0.6535309553146362
+Overall Accuracy : 86.567%
+Note Accuracy (Except for timesteps) : 84.738%
+
+Training Time : 7581s
+Loss at epoch 112 : 0.5137066841125488
+Overall Accuracy : 89.698%
+Note Accuracy (Except for timesteps) : 88.505%
+
+Training Time : 7648s
+Loss at epoch 113 : 0.40827715396881104
+Overall Accuracy : 91.037%
+Note Accuracy (Except for timesteps) : 90.414%
+
+Training Time : 7715s
+Loss at epoch 114 : 0.49142804741859436
+Overall Accuracy : 90.246%
+Note Accuracy (Except for timesteps) : 88.865%
+
+Training Time : 7782s
+Loss at epoch 115 : 0.5031744241714478
+Overall Accuracy : 90.288%
+Note Accuracy (Except for timesteps) : 89.147%
+
+Training Time : 7849s
+Loss at epoch 116 : 0.5175444483757019
+Overall Accuracy : 89.181%
+Note Accuracy (Except for timesteps) : 87.618%
+
+Training Time : 7915s
+Loss at epoch 117 : 0.6334220170974731
+Overall Accuracy : 87.442%
+Note Accuracy (Except for timesteps) : 85.743%
+
+Training Time : 7982s
+Loss at epoch 118 : 0.36028653383255005
+Overall Accuracy : 92.406%
+Note Accuracy (Except for timesteps) : 91.404%
+
+Training Time : 8049s
+Loss at epoch 119 : 0.5723063945770264
+Overall Accuracy : 87.725%
+Note Accuracy (Except for timesteps) : 86.125%
+
+Training Time : 8115s
+Loss at epoch 120 : 0.5296176075935364
+Overall Accuracy : 89.167%
+Note Accuracy (Except for timesteps) : 87.597%
+
+Training Time : 8182s
+Loss at epoch 121 : 0.48142188787460327
+Overall Accuracy : 90.688%
+Note Accuracy (Except for timesteps) : 89.373%
+
+Training Time : 8249s
+Loss at epoch 122 : 0.4911437928676605
+Overall Accuracy : 89.837%
+Note Accuracy (Except for timesteps) : 88.676%
+
+Training Time : 8316s
+Loss at epoch 123 : 0.5757050514221191
+Overall Accuracy : 88.419%
+Note Accuracy (Except for timesteps) : 86.561%
+
+Training Time : 8382s
+Loss at epoch 124 : 0.47162625193595886
+Overall Accuracy : 89.975%
+Note Accuracy (Except for timesteps) : 88.499%
+
+Training Time : 8449s
+Loss at epoch 125 : 0.5937520861625671
+Overall Accuracy : 86.223%
+Note Accuracy (Except for timesteps) : 84.307%
+
+Training Time : 8516s
+Loss at epoch 126 : 0.5064453482627869
+Overall Accuracy : 90.269%
+Note Accuracy (Except for timesteps) : 89.194%
+
+Training Time : 8583s
+Loss at epoch 127 : 0.5689059495925903
+Overall Accuracy : 88.277%
+Note Accuracy (Except for timesteps) : 86.386%
+
+Training Time : 8649s
+Loss at epoch 128 : 0.5153529644012451
+Overall Accuracy : 89.004%
+Note Accuracy (Except for timesteps) : 88.388%
+
+Training Time : 8716s
+Loss at epoch 129 : 0.47672414779663086
+Overall Accuracy : 90.302%
+Note Accuracy (Except for timesteps) : 89.211%
+
+Training Time : 8783s
+Loss at epoch 130 : 0.4807778596878052
+Overall Accuracy : 90.267%
+Note Accuracy (Except for timesteps) : 89.071%
+
+Training Time : 8850s
+Loss at epoch 131 : 0.47256314754486084
+Overall Accuracy : 89.244%
+Note Accuracy (Except for timesteps) : 87.689%
+
+Training Time : 8916s
+Loss at epoch 132 : 0.538494884967804
+Overall Accuracy : 88.608%
+Note Accuracy (Except for timesteps) : 86.416%
+
+Training Time : 8983s
+Loss at epoch 133 : 0.5139446258544922
+Overall Accuracy : 89.060%
+Note Accuracy (Except for timesteps) : 87.688%
+
+Training Time : 9050s
+Loss at epoch 134 : 0.4400597810745239
+Overall Accuracy : 90.767%
+Note Accuracy (Except for timesteps) : 89.595%
+
+Training Time : 9116s
+Loss at epoch 135 : 0.5074268579483032
+Overall Accuracy : 89.254%
+Note Accuracy (Except for timesteps) : 87.963%
+
+Training Time : 9183s
+Loss at epoch 136 : 0.5094237327575684
+Overall Accuracy : 89.131%
+Note Accuracy (Except for timesteps) : 88.019%
+
+Training Time : 9250s
+Loss at epoch 137 : 0.4800916016101837
+Overall Accuracy : 90.096%
+Note Accuracy (Except for timesteps) : 88.894%
+
+Training Time : 9317s
+Loss at epoch 138 : 0.4703119993209839
+Overall Accuracy : 90.412%
+Note Accuracy (Except for timesteps) : 89.328%
+
+Training Time : 9383s
+Loss at epoch 139 : 0.4522341191768646
+Overall Accuracy : 90.529%
+Note Accuracy (Except for timesteps) : 89.378%
+
+Training Time : 9450s
+Loss at epoch 140 : 0.5999733209609985
+Overall Accuracy : 87.746%
+Note Accuracy (Except for timesteps) : 85.900%
+
+Training Time : 9517s
+Loss at epoch 141 : 0.5406002402305603
+Overall Accuracy : 88.585%
+Note Accuracy (Except for timesteps) : 87.523%
+
+Training Time : 9584s
+Loss at epoch 142 : 0.5457068085670471
+Overall Accuracy : 88.675%
+Note Accuracy (Except for timesteps) : 86.956%
+
+Training Time : 9650s
+Loss at epoch 143 : 0.3248482644557953
+Overall Accuracy : 93.977%
+Note Accuracy (Except for timesteps) : 93.786%
+
+Training Time : 9717s
+Loss at epoch 144 : 0.5134521722793579
+Overall Accuracy : 88.704%
+Note Accuracy (Except for timesteps) : 87.244%
+
+Training Time : 9784s
+Loss at epoch 145 : 0.512907087802887
+Overall Accuracy : 89.681%
+Note Accuracy (Except for timesteps) : 88.119%
+
+Training Time : 9850s
+Loss at epoch 146 : 0.6354829668998718
+Overall Accuracy : 86.210%
+Note Accuracy (Except for timesteps) : 84.050%
+
+Training Time : 9917s
+Loss at epoch 147 : 0.5160853266716003
+Overall Accuracy : 89.298%
+Note Accuracy (Except for timesteps) : 87.970%
+
+Training Time : 9984s
+Loss at epoch 148 : 0.4231821596622467
+Overall Accuracy : 91.398%
+Note Accuracy (Except for timesteps) : 90.623%
+
+Training Time : 10051s
+Loss at epoch 149 : 0.43773937225341797
+Overall Accuracy : 91.169%
+Note Accuracy (Except for timesteps) : 90.065%
+
+Training Time : 10117s
+Loss at epoch 150 : 0.3644653856754303
+Overall Accuracy : 93.056%
+Note Accuracy (Except for timesteps) : 92.417%
+
+Training Time : 10184s
+Loss at epoch 151 : 0.5224125981330872
+Overall Accuracy : 89.777%
+Note Accuracy (Except for timesteps) : 88.282%
+
+Training Time : 10251s
+Loss at epoch 152 : 0.4919247627258301
+Overall Accuracy : 90.250%
+Note Accuracy (Except for timesteps) : 89.438%
+
+Training Time : 10317s
+Loss at epoch 153 : 0.44859054684638977
+Overall Accuracy : 90.800%
+Note Accuracy (Except for timesteps) : 90.224%
+
+Training Time : 10384s
+Loss at epoch 154 : 0.4165070652961731
+Overall Accuracy : 91.631%
+Note Accuracy (Except for timesteps) : 90.587%
+
+Training Time : 10451s
+Loss at epoch 155 : 0.4952322244644165
+Overall Accuracy : 89.335%
+Note Accuracy (Except for timesteps) : 87.664%
+
+Training Time : 10518s
+Loss at epoch 156 : 0.3699414134025574
+Overall Accuracy : 92.294%
+Note Accuracy (Except for timesteps) : 91.880%
+
+Training Time : 10584s
+Loss at epoch 157 : 0.42744332551956177
+Overall Accuracy : 91.331%
+Note Accuracy (Except for timesteps) : 90.446%
+
+Training Time : 10651s
+Loss at epoch 158 : 0.3709081709384918
+Overall Accuracy : 92.319%
+Note Accuracy (Except for timesteps) : 91.575%
+
+Training Time : 10718s
+Loss at epoch 159 : 0.5688620805740356
+Overall Accuracy : 87.712%
+Note Accuracy (Except for timesteps) : 84.800%
+
+Training Time : 10784s
+Loss at epoch 160 : 0.42963433265686035
+Overall Accuracy : 91.483%
+Note Accuracy (Except for timesteps) : 90.523%
+
+Training Time : 10851s
+Loss at epoch 161 : 0.41523852944374084
+Overall Accuracy : 91.192%
+Note Accuracy (Except for timesteps) : 90.698%
+
+Training Time : 10918s
+Loss at epoch 162 : 0.48953238129615784
+Overall Accuracy : 89.658%
+Note Accuracy (Except for timesteps) : 88.414%
+
+Training Time : 10984s
+Loss at epoch 163 : 0.5300284028053284
+Overall Accuracy : 88.963%
+Note Accuracy (Except for timesteps) : 87.530%
+
+Training Time : 11051s
+Loss at epoch 164 : 0.43301212787628174
+Overall Accuracy : 90.954%
+Note Accuracy (Except for timesteps) : 89.529%
+
+Training Time : 11118s
+Loss at epoch 165 : 0.3794940710067749
+Overall Accuracy : 91.733%
+Note Accuracy (Except for timesteps) : 91.286%
+
+Training Time : 11185s
+Loss at epoch 166 : 0.41280674934387207
+Overall Accuracy : 91.356%
+Note Accuracy (Except for timesteps) : 90.418%
+
+Training Time : 11251s
+Loss at epoch 167 : 0.5144495964050293
+Overall Accuracy : 89.075%
+Note Accuracy (Except for timesteps) : 87.928%
+
+Training Time : 11318s
+Loss at epoch 168 : 0.484700083732605
+Overall Accuracy : 89.004%
+Note Accuracy (Except for timesteps) : 87.655%
+
+Training Time : 11385s
+Loss at epoch 169 : 0.4832744002342224
+Overall Accuracy : 89.737%
+Note Accuracy (Except for timesteps) : 88.229%
+
+Training Time : 11452s
+Loss at epoch 170 : 0.47930482029914856
+Overall Accuracy : 89.965%
+Note Accuracy (Except for timesteps) : 88.669%
+
+Training Time : 11519s
+Loss at epoch 171 : 0.5868700742721558
+Overall Accuracy : 87.387%
+Note Accuracy (Except for timesteps) : 85.894%
+
+Training Time : 11585s
+Loss at epoch 172 : 0.43512383103370667
+Overall Accuracy : 90.635%
+Note Accuracy (Except for timesteps) : 90.070%
+
+Training Time : 11652s
+Loss at epoch 173 : 0.5187504291534424
+Overall Accuracy : 89.148%
+Note Accuracy (Except for timesteps) : 87.501%
+
+Training Time : 11719s
+Loss at epoch 174 : 0.4827133119106293
+Overall Accuracy : 90.017%
+Note Accuracy (Except for timesteps) : 88.412%
+
+Training Time : 11786s
+Loss at epoch 175 : 0.30851802229881287
+Overall Accuracy : 93.723%
+Note Accuracy (Except for timesteps) : 93.445%
+
+Training Time : 11852s
+Loss at epoch 176 : 0.43702661991119385
+Overall Accuracy : 90.608%
+Note Accuracy (Except for timesteps) : 89.341%
+
+Training Time : 11919s
+Loss at epoch 177 : 0.5797337889671326
+Overall Accuracy : 87.898%
+Note Accuracy (Except for timesteps) : 85.316%
+
+Training Time : 11986s
+Loss at epoch 178 : 0.37897148728370667
+Overall Accuracy : 92.385%
+Note Accuracy (Except for timesteps) : 91.736%
+
+Training Time : 12053s
+Loss at epoch 179 : 0.43781161308288574
+Overall Accuracy : 90.629%
+Note Accuracy (Except for timesteps) : 89.804%
+
+Training Time : 12119s
+Loss at epoch 180 : 0.4552591145038605
+Overall Accuracy : 90.054%
+Note Accuracy (Except for timesteps) : 88.878%
+
+Training Time : 12186s
+Loss at epoch 181 : 0.437865287065506
+Overall Accuracy : 90.540%
+Note Accuracy (Except for timesteps) : 89.674%
+
+Training Time : 12253s
+Loss at epoch 182 : 0.45337584614753723
+Overall Accuracy : 90.717%
+Note Accuracy (Except for timesteps) : 89.532%
+
+Training Time : 12320s
+Loss at epoch 183 : 0.5149697065353394
+Overall Accuracy : 88.208%
+Note Accuracy (Except for timesteps) : 86.767%
+
+Training Time : 12386s
+Loss at epoch 184 : 0.3458271026611328
+Overall Accuracy : 92.773%
+Note Accuracy (Except for timesteps) : 92.233%
+
+Training Time : 12453s
+Loss at epoch 185 : 0.4204966723918915
+Overall Accuracy : 90.790%
+Note Accuracy (Except for timesteps) : 89.610%
+
+Training Time : 12520s
+Loss at epoch 186 : 0.3823799192905426
+Overall Accuracy : 91.881%
+Note Accuracy (Except for timesteps) : 90.574%
+
+Training Time : 12587s
+Loss at epoch 187 : 0.3681137263774872
+Overall Accuracy : 91.965%
+Note Accuracy (Except for timesteps) : 91.354%
+
+Training Time : 12654s
+Loss at epoch 188 : 0.4314003884792328
+Overall Accuracy : 91.085%
+Note Accuracy (Except for timesteps) : 89.742%
+
+Training Time : 12720s
+Loss at epoch 189 : 0.5512954592704773
+Overall Accuracy : 87.240%
+Note Accuracy (Except for timesteps) : 84.607%
+
+Training Time : 12787s
+Loss at epoch 190 : 0.4560917019844055
+Overall Accuracy : 90.431%
+Note Accuracy (Except for timesteps) : 89.271%
+
+Training Time : 12854s
+Loss at epoch 191 : 0.4641842842102051
+Overall Accuracy : 90.200%
+Note Accuracy (Except for timesteps) : 88.736%
+
+Training Time : 12921s
+Loss at epoch 192 : 0.5415674448013306
+Overall Accuracy : 88.475%
+Note Accuracy (Except for timesteps) : 86.220%
+
+Training Time : 12988s
+Loss at epoch 193 : 0.43220019340515137
+Overall Accuracy : 90.985%
+Note Accuracy (Except for timesteps) : 89.468%
+
+Training Time : 13054s
+Loss at epoch 194 : 0.4035263955593109
+Overall Accuracy : 91.392%
+Note Accuracy (Except for timesteps) : 90.641%
+
+Training Time : 13121s
+Loss at epoch 195 : 0.525148332118988
+Overall Accuracy : 88.652%
+Note Accuracy (Except for timesteps) : 87.170%
+
+Training Time : 13188s
+Loss at epoch 196 : 0.3384026288986206
+Overall Accuracy : 93.131%
+Note Accuracy (Except for timesteps) : 92.837%
+
+Training Time : 13254s
+Loss at epoch 197 : 0.4392580986022949
+Overall Accuracy : 90.383%
+Note Accuracy (Except for timesteps) : 89.455%
+
+Training Time : 13321s
+Loss at epoch 198 : 0.4951576292514801
+Overall Accuracy : 90.137%
+Note Accuracy (Except for timesteps) : 89.120%
+
+Training Time : 13388s
+Loss at epoch 199 : 0.45861634612083435
+Overall Accuracy : 90.350%
+Note Accuracy (Except for timesteps) : 89.010%
+
+Training Time : 13455s
+Loss at epoch 200 : 0.48386526107788086
+Overall Accuracy : 89.260%
+Note Accuracy (Except for timesteps) : 88.052%
+
+Training Time : 13522s
+Loss at epoch 201 : 0.49139171838760376
+Overall Accuracy : 89.385%
+Note Accuracy (Except for timesteps) : 88.023%
+
+Training Time : 13588s
+Loss at epoch 202 : 0.5374146103858948
+Overall Accuracy : 88.360%
+Note Accuracy (Except for timesteps) : 86.722%
+
+Training Time : 13655s
+Loss at epoch 203 : 0.5232652425765991
+Overall Accuracy : 89.129%
+Note Accuracy (Except for timesteps) : 87.201%
+
+Training Time : 13722s
+Loss at epoch 204 : 0.4380110204219818
+Overall Accuracy : 90.252%
+Note Accuracy (Except for timesteps) : 89.594%
+
+Training Time : 13789s
+Loss at epoch 205 : 0.39001184701919556
+Overall Accuracy : 91.537%
+Note Accuracy (Except for timesteps) : 90.977%
+
+Training Time : 13856s
+Loss at epoch 206 : 0.5176711678504944
+Overall Accuracy : 89.319%
+Note Accuracy (Except for timesteps) : 87.879%
+
+Training Time : 13922s
+Loss at epoch 207 : 0.41943490505218506
+Overall Accuracy : 91.404%
+Note Accuracy (Except for timesteps) : 90.210%
+
+Training Time : 13989s
+Loss at epoch 208 : 0.4883877635002136
+Overall Accuracy : 89.250%
+Note Accuracy (Except for timesteps) : 88.046%
+
+Training Time : 14056s
+Loss at epoch 209 : 0.49463382363319397
+Overall Accuracy : 88.683%
+Note Accuracy (Except for timesteps) : 87.379%
+
+Training Time : 14123s
+Loss at epoch 210 : 0.42860427498817444
+Overall Accuracy : 90.490%
+Note Accuracy (Except for timesteps) : 89.197%
+
+Training Time : 14190s
+Loss at epoch 211 : 0.46281811594963074
+Overall Accuracy : 89.860%
+Note Accuracy (Except for timesteps) : 88.660%
+
+Training Time : 14256s
+Loss at epoch 212 : 0.43288904428482056
+Overall Accuracy : 90.312%
+Note Accuracy (Except for timesteps) : 88.935%
+
+Training Time : 14323s
+Loss at epoch 213 : 0.45208320021629333
+Overall Accuracy : 90.452%
+Note Accuracy (Except for timesteps) : 89.165%
+
+Training Time : 14390s
+Loss at epoch 214 : 0.5659030675888062
+Overall Accuracy : 87.371%
+Note Accuracy (Except for timesteps) : 85.084%
+
+Training Time : 14457s
+Loss at epoch 215 : 0.4639846682548523
+Overall Accuracy : 89.583%
+Note Accuracy (Except for timesteps) : 88.309%
+
+Training Time : 14524s
+Loss at epoch 216 : 0.5401749610900879
+Overall Accuracy : 88.060%
+Note Accuracy (Except for timesteps) : 86.119%
+
+Training Time : 14590s
+Loss at epoch 217 : 0.49569761753082275
+Overall Accuracy : 89.185%
+Note Accuracy (Except for timesteps) : 88.032%
+
+Training Time : 14657s
+Loss at epoch 218 : 0.4574730694293976
+Overall Accuracy : 89.717%
+Note Accuracy (Except for timesteps) : 88.509%
+
+Training Time : 14724s
+Loss at epoch 219 : 0.4945130944252014
+Overall Accuracy : 88.717%
+Note Accuracy (Except for timesteps) : 86.481%
+
+Training Time : 14790s
+Loss at epoch 220 : 0.40542545914649963
+Overall Accuracy : 91.023%
+Note Accuracy (Except for timesteps) : 89.711%
+
+Training Time : 14857s
+Loss at epoch 221 : 0.44550320506095886
+Overall Accuracy : 90.521%
+Note Accuracy (Except for timesteps) : 89.389%
+
+Training Time : 14923s
+Loss at epoch 222 : 0.4373175799846649
+Overall Accuracy : 90.556%
+Note Accuracy (Except for timesteps) : 89.482%
+
+Training Time : 14990s
+Loss at epoch 223 : 0.4402599632740021
+Overall Accuracy : 90.590%
+Note Accuracy (Except for timesteps) : 89.087%
+
+Training Time : 15057s
+Loss at epoch 224 : 0.34851863980293274
+Overall Accuracy : 92.769%
+Note Accuracy (Except for timesteps) : 92.173%
+
+Training Time : 15124s
+Loss at epoch 225 : 0.4097708463668823
+Overall Accuracy : 91.137%
+Note Accuracy (Except for timesteps) : 89.922%
+
+Training Time : 15190s
+Loss at epoch 226 : 0.45497700572013855
+Overall Accuracy : 90.198%
+Note Accuracy (Except for timesteps) : 88.681%
+
+Training Time : 15257s
+Loss at epoch 227 : 0.44458073377609253
+Overall Accuracy : 90.113%
+Note Accuracy (Except for timesteps) : 88.608%
+
+Training Time : 15324s
+Loss at epoch 228 : 0.4521891176700592
+Overall Accuracy : 90.123%
+Note Accuracy (Except for timesteps) : 89.093%
+
+Training Time : 15390s
+Loss at epoch 229 : 0.44334954023361206
+Overall Accuracy : 90.750%
+Note Accuracy (Except for timesteps) : 89.630%
+
+Training Time : 15457s
+Loss at epoch 230 : 0.4317775368690491
+Overall Accuracy : 90.852%
+Note Accuracy (Except for timesteps) : 89.801%
+
+Training Time : 15524s
+Loss at epoch 231 : 0.3970629572868347
+Overall Accuracy : 91.529%
+Note Accuracy (Except for timesteps) : 90.632%
+
+Training Time : 15590s
+Loss at epoch 232 : 0.49129024147987366
+Overall Accuracy : 89.215%
+Note Accuracy (Except for timesteps) : 88.061%
+
+Training Time : 15657s
+Loss at epoch 233 : 0.4586767256259918
+Overall Accuracy : 89.933%
+Note Accuracy (Except for timesteps) : 88.187%
+
+Training Time : 15724s
+Loss at epoch 234 : 0.4042813181877136
+Overall Accuracy : 91.296%
+Note Accuracy (Except for timesteps) : 90.102%
+
+Training Time : 15791s
+Loss at epoch 235 : 0.3901120722293854
+Overall Accuracy : 91.675%
+Note Accuracy (Except for timesteps) : 90.904%
+
+Training Time : 15857s
+Loss at epoch 236 : 0.4220771789550781
+Overall Accuracy : 90.444%
+Note Accuracy (Except for timesteps) : 89.779%
+
+Training Time : 15924s
+Loss at epoch 237 : 0.42592892050743103
+Overall Accuracy : 90.800%
+Note Accuracy (Except for timesteps) : 89.454%
+
+Training Time : 15991s
+Loss at epoch 238 : 0.46390727162361145
+Overall Accuracy : 89.585%
+Note Accuracy (Except for timesteps) : 88.436%
+
+Training Time : 16058s
+Loss at epoch 239 : 0.5817051529884338
+Overall Accuracy : 86.575%
+Note Accuracy (Except for timesteps) : 83.815%
+
+Training Time : 16124s
+Loss at epoch 240 : 0.5573039054870605
+Overall Accuracy : 87.781%
+Note Accuracy (Except for timesteps) : 86.001%
+
+Training Time : 16191s
+Loss at epoch 241 : 0.5237424969673157
+Overall Accuracy : 88.921%
+Note Accuracy (Except for timesteps) : 87.106%
+
+Training Time : 16258s
+Loss at epoch 242 : 0.4360561966896057
+Overall Accuracy : 90.644%
+Note Accuracy (Except for timesteps) : 89.477%
+
+Training Time : 16325s
+Loss at epoch 243 : 0.38393765687942505
+Overall Accuracy : 91.594%
+Note Accuracy (Except for timesteps) : 90.663%
+
+Training Time : 16392s
+Loss at epoch 244 : 0.5596060156822205
+Overall Accuracy : 87.340%
+Note Accuracy (Except for timesteps) : 84.479%
+
+Training Time : 16458s
+Loss at epoch 245 : 0.44045132398605347
+Overall Accuracy : 90.560%
+Note Accuracy (Except for timesteps) : 89.380%
+
+Training Time : 16525s
+Loss at epoch 246 : 0.5129753947257996
+Overall Accuracy : 89.156%
+Note Accuracy (Except for timesteps) : 87.819%
+
+Training Time : 16591s
+Loss at epoch 247 : 0.36909019947052
+Overall Accuracy : 92.271%
+Note Accuracy (Except for timesteps) : 91.168%
+
+Training Time : 16658s
+Loss at epoch 248 : 0.4631006717681885
+Overall Accuracy : 89.210%
+Note Accuracy (Except for timesteps) : 87.967%
+
+Training Time : 16724s
+Loss at epoch 249 : 0.3234986662864685
+Overall Accuracy : 93.323%
+Note Accuracy (Except for timesteps) : 92.889%
+
+Training Time : 16791s
+Loss at epoch 250 : 0.48583662509918213
+Overall Accuracy : 89.256%
+Note Accuracy (Except for timesteps) : 88.135%
+
+Training Time : 16857s
+Loss at epoch 251 : 0.3931432366371155
+Overall Accuracy : 91.525%
+Note Accuracy (Except for timesteps) : 90.354%
+
+Training Time : 16924s
+Loss at epoch 252 : 0.41946420073509216
+Overall Accuracy : 91.246%
+Note Accuracy (Except for timesteps) : 90.476%
+
+Training Time : 16990s
+Loss at epoch 253 : 0.48717716336250305
+Overall Accuracy : 89.081%
+Note Accuracy (Except for timesteps) : 87.479%
+
+Training Time : 17057s
+Loss at epoch 254 : 0.5128766894340515
+Overall Accuracy : 88.696%
+Note Accuracy (Except for timesteps) : 87.582%
+
+Training Time : 17123s
+Loss at epoch 255 : 0.4190191626548767
+Overall Accuracy : 90.621%
+Note Accuracy (Except for timesteps) : 89.697%
+
+Training Time : 17190s
+Loss at epoch 256 : 0.45119795203208923
+Overall Accuracy : 89.858%
+Note Accuracy (Except for timesteps) : 88.838%
+
+Training Time : 17256s
+Loss at epoch 257 : 0.38286498188972473
+Overall Accuracy : 91.879%
+Note Accuracy (Except for timesteps) : 91.172%
+
+Training Time : 17322s
+Loss at epoch 258 : 0.42840665578842163
+Overall Accuracy : 90.265%
+Note Accuracy (Except for timesteps) : 88.921%
+
+Training Time : 17389s
+Loss at epoch 259 : 0.4335372745990753
+Overall Accuracy : 90.615%
+Note Accuracy (Except for timesteps) : 89.565%
+
+Training Time : 17456s
+Loss at epoch 260 : 0.43867388367652893
+Overall Accuracy : 90.394%
+Note Accuracy (Except for timesteps) : 89.359%
+
+Training Time : 17522s
+Loss at epoch 261 : 0.4576875865459442
+Overall Accuracy : 89.288%
+Note Accuracy (Except for timesteps) : 87.821%
+
+Training Time : 17589s
+Loss at epoch 262 : 0.44413772225379944
+Overall Accuracy : 90.169%
+Note Accuracy (Except for timesteps) : 88.965%
+
+Training Time : 17655s
+Loss at epoch 263 : 0.4560488760471344
+Overall Accuracy : 89.331%
+Note Accuracy (Except for timesteps) : 88.581%
+
+Training Time : 17722s
+Loss at epoch 264 : 0.4101153016090393
+Overall Accuracy : 90.860%
+Note Accuracy (Except for timesteps) : 90.505%
+
+Training Time : 17788s
+Loss at epoch 265 : 0.5050659775733948
+Overall Accuracy : 88.229%
+Note Accuracy (Except for timesteps) : 87.405%
+
+Training Time : 17854s
+Loss at epoch 266 : 0.3691922128200531
+Overall Accuracy : 92.383%
+Note Accuracy (Except for timesteps) : 91.641%
+
+Training Time : 17921s
+Loss at epoch 267 : 0.3743538558483124
+Overall Accuracy : 91.763%
+Note Accuracy (Except for timesteps) : 91.212%
+
+Training Time : 17988s
+Loss at epoch 268 : 0.5079355239868164
+Overall Accuracy : 89.135%
+Note Accuracy (Except for timesteps) : 87.536%
+
+Training Time : 18054s
+Loss at epoch 269 : 0.5517603158950806
+Overall Accuracy : 87.223%
+Note Accuracy (Except for timesteps) : 85.724%
+
+Training Time : 18121s
+Loss at epoch 270 : 0.3623199462890625
+Overall Accuracy : 92.279%
+Note Accuracy (Except for timesteps) : 91.822%
+
+Training Time : 18187s
+Loss at epoch 271 : 0.5003147125244141
+Overall Accuracy : 88.656%
+Note Accuracy (Except for timesteps) : 86.686%
+
+Training Time : 18254s
+Loss at epoch 272 : 0.5396438837051392
+Overall Accuracy : 87.585%
+Note Accuracy (Except for timesteps) : 85.066%
+
+Training Time : 18321s
+Loss at epoch 273 : 0.3761388659477234
+Overall Accuracy : 91.812%
+Note Accuracy (Except for timesteps) : 90.797%
+
+Training Time : 18387s
+Loss at epoch 274 : 0.40975967049598694
+Overall Accuracy : 91.077%
+Note Accuracy (Except for timesteps) : 90.359%
+
+Training Time : 18454s
+Loss at epoch 275 : 0.4213370680809021
+Overall Accuracy : 90.908%
+Note Accuracy (Except for timesteps) : 89.785%
+
+Training Time : 18521s
+Loss at epoch 276 : 0.3662131428718567
+Overall Accuracy : 92.446%
+Note Accuracy (Except for timesteps) : 91.808%
+
+Training Time : 18587s
+Loss at epoch 277 : 0.41890162229537964
+Overall Accuracy : 91.354%
+Note Accuracy (Except for timesteps) : 90.139%
+
+Training Time : 18654s
+Loss at epoch 278 : 0.41178348660469055
+Overall Accuracy : 91.565%
+Note Accuracy (Except for timesteps) : 90.553%
+
+Training Time : 18720s
+Loss at epoch 279 : 0.28430745005607605
+Overall Accuracy : 94.004%
+Note Accuracy (Except for timesteps) : 93.689%
+
+Training Time : 18787s
+Loss at epoch 280 : 0.34482893347740173
+Overall Accuracy : 92.058%
+Note Accuracy (Except for timesteps) : 92.049%
+
+Training Time : 18853s
+Loss at epoch 281 : 0.4106099307537079
+Overall Accuracy : 90.567%
+Note Accuracy (Except for timesteps) : 89.256%
+
+Training Time : 18920s
+Loss at epoch 282 : 0.42835482954978943
+Overall Accuracy : 90.648%
+Note Accuracy (Except for timesteps) : 89.630%
+
+Training Time : 18986s
+Loss at epoch 283 : 0.4557674527168274
+Overall Accuracy : 90.079%
+Note Accuracy (Except for timesteps) : 88.890%
+
+Training Time : 19053s
+Loss at epoch 284 : 0.4464160203933716
+Overall Accuracy : 90.204%
+Note Accuracy (Except for timesteps) : 88.830%
+
+Training Time : 19120s
+Loss at epoch 285 : 0.467782586812973
+Overall Accuracy : 89.915%
+Note Accuracy (Except for timesteps) : 88.933%
+
+Training Time : 19186s
+Loss at epoch 286 : 0.38139963150024414
+Overall Accuracy : 92.029%
+Note Accuracy (Except for timesteps) : 91.545%
+
+Training Time : 19253s
+Loss at epoch 287 : 0.43721312284469604
+Overall Accuracy : 90.208%
+Note Accuracy (Except for timesteps) : 89.039%
+
+Training Time : 19320s
+Loss at epoch 288 : 0.4546961188316345
+Overall Accuracy : 89.835%
+Note Accuracy (Except for timesteps) : 88.565%
+
+Training Time : 19386s
+Loss at epoch 289 : 0.3908901810646057
+Overall Accuracy : 91.602%
+Note Accuracy (Except for timesteps) : 90.748%
+
+Training Time : 19453s
+Loss at epoch 290 : 0.47437793016433716
+Overall Accuracy : 89.577%
+Note Accuracy (Except for timesteps) : 87.944%
+
+Training Time : 19519s
+Loss at epoch 291 : 0.4543793797492981
+Overall Accuracy : 90.208%
+Note Accuracy (Except for timesteps) : 89.087%
+
+Training Time : 19586s
+Loss at epoch 292 : 0.4384256601333618
+Overall Accuracy : 90.346%
+Note Accuracy (Except for timesteps) : 89.608%
+
+Training Time : 19652s
+Loss at epoch 293 : 0.3574717342853546
+Overall Accuracy : 91.971%
+Note Accuracy (Except for timesteps) : 91.034%
+
+Training Time : 19719s
+Loss at epoch 294 : 0.415128618478775
+Overall Accuracy : 90.481%
+Note Accuracy (Except for timesteps) : 89.556%
+
+Training Time : 19785s
+Loss at epoch 295 : 0.41894274950027466
+Overall Accuracy : 90.656%
+Note Accuracy (Except for timesteps) : 89.676%
+
+Training Time : 19852s
+Loss at epoch 296 : 0.4396594762802124
+Overall Accuracy : 90.423%
+Note Accuracy (Except for timesteps) : 89.067%
+
+Training Time : 19919s
+Loss at epoch 297 : 0.36972013115882874
+Overall Accuracy : 91.758%
+Note Accuracy (Except for timesteps) : 90.893%
+
+Training Time : 19985s
+Loss at epoch 298 : 0.3635726869106293
+Overall Accuracy : 92.146%
+Note Accuracy (Except for timesteps) : 91.657%
+
+Training Time : 20052s
+Loss at epoch 299 : 0.4472506046295166
+Overall Accuracy : 90.392%
+Note Accuracy (Except for timesteps) : 89.254%
+
+Training Time : 20118s
+Loss at epoch 300 : 0.48165538907051086
+Overall Accuracy : 89.081%
+Note Accuracy (Except for timesteps) : 88.091%
+
+Training Time : 20185s
+Loss at epoch 301 : 0.41091984510421753
+Overall Accuracy : 90.794%
+Note Accuracy (Except for timesteps) : 90.031%
+
+Training Time : 20252s
+Loss at epoch 302 : 0.46495187282562256
+Overall Accuracy : 90.025%
+Note Accuracy (Except for timesteps) : 88.418%
+
+Training Time : 20318s
+Loss at epoch 303 : 0.4003790318965912
+Overall Accuracy : 91.583%
+Note Accuracy (Except for timesteps) : 90.740%
+
+Training Time : 20385s
+Loss at epoch 304 : 0.41069933772087097
+Overall Accuracy : 90.656%
+Note Accuracy (Except for timesteps) : 89.265%
+
+Training Time : 20451s
+Loss at epoch 305 : 0.37356099486351013
+Overall Accuracy : 91.194%
+Note Accuracy (Except for timesteps) : 90.181%
+
+Training Time : 20518s
+Loss at epoch 306 : 0.31625381112098694
+Overall Accuracy : 93.444%
+Note Accuracy (Except for timesteps) : 92.954%
+
+Training Time : 20584s
+Loss at epoch 307 : 0.41430583596229553
+Overall Accuracy : 90.810%
+Note Accuracy (Except for timesteps) : 89.802%
+
+Training Time : 20651s
+Loss at epoch 308 : 0.41144976019859314
+Overall Accuracy : 90.417%
+Note Accuracy (Except for timesteps) : 89.334%
+
+Training Time : 20718s
+Loss at epoch 309 : 0.40539607405662537
+Overall Accuracy : 90.648%
+Note Accuracy (Except for timesteps) : 89.792%
+
+Training Time : 20785s
+Loss at epoch 310 : 0.43465739488601685
+Overall Accuracy : 89.917%
+Note Accuracy (Except for timesteps) : 89.044%
+
+Training Time : 20851s
+Loss at epoch 311 : 0.3787004351615906
+Overall Accuracy : 91.525%
+Note Accuracy (Except for timesteps) : 90.795%
+
+Training Time : 20918s
+Loss at epoch 312 : 0.4144977927207947
+Overall Accuracy : 90.452%
+Note Accuracy (Except for timesteps) : 89.829%
+
+Training Time : 20985s
+Loss at epoch 313 : 0.381134957075119
+Overall Accuracy : 91.617%
+Note Accuracy (Except for timesteps) : 90.900%
+
+Training Time : 21051s
+Loss at epoch 314 : 0.4406450688838959
+Overall Accuracy : 90.075%
+Note Accuracy (Except for timesteps) : 88.484%
+
+Training Time : 21118s
+Loss at epoch 315 : 0.4631393253803253
+Overall Accuracy : 89.515%
+Note Accuracy (Except for timesteps) : 88.102%
+
+Training Time : 21184s
+Loss at epoch 316 : 0.4625684320926666
+Overall Accuracy : 89.358%
+Note Accuracy (Except for timesteps) : 87.731%
+
+Training Time : 21251s
+Loss at epoch 317 : 0.4850730001926422
+Overall Accuracy : 88.227%
+Note Accuracy (Except for timesteps) : 85.959%
+
+Training Time : 21318s
+Loss at epoch 318 : 0.3908486068248749
+Overall Accuracy : 91.160%
+Note Accuracy (Except for timesteps) : 90.213%
+
+Training Time : 21384s
+Loss at epoch 319 : 0.490764856338501
+Overall Accuracy : 88.244%
+Note Accuracy (Except for timesteps) : 85.969%
+
+Training Time : 21451s
+Loss at epoch 320 : 0.5041428804397583
+Overall Accuracy : 87.879%
+Note Accuracy (Except for timesteps) : 85.517%
+
+Training Time : 21517s
+Loss at epoch 321 : 0.42297598719596863
+Overall Accuracy : 90.435%
+Note Accuracy (Except for timesteps) : 88.911%
+
+Training Time : 21584s
+Loss at epoch 322 : 0.43221157789230347
+Overall Accuracy : 90.567%
+Note Accuracy (Except for timesteps) : 89.565%
+
+Training Time : 21651s
+Loss at epoch 323 : 0.41685473918914795
+Overall Accuracy : 90.790%
+Note Accuracy (Except for timesteps) : 89.219%
+
+Training Time : 21717s
+Loss at epoch 324 : 0.39865246415138245
+Overall Accuracy : 90.942%
+Note Accuracy (Except for timesteps) : 89.961%
+
+Training Time : 21784s
+Loss at epoch 325 : 0.4585442841053009
+Overall Accuracy : 89.335%
+Note Accuracy (Except for timesteps) : 87.889%
+
+Training Time : 21851s
+Loss at epoch 326 : 0.5049764513969421
+Overall Accuracy : 88.552%
+Note Accuracy (Except for timesteps) : 87.127%
+
+Training Time : 21917s
+Loss at epoch 327 : 0.49360358715057373
+Overall Accuracy : 89.131%
+Note Accuracy (Except for timesteps) : 87.104%
+
+Training Time : 21984s
+Loss at epoch 328 : 0.404019296169281
+Overall Accuracy : 90.960%
+Note Accuracy (Except for timesteps) : 90.302%
+
+Training Time : 22051s
+Loss at epoch 329 : 0.4102727472782135
+Overall Accuracy : 91.204%
+Note Accuracy (Except for timesteps) : 90.280%
+
+Training Time : 22117s
+Loss at epoch 330 : 0.37930601835250854
+Overall Accuracy : 91.456%
+Note Accuracy (Except for timesteps) : 90.495%
+
+Training Time : 22184s
+Loss at epoch 331 : 0.364542692899704
+Overall Accuracy : 92.098%
+Note Accuracy (Except for timesteps) : 91.296%
+
+Training Time : 22250s
+Loss at epoch 332 : 0.3779485821723938
+Overall Accuracy : 91.419%
+Note Accuracy (Except for timesteps) : 90.593%
+
+Training Time : 22317s
+Loss at epoch 333 : 0.4564758837223053
+Overall Accuracy : 89.227%
+Note Accuracy (Except for timesteps) : 87.247%
+
+Training Time : 22383s
+Loss at epoch 334 : 0.35563111305236816
+Overall Accuracy : 92.140%
+Note Accuracy (Except for timesteps) : 91.610%
+
+Training Time : 22450s
+Loss at epoch 335 : 0.5138382911682129
+Overall Accuracy : 88.177%
+Note Accuracy (Except for timesteps) : 86.759%
+
+Training Time : 22517s
+Loss at epoch 336 : 0.5260850787162781
+Overall Accuracy : 88.352%
+Note Accuracy (Except for timesteps) : 86.603%
+
+Training Time : 22583s
+Loss at epoch 337 : 0.3571096658706665
+Overall Accuracy : 91.858%
+Note Accuracy (Except for timesteps) : 91.019%
+
+Training Time : 22650s
+Loss at epoch 338 : 0.3980773389339447
+Overall Accuracy : 90.485%
+Note Accuracy (Except for timesteps) : 90.014%
+
+Training Time : 22717s
+Loss at epoch 339 : 0.446262925863266
+Overall Accuracy : 89.937%
+Note Accuracy (Except for timesteps) : 88.755%
+
+Training Time : 22783s
+Loss at epoch 340 : 0.41481342911720276
+Overall Accuracy : 90.371%
+Note Accuracy (Except for timesteps) : 89.723%
+
+Training Time : 22850s
+Loss at epoch 341 : 0.435913622379303
+Overall Accuracy : 90.462%
+Note Accuracy (Except for timesteps) : 89.693%
+
+Training Time : 22917s
+Loss at epoch 342 : 0.44848501682281494
+Overall Accuracy : 89.469%
+Note Accuracy (Except for timesteps) : 88.132%
+
+Training Time : 22983s
+Loss at epoch 343 : 0.3102436363697052
+Overall Accuracy : 92.990%
+Note Accuracy (Except for timesteps) : 92.618%
+
+Training Time : 23050s
+Loss at epoch 344 : 0.3892239034175873
+Overall Accuracy : 91.156%
+Note Accuracy (Except for timesteps) : 90.506%
+
+Training Time : 23117s
+Loss at epoch 345 : 0.3703268766403198
+Overall Accuracy : 91.783%
+Note Accuracy (Except for timesteps) : 91.027%
+
+Training Time : 23183s
+Loss at epoch 346 : 0.37411701679229736
+Overall Accuracy : 91.425%
+Note Accuracy (Except for timesteps) : 90.029%
+
+Training Time : 23250s
+Loss at epoch 347 : 0.3785764276981354
+Overall Accuracy : 91.621%
+Note Accuracy (Except for timesteps) : 90.241%
+
+Training Time : 23316s
+Loss at epoch 348 : 0.5463982224464417
+Overall Accuracy : 86.852%
+Note Accuracy (Except for timesteps) : 84.635%
+
+Training Time : 23383s
+Loss at epoch 349 : 0.507960855960846
+Overall Accuracy : 88.215%
+Note Accuracy (Except for timesteps) : 86.983%
+
+Training Time : 23450s
+Loss at epoch 350 : 0.4343983829021454
+Overall Accuracy : 90.808%
+Note Accuracy (Except for timesteps) : 89.836%
+
+Training Time : 23516s
+Loss at epoch 351 : 0.3323113024234772
+Overall Accuracy : 92.494%
+Note Accuracy (Except for timesteps) : 92.002%
+
+Training Time : 23583s
+Loss at epoch 352 : 0.32571399211883545
+Overall Accuracy : 92.163%
+Note Accuracy (Except for timesteps) : 92.099%
+
+Training Time : 23649s
+Loss at epoch 353 : 0.420480877161026
+Overall Accuracy : 89.510%
+Note Accuracy (Except for timesteps) : 89.189%
+
+Training Time : 23716s
+Loss at epoch 354 : 0.42076587677001953
+Overall Accuracy : 90.100%
+Note Accuracy (Except for timesteps) : 89.517%
+
+Training Time : 23783s
+Loss at epoch 355 : 0.35705843567848206
+Overall Accuracy : 91.892%
+Note Accuracy (Except for timesteps) : 91.100%
+
+Training Time : 23849s
+Loss at epoch 356 : 0.387200266122818
+Overall Accuracy : 90.717%
+Note Accuracy (Except for timesteps) : 89.019%
+
+Training Time : 23916s
+Loss at epoch 357 : 0.49961549043655396
+Overall Accuracy : 88.756%
+Note Accuracy (Except for timesteps) : 87.294%
+
+Training Time : 23983s
+Loss at epoch 358 : 0.41258472204208374
+Overall Accuracy : 90.515%
+Note Accuracy (Except for timesteps) : 89.348%
+
+Training Time : 24049s
+Loss at epoch 359 : 0.3078591525554657
+Overall Accuracy : 92.935%
+Note Accuracy (Except for timesteps) : 91.960%
+
+Training Time : 24116s
+Loss at epoch 360 : 0.5149422883987427
+Overall Accuracy : 88.344%
+Note Accuracy (Except for timesteps) : 86.407%
+
+Training Time : 24182s
+Loss at epoch 361 : 0.4343990981578827
+Overall Accuracy : 90.250%
+Note Accuracy (Except for timesteps) : 89.333%
+
+Training Time : 24249s
+Loss at epoch 362 : 0.4030596911907196
+Overall Accuracy : 90.354%
+Note Accuracy (Except for timesteps) : 89.584%
+
+Training Time : 24316s
+Loss at epoch 363 : 0.5353605151176453
+Overall Accuracy : 87.587%
+Note Accuracy (Except for timesteps) : 86.239%
+
+Training Time : 24382s
+Loss at epoch 364 : 0.4217669665813446
+Overall Accuracy : 90.748%
+Note Accuracy (Except for timesteps) : 89.509%
+
+Training Time : 24449s
+Loss at epoch 365 : 0.4192222058773041
+Overall Accuracy : 90.458%
+Note Accuracy (Except for timesteps) : 89.562%
+
+Training Time : 24516s
+Loss at epoch 366 : 0.42719322443008423
+Overall Accuracy : 90.069%
+Note Accuracy (Except for timesteps) : 88.919%
+
+Training Time : 24582s
+Loss at epoch 367 : 0.48030728101730347
+Overall Accuracy : 88.317%
+Note Accuracy (Except for timesteps) : 86.373%
+
+Training Time : 24649s
+Loss at epoch 368 : 0.331898957490921
+Overall Accuracy : 92.371%
+Note Accuracy (Except for timesteps) : 91.580%
+
+Training Time : 24716s
+Loss at epoch 369 : 0.3940073251724243
+Overall Accuracy : 90.892%
+Note Accuracy (Except for timesteps) : 90.231%
+
+Training Time : 24782s
+Loss at epoch 370 : 0.39305225014686584
+Overall Accuracy : 90.796%
+Note Accuracy (Except for timesteps) : 89.714%
+
+Training Time : 24849s
+Loss at epoch 371 : 0.43683332204818726
+Overall Accuracy : 90.477%
+Note Accuracy (Except for timesteps) : 89.215%
+
+Training Time : 24915s
+Loss at epoch 372 : 0.47096797823905945
+Overall Accuracy : 89.119%
+Note Accuracy (Except for timesteps) : 87.570%
+
+Training Time : 24982s
+Loss at epoch 373 : 0.4461022913455963
+Overall Accuracy : 89.121%
+Note Accuracy (Except for timesteps) : 87.787%
+
+Training Time : 25049s
+Loss at epoch 374 : 0.38782185316085815
+Overall Accuracy : 91.102%
+Note Accuracy (Except for timesteps) : 90.110%
+
+Training Time : 25115s
+Loss at epoch 375 : 0.3945614695549011
+Overall Accuracy : 91.040%
+Note Accuracy (Except for timesteps) : 89.708%
+
+Training Time : 25182s
+Loss at epoch 376 : 0.41963014006614685
+Overall Accuracy : 90.031%
+Note Accuracy (Except for timesteps) : 88.858%
+
+Training Time : 25249s
+Loss at epoch 377 : 0.3271186351776123
+Overall Accuracy : 92.681%
+Note Accuracy (Except for timesteps) : 92.091%
+
+Training Time : 25316s
+Loss at epoch 378 : 0.4076510965824127
+Overall Accuracy : 90.148%
+Note Accuracy (Except for timesteps) : 89.312%
+
+Training Time : 25382s
+Loss at epoch 379 : 0.3856455087661743
+Overall Accuracy : 91.340%
+Note Accuracy (Except for timesteps) : 90.604%
+
+Training Time : 25449s
+Loss at epoch 380 : 0.4212195575237274
+Overall Accuracy : 90.540%
+Note Accuracy (Except for timesteps) : 89.111%
+
+Training Time : 25516s
+Loss at epoch 381 : 0.454782098531723
+Overall Accuracy : 88.660%
+Note Accuracy (Except for timesteps) : 87.535%
+
+Training Time : 25582s
+Loss at epoch 382 : 0.3781990110874176
+Overall Accuracy : 91.469%
+Note Accuracy (Except for timesteps) : 90.072%
+
+Training Time : 25649s
+Loss at epoch 383 : 0.42954519391059875
+Overall Accuracy : 90.183%
+Note Accuracy (Except for timesteps) : 89.108%
+
+Training Time : 25716s
+Loss at epoch 384 : 0.4113194942474365
+Overall Accuracy : 91.067%
+Note Accuracy (Except for timesteps) : 90.009%
+
+Training Time : 25782s
+Loss at epoch 385 : 0.4049854278564453
+Overall Accuracy : 90.523%
+Note Accuracy (Except for timesteps) : 89.467%
+
+Training Time : 25849s
+Loss at epoch 386 : 0.4358721375465393
+Overall Accuracy : 89.510%
+Note Accuracy (Except for timesteps) : 88.951%
+
+Training Time : 25916s
+Loss at epoch 387 : 0.45582205057144165
+Overall Accuracy : 90.052%
+Note Accuracy (Except for timesteps) : 88.757%
+
+Training Time : 25982s
+Loss at epoch 388 : 0.4215051233768463
+Overall Accuracy : 90.004%
+Note Accuracy (Except for timesteps) : 88.229%
+
+Training Time : 26049s
+Loss at epoch 389 : 0.4230036735534668
+Overall Accuracy : 89.921%
+Note Accuracy (Except for timesteps) : 88.729%
+
+Training Time : 26116s
+Loss at epoch 390 : 0.3942298889160156
+Overall Accuracy : 91.123%
+Note Accuracy (Except for timesteps) : 89.772%
+
+Training Time : 26182s
+Loss at epoch 391 : 0.3736019432544708
+Overall Accuracy : 91.106%
+Note Accuracy (Except for timesteps) : 90.125%
+
+Training Time : 26249s
+Loss at epoch 392 : 0.334139883518219
+Overall Accuracy : 92.612%
+Note Accuracy (Except for timesteps) : 91.741%
+
+Training Time : 26315s
+Loss at epoch 393 : 0.402869313955307
+Overall Accuracy : 90.879%
+Note Accuracy (Except for timesteps) : 89.868%
+
+Training Time : 26382s
+Loss at epoch 394 : 0.40275895595550537
+Overall Accuracy : 90.688%
+Note Accuracy (Except for timesteps) : 89.485%
+
+Training Time : 26448s
+Loss at epoch 395 : 0.43622705340385437
+Overall Accuracy : 90.146%
+Note Accuracy (Except for timesteps) : 88.762%
+
+Training Time : 26515s
+Loss at epoch 396 : 0.4415839910507202
+Overall Accuracy : 89.644%
+Note Accuracy (Except for timesteps) : 88.607%
+
+Training Time : 26582s
+Loss at epoch 397 : 0.30876514315605164
+Overall Accuracy : 92.927%
+Note Accuracy (Except for timesteps) : 92.618%
+
+Training Time : 26648s
+Loss at epoch 398 : 0.3965669274330139
+Overall Accuracy : 90.615%
+Note Accuracy (Except for timesteps) : 89.477%
+
+Training Time : 26715s
+Loss at epoch 399 : 0.43194112181663513
+Overall Accuracy : 89.796%
+Note Accuracy (Except for timesteps) : 88.646%
+
+Training Time : 26782s
+Loss at epoch 400 : 0.3850535452365875
+Overall Accuracy : 91.756%
+Note Accuracy (Except for timesteps) : 91.080%
+
+Training Time : 26848s
+Loss at epoch 401 : 0.4365815818309784
+Overall Accuracy : 90.348%
+Note Accuracy (Except for timesteps) : 89.664%
+
+Training Time : 26915s
+Loss at epoch 402 : 0.5369325876235962
+Overall Accuracy : 87.900%
+Note Accuracy (Except for timesteps) : 86.203%
+
+Training Time : 26982s
+Loss at epoch 403 : 0.3702841103076935
+Overall Accuracy : 91.537%
+Note Accuracy (Except for timesteps) : 90.795%
+
+Training Time : 27048s
+Loss at epoch 404 : 0.4179663062095642
+Overall Accuracy : 89.954%
+Note Accuracy (Except for timesteps) : 88.882%
+
+Training Time : 27115s
+Loss at epoch 405 : 0.37376630306243896
+Overall Accuracy : 91.483%
+Note Accuracy (Except for timesteps) : 90.575%
+
+Training Time : 27182s
+Loss at epoch 406 : 0.3516031503677368
+Overall Accuracy : 91.742%
+Note Accuracy (Except for timesteps) : 90.712%
+
+Training Time : 27248s
+Loss at epoch 407 : 0.39739301800727844
+Overall Accuracy : 90.712%
+Note Accuracy (Except for timesteps) : 89.880%
+
+Training Time : 27315s
+Loss at epoch 408 : 0.3198859393596649
+Overall Accuracy : 92.835%
+Note Accuracy (Except for timesteps) : 92.343%
+
+Training Time : 27382s
+Loss at epoch 409 : 0.35124069452285767
+Overall Accuracy : 92.081%
+Note Accuracy (Except for timesteps) : 91.473%
+
+Training Time : 27448s
+Loss at epoch 410 : 0.4258558452129364
+Overall Accuracy : 90.025%
+Note Accuracy (Except for timesteps) : 88.714%
+
+Training Time : 27515s
+Loss at epoch 411 : 0.36490514874458313
+Overall Accuracy : 91.612%
+Note Accuracy (Except for timesteps) : 90.954%
+
+Training Time : 27581s
+Loss at epoch 412 : 0.4253145456314087
+Overall Accuracy : 90.223%
+Note Accuracy (Except for timesteps) : 88.961%
+
+Training Time : 27648s
+Loss at epoch 413 : 0.3691276013851166
+Overall Accuracy : 91.194%
+Note Accuracy (Except for timesteps) : 90.277%
+
+Training Time : 27714s
+Loss at epoch 414 : 0.3736969530582428
+Overall Accuracy : 91.021%
+Note Accuracy (Except for timesteps) : 90.241%
+
+Training Time : 27781s
+Loss at epoch 415 : 0.3081364631652832
+Overall Accuracy : 92.952%
+Note Accuracy (Except for timesteps) : 92.513%
+
+Training Time : 27848s
+Loss at epoch 416 : 0.33327504992485046
+Overall Accuracy : 91.942%
+Note Accuracy (Except for timesteps) : 91.177%
+
+Training Time : 27914s
+Loss at epoch 417 : 0.3660905063152313
+Overall Accuracy : 91.479%
+Note Accuracy (Except for timesteps) : 90.441%
+
+Training Time : 27981s
+Loss at epoch 418 : 0.26439306139945984
+Overall Accuracy : 93.852%
+Note Accuracy (Except for timesteps) : 93.583%
+
+Training Time : 28048s
+Loss at epoch 419 : 0.33663690090179443
+Overall Accuracy : 92.265%
+Note Accuracy (Except for timesteps) : 91.830%
+
+Training Time : 28114s
+Loss at epoch 420 : 0.4812745749950409
+Overall Accuracy : 88.102%
+Note Accuracy (Except for timesteps) : 86.220%
+
+Training Time : 28181s
+Loss at epoch 421 : 0.3962053954601288
+Overall Accuracy : 90.987%
+Note Accuracy (Except for timesteps) : 90.243%
+
+Training Time : 28248s
+Loss at epoch 422 : 0.39479562640190125
+Overall Accuracy : 91.079%
+Note Accuracy (Except for timesteps) : 89.893%
+
+Training Time : 28314s
+Loss at epoch 423 : 0.3566570580005646
+Overall Accuracy : 91.673%
+Note Accuracy (Except for timesteps) : 90.623%
+
+Training Time : 28381s
+Loss at epoch 424 : 0.3727629780769348
+Overall Accuracy : 91.594%
+Note Accuracy (Except for timesteps) : 90.646%
+
+Training Time : 28448s
+Loss at epoch 425 : 0.31453201174736023
+Overall Accuracy : 92.521%
+Note Accuracy (Except for timesteps) : 91.760%
+
+Training Time : 28515s
+Loss at epoch 426 : 0.41049107909202576
+Overall Accuracy : 90.390%
+Note Accuracy (Except for timesteps) : 88.909%
+
+Training Time : 28582s
+Loss at epoch 427 : 0.408040851354599
+Overall Accuracy : 91.162%
+Note Accuracy (Except for timesteps) : 89.700%
+
+Training Time : 28648s
+Loss at epoch 428 : 0.4572257995605469
+Overall Accuracy : 89.658%
+Note Accuracy (Except for timesteps) : 88.642%
+
+Training Time : 28715s
+Loss at epoch 429 : 0.4103039503097534
+Overall Accuracy : 90.523%
+Note Accuracy (Except for timesteps) : 89.497%
+
+Training Time : 28782s
+Loss at epoch 430 : 0.3878791034221649
+Overall Accuracy : 90.548%
+Note Accuracy (Except for timesteps) : 89.634%
+
+Training Time : 28861s
+Loss at epoch 432 : 1.383966088294983
+Average accuracy : 64.137%
+Average recall : 56.103%
+
+Training Time : 28940s
+Loss at epoch 433 : 1.0103446245193481
+Average accuracy : 75.170%
+Average recall : 70.038%
+
+Training Time : 29019s
+Loss at epoch 434 : 0.9275598526000977
+Average accuracy : 77.511%
+Average recall : 72.956%
+
+Training Time : 29097s
+Loss at epoch 435 : 0.8796398043632507
+Average accuracy : 79.053%
+Average recall : 74.874%
+
+Training Time : 29176s
+Loss at epoch 436 : 0.8463178277015686
+Average accuracy : 80.157%
+Average recall : 76.140%
+
+Training Time : 29255s
+Loss at epoch 437 : 0.7963452339172363
+Average accuracy : 81.760%
+Average recall : 78.224%
+
+Training Time : 29333s
+Loss at epoch 438 : 0.7496733069419861
+Average accuracy : 83.024%
+Average recall : 79.810%
+
+Training Time : 29412s
+Loss at epoch 439 : 0.7477517127990723
+Average accuracy : 83.164%
+Average recall : 80.003%
+
+Training Time : 29490s
+Loss at epoch 440 : 0.7362008094787598
+Average accuracy : 83.546%
+Average recall : 80.442%
+
+Training Time : 29569s
+Loss at epoch 441 : 0.7121143937110901
+Average accuracy : 84.251%
+Average recall : 81.258%
+
+Training Time : 29648s
+Loss at epoch 442 : 0.7097476124763489
+Average accuracy : 84.334%
+Average recall : 81.405%
+
+Training Time : 29727s
+Loss at epoch 443 : 0.6972184181213379
+Average accuracy : 84.574%
+Average recall : 81.796%
+
+Training Time : 29806s
+Loss at epoch 444 : 0.6938121318817139
+Average accuracy : 84.663%
+Average recall : 81.960%
+
+Training Time : 29886s
+Loss at epoch 445 : 0.6811976432800293
+Average accuracy : 85.042%
+Average recall : 82.406%
+
+Training Time : 29965s
+Loss at epoch 446 : 0.672617495059967
+Average accuracy : 85.182%
+Average recall : 82.598%
+
+Training Time : 30044s
+Loss at epoch 447 : 0.6652747988700867
+Average accuracy : 85.494%
+Average recall : 82.931%
+
+Training Time : 30123s
+Loss at epoch 448 : 0.6647278666496277
+Average accuracy : 85.500%
+Average recall : 82.929%
+
+Training Time : 30202s
+Loss at epoch 449 : 0.6651313900947571
+Average accuracy : 85.420%
+Average recall : 82.877%
+
+Training Time : 30281s
+Loss at epoch 450 : 0.6601163744926453
+Average accuracy : 85.578%
+Average recall : 83.166%
+
+Training Time : 30360s
+Loss at epoch 451 : 0.6530130505561829
+Average accuracy : 85.808%
+Average recall : 83.354%
+
+Training Time : 30439s
+Loss at epoch 452 : 0.6478146314620972
+Average accuracy : 85.900%
+Average recall : 83.464%
+
+Training Time : 30518s
+Loss at epoch 453 : 0.6396484971046448
+Average accuracy : 86.135%
+Average recall : 83.826%
+
+Training Time : 30596s
+Loss at epoch 454 : 0.6401956677436829
+Average accuracy : 86.089%
+Average recall : 83.707%
+
+Training Time : 30675s
+Loss at epoch 455 : 0.6381125450134277
+Average accuracy : 86.246%
+Average recall : 83.984%
+
+Training Time : 30754s
+Loss at epoch 456 : 0.6339747309684753
+Average accuracy : 86.285%
+Average recall : 83.997%
+
+Training Time : 30833s
+Loss at epoch 457 : 0.6243043541908264
+Average accuracy : 86.548%
+Average recall : 84.251%
+
+Training Time : 30912s
+Loss at epoch 458 : 0.614922285079956
+Average accuracy : 86.723%
+Average recall : 84.521%
+
+Training Time : 30991s
+Loss at epoch 459 : 0.6268563866615295
+Average accuracy : 86.436%
+Average recall : 84.141%
+
+Training Time : 31069s
+Loss at epoch 460 : 0.6161531805992126
+Average accuracy : 86.655%
+Average recall : 84.377%
+
+Training Time : 31148s
+Loss at epoch 461 : 0.6158393025398254
+Average accuracy : 86.663%
+Average recall : 84.449%
+
+Training Time : 31226s
+Loss at epoch 462 : 0.6076546311378479
+Average accuracy : 86.891%
+Average recall : 84.839%
+
+Training Time : 31305s
+Loss at epoch 463 : 0.6227417588233948
+Average accuracy : 86.533%
+Average recall : 84.233%
+
+Training Time : 31384s
+Loss at epoch 464 : 0.6058282256126404
+Average accuracy : 86.895%
+Average recall : 84.718%
+
+Training Time : 31462s
+Loss at epoch 465 : 0.598285973072052
+Average accuracy : 87.155%
+Average recall : 85.056%
+
+Training Time : 31542s
+Loss at epoch 466 : 0.5987948775291443
+Average accuracy : 87.102%
+Average recall : 85.057%
+
+Training Time : 31621s
+Loss at epoch 467 : 0.5865615010261536
+Average accuracy : 87.350%
+Average recall : 85.388%
+
+Training Time : 31701s
+Loss at epoch 468 : 0.5980055928230286
+Average accuracy : 87.178%
+Average recall : 85.127%
+
+Training Time : 31780s
+Loss at epoch 469 : 0.5987855792045593
+Average accuracy : 87.125%
+Average recall : 85.048%
+
+Training Time : 31859s
+Loss at epoch 470 : 0.5876616835594177
+Average accuracy : 87.302%
+Average recall : 85.199%
+
+Training Time : 31938s
+Loss at epoch 471 : 0.5838780999183655
+Average accuracy : 87.441%
+Average recall : 85.489%
+
+Training Time : 32017s
+Loss at epoch 472 : 0.5869781374931335
+Average accuracy : 87.409%
+Average recall : 85.436%
+
+Training Time : 32096s
+Loss at epoch 473 : 0.5780553221702576
+Average accuracy : 87.578%
+Average recall : 85.537%
+
+Training Time : 32175s
+Loss at epoch 474 : 0.5791817903518677
+Average accuracy : 87.592%
+Average recall : 85.736%
+
+Training Time : 32254s
+Loss at epoch 475 : 0.564109742641449
+Average accuracy : 87.912%
+Average recall : 86.016%
+
+Training Time : 32333s
+Loss at epoch 476 : 0.5744093656539917
+Average accuracy : 87.673%
+Average recall : 85.781%
+
+Training Time : 32412s
+Loss at epoch 477 : 0.5763478875160217
+Average accuracy : 87.582%
+Average recall : 85.637%
+
+Training Time : 32491s
+Loss at epoch 478 : 0.5681253671646118
+Average accuracy : 87.750%
+Average recall : 85.793%
+
+Training Time : 32571s
+Loss at epoch 479 : 0.5617978572845459
+Average accuracy : 87.930%
+Average recall : 86.096%
+
+Training Time : 32650s
+Loss at epoch 480 : 0.5781732201576233
+Average accuracy : 87.513%
+Average recall : 85.594%
+
+Training Time : 32729s
+Loss at epoch 481 : 0.5741493105888367
+Average accuracy : 87.665%
+Average recall : 85.722%
+
+Training Time : 32808s
+Loss at epoch 482 : 0.5723776817321777
+Average accuracy : 87.615%
+Average recall : 85.571%
+
+Training Time : 32887s
+Loss at epoch 483 : 0.5738784670829773
+Average accuracy : 87.656%
+Average recall : 85.794%
+
+Training Time : 32966s
+Loss at epoch 484 : 0.5677009224891663
+Average accuracy : 87.736%
+Average recall : 85.882%
+
+Training Time : 33045s
+Loss at epoch 485 : 0.5537087917327881
+Average accuracy : 88.068%
+Average recall : 86.183%
+
+Training Time : 33125s
+Loss at epoch 486 : 0.5793203115463257
+Average accuracy : 87.470%
+Average recall : 85.497%
+
+Training Time : 33205s
+Loss at epoch 487 : 0.5614927411079407
+Average accuracy : 87.891%
+Average recall : 86.012%
+
+Training Time : 33284s
+Loss at epoch 488 : 0.553260862827301
+Average accuracy : 88.108%
+Average recall : 86.308%
+
+Training Time : 33364s
+Loss at epoch 489 : 0.5518856048583984
+Average accuracy : 88.093%
+Average recall : 86.307%
+
+Training Time : 33443s
+Loss at epoch 490 : 0.5651054978370667
+Average accuracy : 87.785%
+Average recall : 85.831%
+
+Training Time : 33523s
+Loss at epoch 491 : 0.562715470790863
+Average accuracy : 87.835%
+Average recall : 85.904%
+
+Training Time : 33603s
+Loss at epoch 492 : 0.5582506060600281
+Average accuracy : 87.930%
+Average recall : 86.092%
+
+Training Time : 33682s
+Loss at epoch 493 : 0.5453495383262634
+Average accuracy : 88.221%
+Average recall : 86.493%
+
+Training Time : 33761s
+Loss at epoch 494 : 0.5488714575767517
+Average accuracy : 88.129%
+Average recall : 86.383%
+
+Training Time : 33840s
+Loss at epoch 495 : 0.5535181164741516
+Average accuracy : 88.112%
+Average recall : 86.291%
+
+Training Time : 33920s
+Loss at epoch 496 : 0.5533319711685181
+Average accuracy : 88.024%
+Average recall : 86.269%
+
+Training Time : 33999s
+Loss at epoch 497 : 0.5493346452713013
+Average accuracy : 88.121%
+Average recall : 86.338%
+
+Training Time : 34078s
+Loss at epoch 498 : 0.542044460773468
+Average accuracy : 88.250%
+Average recall : 86.491%
+
+Training Time : 34158s
+Loss at epoch 499 : 0.5373607277870178
+Average accuracy : 88.449%
+Average recall : 86.773%
+
+Training Time : 34237s
+Loss at epoch 500 : 0.5595804452896118
+Average accuracy : 87.814%
+Average recall : 85.892%
+
+Training Time : 34316s
+Loss at epoch 501 : 0.5380451083183289
+Average accuracy : 88.319%
+Average recall : 86.585%
+
+Training Time : 34395s
+Loss at epoch 502 : 0.5400779843330383
+Average accuracy : 88.296%
+Average recall : 86.548%
+
+Training Time : 34474s
+Loss at epoch 503 : 0.5426499843597412
+Average accuracy : 88.262%
+Average recall : 86.537%
+
+Training Time : 34553s
+Loss at epoch 504 : 0.5428974032402039
+Average accuracy : 88.207%
+Average recall : 86.389%
+
+Training Time : 34633s
+Loss at epoch 505 : 0.5391161441802979
+Average accuracy : 88.308%
+Average recall : 86.588%
+
+Training Time : 34712s
+Loss at epoch 506 : 0.5409758687019348
+Average accuracy : 88.271%
+Average recall : 86.510%
+
+Training Time : 34792s
+Loss at epoch 507 : 0.5395464301109314
+Average accuracy : 88.262%
+Average recall : 86.481%
+
+Training Time : 34872s
+Loss at epoch 508 : 0.5287607312202454
+Average accuracy : 88.534%
+Average recall : 86.826%
+
+Training Time : 34951s
+Loss at epoch 509 : 0.5364627838134766
+Average accuracy : 88.379%
+Average recall : 86.641%
+
+Training Time : 35031s
+Loss at epoch 510 : 0.5401390194892883
+Average accuracy : 88.251%
+Average recall : 86.518%
+
+Training Time : 35110s
+Loss at epoch 511 : 0.547005295753479
+Average accuracy : 88.031%
+Average recall : 86.161%
+
+Training Time : 35188s
+Loss at epoch 512 : 0.5366383790969849
+Average accuracy : 88.373%
+Average recall : 86.659%
+
+Training Time : 35267s
+Loss at epoch 513 : 0.5419503450393677
+Average accuracy : 88.161%
+Average recall : 86.467%
+
+Training Time : 35346s
+Loss at epoch 514 : 0.5268763899803162
+Average accuracy : 88.622%
+Average recall : 86.948%
+
+Training Time : 35425s
+Loss at epoch 515 : 0.5314581394195557
+Average accuracy : 88.446%
+Average recall : 86.774%
+
+Training Time : 35504s
+Loss at epoch 516 : 0.5342246294021606
+Average accuracy : 88.384%
+Average recall : 86.677%
+
+Training Time : 35583s
+Loss at epoch 517 : 0.5332939028739929
+Average accuracy : 88.344%
+Average recall : 86.633%
+
+Training Time : 35661s
+Loss at epoch 518 : 0.5282153487205505
+Average accuracy : 88.509%
+Average recall : 86.857%
+
+Training Time : 35740s
+Loss at epoch 519 : 0.5305467247962952
+Average accuracy : 88.461%
+Average recall : 86.684%
+
+Training Time : 35819s
+Loss at epoch 520 : 0.5234706997871399
+Average accuracy : 88.561%
+Average recall : 86.878%
+
+Training Time : 35898s
+Loss at epoch 521 : 0.532556414604187
+Average accuracy : 88.374%
+Average recall : 86.695%
+
+Training Time : 35976s
+Loss at epoch 522 : 0.5180761814117432
+Average accuracy : 88.763%
+Average recall : 87.172%
+
+Training Time : 36055s
+Loss at epoch 523 : 0.5270907282829285
+Average accuracy : 88.501%
+Average recall : 86.783%
+
+Training Time : 36134s
+Loss at epoch 524 : 0.5182259678840637
+Average accuracy : 88.707%
+Average recall : 87.098%
+
+Training Time : 36213s
+Loss at epoch 525 : 0.5252949595451355
+Average accuracy : 88.407%
+Average recall : 86.683%
+
+Training Time : 36292s
+Loss at epoch 526 : 0.521748423576355
+Average accuracy : 88.589%
+Average recall : 86.897%
+
+Training Time : 36370s
+Loss at epoch 527 : 0.5101213455200195
+Average accuracy : 88.920%
+Average recall : 87.371%
+
+Training Time : 36449s
+Loss at epoch 528 : 0.5252118110656738
+Average accuracy : 88.589%
+Average recall : 86.887%
+
+Training Time : 36528s
+Loss at epoch 529 : 0.5166093707084656
+Average accuracy : 88.721%
+Average recall : 87.142%
+
+Training Time : 36607s
+Loss at epoch 530 : 0.5169585347175598
+Average accuracy : 88.739%
+Average recall : 87.133%
+
+Training Time : 36685s
+Loss at epoch 531 : 0.5163414478302002
+Average accuracy : 88.686%
+Average recall : 87.027%
+
+Training Time : 36764s
+Loss at epoch 532 : 0.5207919478416443
+Average accuracy : 88.629%
+Average recall : 86.936%
+
+Training Time : 36843s
+Loss at epoch 533 : 0.5219091176986694
+Average accuracy : 88.536%
+Average recall : 86.843%
+
+Training Time : 36922s
+Loss at epoch 534 : 0.5203491449356079
+Average accuracy : 88.633%
+Average recall : 86.993%
+
+Training Time : 37000s
+Loss at epoch 535 : 0.5097954273223877
+Average accuracy : 88.852%
+Average recall : 87.281%
+
+Training Time : 37079s
+Loss at epoch 536 : 0.507315456867218
+Average accuracy : 88.868%
+Average recall : 87.341%
+
+Training Time : 37158s
+Loss at epoch 537 : 0.5173475742340088
+Average accuracy : 88.678%
+Average recall : 87.050%
+
+Training Time : 37237s
+Loss at epoch 538 : 0.5194090008735657
+Average accuracy : 88.562%
+Average recall : 86.883%
+
+Training Time : 37316s
+Loss at epoch 539 : 0.5184539556503296
+Average accuracy : 88.636%
+Average recall : 87.051%
+
+Training Time : 37394s
+Loss at epoch 540 : 0.5203034281730652
+Average accuracy : 88.559%
+Average recall : 86.874%
+
+Training Time : 37473s
+Loss at epoch 541 : 0.5118045210838318
+Average accuracy : 88.738%
+Average recall : 87.122%
+
+Training Time : 37552s
+Loss at epoch 542 : 0.506194531917572
+Average accuracy : 88.975%
+Average recall : 87.435%
+
+Training Time : 37631s
+Loss at epoch 543 : 0.5105993747711182
+Average accuracy : 88.795%
+Average recall : 87.096%
+
+Training Time : 37710s
+Loss at epoch 544 : 0.51030433177948
+Average accuracy : 88.808%
+Average recall : 87.168%
+
+Training Time : 37788s
+Loss at epoch 545 : 0.5078720450401306
+Average accuracy : 88.837%
+Average recall : 87.183%
+
+Training Time : 37940s
+Loss at epoch 546 : 1.129399299621582
+Average accuracy : 73.604%
+Average recall : 68.432%
+
+Training Time : 38024s
+Loss at epoch 547 : 0.7189338207244873
+Average accuracy : 84.197%
+Average recall : 81.176%
+
+Training Time : 38101s
+Loss at epoch 548 : 0.6667535305023193
+Average accuracy : 85.306%
+Average recall : 82.590%
+
+Training Time : 38178s
+Loss at epoch 549 : 0.6441624760627747
+Average accuracy : 85.765%
+Average recall : 83.158%
+
+Training Time : 38256s
+Loss at epoch 550 : 0.617494523525238
+Average accuracy : 86.457%
+Average recall : 84.214%
+
+Training Time : 38333s
+Loss at epoch 551 : 0.617538332939148
+Average accuracy : 86.432%
+Average recall : 84.310%
+
+Training Time : 38411s
+Loss at epoch 552 : 0.6206154823303223
+Average accuracy : 86.318%
+Average recall : 83.946%
+
+Training Time : 38488s
+Loss at epoch 553 : 0.5851063132286072
+Average accuracy : 87.030%
+Average recall : 84.965%
+
+Training Time : 38565s
+Loss at epoch 554 : 0.5715368390083313
+Average accuracy : 87.505%
+Average recall : 85.493%
+
+Training Time : 38643s
+Loss at epoch 555 : 0.5448431968688965
+Average accuracy : 88.109%
+Average recall : 86.268%
+
+Training Time : 38720s
+Loss at epoch 556 : 0.5466238856315613
+Average accuracy : 87.963%
+Average recall : 86.101%
+
+Training Time : 38798s
+Loss at epoch 557 : 0.5374544262886047
+Average accuracy : 88.205%
+Average recall : 86.429%
+
+Training Time : 38876s
+Loss at epoch 558 : 0.5262385010719299
+Average accuracy : 88.400%
+Average recall : 86.664%
+
+Training Time : 38953s
+Loss at epoch 559 : 0.5178975462913513
+Average accuracy : 88.564%
+Average recall : 86.902%
+
+Training Time : 39030s
+Loss at epoch 560 : 0.5283047556877136
+Average accuracy : 88.332%
+Average recall : 86.458%
+
+Training Time : 39108s
+Loss at epoch 561 : 0.5166055560112
+Average accuracy : 88.532%
+Average recall : 86.793%
+
+Training Time : 39185s
+Loss at epoch 562 : 0.5219659805297852
+Average accuracy : 88.296%
+Average recall : 86.516%
+
+Training Time : 39263s
+Loss at epoch 563 : 0.5048661828041077
+Average accuracy : 88.796%
+Average recall : 87.115%
+
+Training Time : 39341s
+Loss at epoch 564 : 0.5113028287887573
+Average accuracy : 88.555%
+Average recall : 86.872%
+
+Training Time : 39418s
+Loss at epoch 565 : 0.5093992352485657
+Average accuracy : 88.544%
+Average recall : 86.864%
+
+Training Time : 39496s
+Loss at epoch 566 : 0.5085012316703796
+Average accuracy : 88.624%
+Average recall : 86.953%
+
+Training Time : 39573s
+Loss at epoch 567 : 0.4848003685474396
+Average accuracy : 89.100%
+Average recall : 87.523%
+
+Training Time : 39651s
+Loss at epoch 568 : 0.48094990849494934
+Average accuracy : 89.177%
+Average recall : 87.578%
+
+Training Time : 39729s
+Loss at epoch 569 : 0.4784022569656372
+Average accuracy : 89.169%
+Average recall : 87.672%
+
+Training Time : 39806s
+Loss at epoch 570 : 0.4766782224178314
+Average accuracy : 89.206%
+Average recall : 87.678%
+
+Training Time : 39884s
+Loss at epoch 571 : 0.47019001841545105
+Average accuracy : 89.439%
+Average recall : 87.996%
+
+Training Time : 39962s
+Loss at epoch 572 : 0.46555712819099426
+Average accuracy : 89.470%
+Average recall : 88.022%
+
+Training Time : 40040s
+Loss at epoch 573 : 0.46983158588409424
+Average accuracy : 89.192%
+Average recall : 87.773%
+
+Training Time : 40117s
+Loss at epoch 574 : 0.47047147154808044
+Average accuracy : 89.191%
+Average recall : 87.667%
+
+Training Time : 40195s
+Loss at epoch 575 : 0.46001172065734863
+Average accuracy : 89.480%
+Average recall : 88.070%
+
+Training Time : 40272s
+Loss at epoch 576 : 0.4612461030483246
+Average accuracy : 89.375%
+Average recall : 87.915%
+
+Training Time : 40350s
+Loss at epoch 577 : 0.4616851806640625
+Average accuracy : 89.268%
+Average recall : 87.715%
+
+Training Time : 40427s
+Loss at epoch 578 : 0.4568401873111725
+Average accuracy : 89.426%
+Average recall : 88.020%
+
+Training Time : 40505s
+Loss at epoch 579 : 0.44379082322120667
+Average accuracy : 89.719%
+Average recall : 88.342%
+
+Training Time : 40582s
+Loss at epoch 580 : 0.44309568405151367
+Average accuracy : 89.796%
+Average recall : 88.498%
+
+Training Time : 40660s
+Loss at epoch 581 : 0.4409933388233185
+Average accuracy : 89.774%
+Average recall : 88.426%
+
+Training Time : 40738s
+Loss at epoch 582 : 0.4305088520050049
+Average accuracy : 89.946%
+Average recall : 88.700%
+
+Training Time : 40815s
+Loss at epoch 583 : 0.4342941343784332
+Average accuracy : 89.838%
+Average recall : 88.487%
+
+Training Time : 40893s
+Loss at epoch 584 : 0.42831262946128845
+Average accuracy : 90.007%
+Average recall : 88.729%
+
+Training Time : 40970s
+Loss at epoch 585 : 0.4378586709499359
+Average accuracy : 89.803%
+Average recall : 88.540%
+
+Training Time : 41048s
+Loss at epoch 586 : 0.4299097955226898
+Average accuracy : 89.916%
+Average recall : 88.633%
+
+Training Time : 41125s
+Loss at epoch 587 : 0.43487682938575745
+Average accuracy : 89.827%
+Average recall : 88.549%
+
+Training Time : 41203s
+Loss at epoch 588 : 0.41318395733833313
+Average accuracy : 90.302%
+Average recall : 89.188%
+
+Training Time : 41281s
+Loss at epoch 589 : 0.41152313351631165
+Average accuracy : 90.378%
+Average recall : 89.222%
+
+Training Time : 41358s
+Loss at epoch 590 : 0.42000409960746765
+Average accuracy : 90.089%
+Average recall : 88.865%
+
+Training Time : 41436s
+Loss at epoch 591 : 0.42397478222846985
+Average accuracy : 89.970%
+Average recall : 88.724%
+
+Training Time : 41513s
+Loss at epoch 592 : 0.40445899963378906
+Average accuracy : 90.413%
+Average recall : 89.274%
+
+Training Time : 41590s
+Loss at epoch 593 : 0.40418127179145813
+Average accuracy : 90.469%
+Average recall : 89.319%
+
+Training Time : 41668s
+Loss at epoch 594 : 0.40388748049736023
+Average accuracy : 90.372%
+Average recall : 89.191%
+
+Training Time : 41746s
+Loss at epoch 595 : 0.3975047171115875
+Average accuracy : 90.519%
+Average recall : 89.456%
+
+Training Time : 41823s
+Loss at epoch 596 : 0.40874162316322327
+Average accuracy : 90.220%
+Average recall : 89.009%
+
+Training Time : 41901s
+Loss at epoch 597 : 0.41431108117103577
+Average accuracy : 90.062%
+Average recall : 88.783%
+
+Training Time : 41978s
+Loss at epoch 598 : 0.4081393778324127
+Average accuracy : 90.242%
+Average recall : 89.020%
+
+Training Time : 42056s
+Loss at epoch 599 : 0.42497989535331726
+Average accuracy : 89.770%
+Average recall : 88.440%
+
+Training Time : 42133s
+Loss at epoch 600 : 0.41114988923072815
+Average accuracy : 90.162%
+Average recall : 88.925%
+
+Training Time : 42211s
+Loss at epoch 601 : 0.402768611907959
+Average accuracy : 90.440%
+Average recall : 89.209%
+
+Training Time : 42289s
+Loss at epoch 602 : 0.39900460839271545
+Average accuracy : 90.430%
+Average recall : 89.266%
+
+Training Time : 42366s
+Loss at epoch 603 : 0.3939472734928131
+Average accuracy : 90.599%
+Average recall : 89.502%
+
+Training Time : 42444s
+Loss at epoch 604 : 0.3848208487033844
+Average accuracy : 90.756%
+Average recall : 89.745%
+
+Training Time : 42521s
+Loss at epoch 605 : 0.3940180838108063
+Average accuracy : 90.450%
+Average recall : 89.336%
+
+Training Time : 42599s
+Loss at epoch 606 : 0.3808288276195526
+Average accuracy : 90.835%
+Average recall : 89.786%
+
+Training Time : 42676s
+Loss at epoch 607 : 0.3841734230518341
+Average accuracy : 90.666%
+Average recall : 89.562%
+
+Training Time : 42754s
+Loss at epoch 608 : 0.3837139308452606
+Average accuracy : 90.706%
+Average recall : 89.647%
+
+Training Time : 42831s
+Loss at epoch 609 : 0.3857862055301666
+Average accuracy : 90.582%
+Average recall : 89.448%
+
+Training Time : 42909s
+Loss at epoch 610 : 0.37408503890037537
+Average accuracy : 90.898%
+Average recall : 89.884%
+
+Training Time : 42986s
+Loss at epoch 611 : 0.3774451017379761
+Average accuracy : 90.744%
+Average recall : 89.646%
+
+Training Time : 43064s
+Loss at epoch 612 : 0.3732783794403076
+Average accuracy : 90.890%
+Average recall : 89.885%
+
+Training Time : 43141s
+Loss at epoch 613 : 0.373035192489624
+Average accuracy : 90.864%
+Average recall : 89.818%
+
+Training Time : 43219s
+Loss at epoch 614 : 0.3709925413131714
+Average accuracy : 90.911%
+Average recall : 89.916%
+
+Training Time : 43296s
+Loss at epoch 615 : 0.3746449649333954
+Average accuracy : 90.812%
+Average recall : 89.822%
+
+Training Time : 43374s
+Loss at epoch 616 : 0.37835466861724854
+Average accuracy : 90.643%
+Average recall : 89.593%
+
+Training Time : 43452s
+Loss at epoch 617 : 0.3786684572696686
+Average accuracy : 90.656%
+Average recall : 89.575%
+
+Training Time : 43529s
+Loss at epoch 618 : 0.35760679841041565
+Average accuracy : 91.166%
+Average recall : 90.239%
+
+Training Time : 43607s
+Loss at epoch 619 : 0.3628309667110443
+Average accuracy : 91.072%
+Average recall : 90.169%
+
+Training Time : 43684s
+Loss at epoch 620 : 0.36514806747436523
+Average accuracy : 90.996%
+Average recall : 90.029%
+
+Training Time : 43761s
+Loss at epoch 621 : 0.36257418990135193
+Average accuracy : 90.991%
+Average recall : 90.027%
+
+Training Time : 43839s
+Loss at epoch 622 : 0.36008700728416443
+Average accuracy : 90.996%
+Average recall : 90.044%
+
+Training Time : 43916s
+Loss at epoch 623 : 0.36553633213043213
+Average accuracy : 90.926%
+Average recall : 89.975%
+
+Training Time : 43994s
+Loss at epoch 624 : 0.36110615730285645
+Average accuracy : 90.980%
+Average recall : 89.995%
+
+Training Time : 44072s
+Loss at epoch 625 : 0.35468682646751404
+Average accuracy : 91.233%
+Average recall : 90.345%
+
+Training Time : 44149s
+Loss at epoch 626 : 0.3489924669265747
+Average accuracy : 91.265%
+Average recall : 90.332%
+
+Training Time : 44227s
+Loss at epoch 627 : 0.3527264893054962
+Average accuracy : 91.163%
+Average recall : 90.216%
+
+Training Time : 44304s
+Loss at epoch 628 : 0.34957626461982727
+Average accuracy : 91.228%
+Average recall : 90.327%
+
+Training Time : 44382s
+Loss at epoch 629 : 0.3542381227016449
+Average accuracy : 91.118%
+Average recall : 90.119%
+
+Training Time : 44460s
+Loss at epoch 630 : 0.35671451687812805
+Average accuracy : 91.061%
+Average recall : 90.025%
+
+Training Time : 44537s
+Loss at epoch 631 : 0.35592541098594666
+Average accuracy : 91.034%
+Average recall : 90.080%
+
+Training Time : 44615s
+Loss at epoch 632 : 0.34783563017845154
+Average accuracy : 91.222%
+Average recall : 90.253%
+
+Training Time : 44692s
+Loss at epoch 633 : 0.3526081144809723
+Average accuracy : 91.103%
+Average recall : 90.188%
+
+Training Time : 44770s
+Loss at epoch 634 : 0.3482593297958374
+Average accuracy : 91.193%
+Average recall : 90.218%
+
+Training Time : 44847s
+Loss at epoch 635 : 0.35514307022094727
+Average accuracy : 90.989%
+Average recall : 89.943%
+
+Training Time : 44925s
+Loss at epoch 636 : 0.34803345799446106
+Average accuracy : 91.185%
+Average recall : 90.194%
+
+Training Time : 45002s
+Loss at epoch 637 : 0.3430635929107666
+Average accuracy : 91.326%
+Average recall : 90.450%
+
+Training Time : 45080s
+Loss at epoch 638 : 0.3435627520084381
+Average accuracy : 91.339%
+Average recall : 90.384%
+
+Training Time : 45157s
+Loss at epoch 639 : 0.34552955627441406
+Average accuracy : 91.244%
+Average recall : 90.277%
+
+Training Time : 45235s
+Loss at epoch 640 : 0.3387092053890228
+Average accuracy : 91.410%
+Average recall : 90.538%
+
+Training Time : 45312s
+Loss at epoch 641 : 0.3371185064315796
+Average accuracy : 91.415%
+Average recall : 90.444%
+
+Training Time : 45390s
+Loss at epoch 642 : 0.3338727056980133
+Average accuracy : 91.469%
+Average recall : 90.594%
+
+Training Time : 45468s
+Loss at epoch 643 : 0.3418521583080292
+Average accuracy : 91.293%
+Average recall : 90.312%
+
+Training Time : 45545s
+Loss at epoch 644 : 0.3400646150112152
+Average accuracy : 91.362%
+Average recall : 90.467%
+
+Training Time : 45622s
+Loss at epoch 645 : 0.3628312647342682
+Average accuracy : 90.768%
+Average recall : 89.759%
+
+Training Time : 45700s
+Loss at epoch 646 : 0.3545573651790619
+Average accuracy : 91.024%
+Average recall : 89.988%
+
+Training Time : 45777s
+Loss at epoch 647 : 0.349375456571579
+Average accuracy : 91.101%
+Average recall : 90.028%
+
+Training Time : 45854s
+Loss at epoch 648 : 0.35307756066322327
+Average accuracy : 90.918%
+Average recall : 89.879%
+
+Training Time : 45931s
+Loss at epoch 649 : 0.34739938378334045
+Average accuracy : 91.155%
+Average recall : 90.190%
+
+Training Time : 46009s
+Loss at epoch 650 : 0.35122931003570557
+Average accuracy : 91.077%
+Average recall : 90.021%
+
+Training Time : 46086s
+Loss at epoch 651 : 0.3681890070438385
+Average accuracy : 90.527%
+Average recall : 89.362%
+
+Training Time : 46164s
+Loss at epoch 652 : 0.3629933297634125
+Average accuracy : 90.748%
+Average recall : 89.694%
+
+Training Time : 46241s
+Loss at epoch 653 : 0.35819098353385925
+Average accuracy : 90.815%
+Average recall : 89.678%
+
+Training Time : 46318s
+Loss at epoch 654 : 0.3596489727497101
+Average accuracy : 90.801%
+Average recall : 89.721%
+
+Training Time : 46395s
+Loss at epoch 655 : 0.35994744300842285
+Average accuracy : 90.822%
+Average recall : 89.664%
+
+Training Time : 46473s
+Loss at epoch 656 : 0.35551074147224426
+Average accuracy : 90.872%
+Average recall : 89.732%
+
+Training Time : 46550s
+Loss at epoch 657 : 0.34628474712371826
+Average accuracy : 91.091%
+Average recall : 90.102%
+
+Training Time : 46627s
+Loss at epoch 658 : 0.3370371162891388
+Average accuracy : 91.352%
+Average recall : 90.411%
+
+Training Time : 46705s
+Loss at epoch 659 : 0.34289005398750305
+Average accuracy : 91.125%
+Average recall : 90.075%
+
+Training Time : 46782s
+Loss at epoch 660 : 0.33667492866516113
+Average accuracy : 91.241%
+Average recall : 90.271%
+
+Training Time : 46859s
+Loss at epoch 661 : 0.3294799029827118
+Average accuracy : 91.504%
+Average recall : 90.638%
+
+Training Time : 46937s
+Loss at epoch 662 : 0.32450857758522034
+Average accuracy : 91.620%
+Average recall : 90.743%
+
+Training Time : 47014s
+Loss at epoch 663 : 0.3304416537284851
+Average accuracy : 91.507%
+Average recall : 90.572%
+
+Training Time : 47091s
+Loss at epoch 664 : 0.33195406198501587
+Average accuracy : 91.445%
+Average recall : 90.512%
+
+Training Time : 47169s
+Loss at epoch 665 : 0.3316512107849121
+Average accuracy : 91.537%
+Average recall : 90.573%
+
+Training Time : 47246s
+Loss at epoch 666 : 0.32125306129455566
+Average accuracy : 91.684%
+Average recall : 90.797%
+
+Training Time : 47324s
+Loss at epoch 667 : 0.3192984461784363
+Average accuracy : 91.655%
+Average recall : 90.769%
+
+Training Time : 47401s
+Loss at epoch 668 : 0.31950893998146057
+Average accuracy : 91.679%
+Average recall : 90.816%
+
+Training Time : 47478s
+Loss at epoch 669 : 0.31554344296455383
+Average accuracy : 91.754%
+Average recall : 90.907%
+
+Training Time : 47556s
+Loss at epoch 670 : 0.3054274618625641
+Average accuracy : 92.033%
+Average recall : 91.271%
+
+Training Time : 47633s
+Loss at epoch 671 : 0.31603482365608215
+Average accuracy : 91.751%
+Average recall : 90.797%
+
+Training Time : 47711s
+Loss at epoch 672 : 0.3108626902103424
+Average accuracy : 91.887%
+Average recall : 91.058%
+
+Training Time : 47788s
+Loss at epoch 673 : 0.31255295872688293
+Average accuracy : 91.737%
+Average recall : 90.934%
+
+Training Time : 47865s
+Loss at epoch 674 : 0.3148342967033386
+Average accuracy : 91.706%
+Average recall : 90.855%
+
+Training Time : 47943s
+Loss at epoch 675 : 0.31064191460609436
+Average accuracy : 91.814%
+Average recall : 90.970%
+
+Training Time : 48020s
+Loss at epoch 676 : 0.3112897574901581
+Average accuracy : 91.840%
+Average recall : 90.999%
+
+Training Time : 48097s
+Loss at epoch 677 : 0.3101309537887573
+Average accuracy : 91.816%
+Average recall : 90.966%
+
+Training Time : 48175s
+Loss at epoch 678 : 0.3089718520641327
+Average accuracy : 91.853%
+Average recall : 90.935%
+
+Training Time : 48252s
+Loss at epoch 679 : 0.3092828691005707
+Average accuracy : 91.811%
+Average recall : 90.933%
+
+Training Time : 48330s
+Loss at epoch 680 : 0.3061888515949249
+Average accuracy : 91.903%
+Average recall : 90.965%
+
+Training Time : 48407s
+Loss at epoch 681 : 0.30229759216308594
+Average accuracy : 92.040%
+Average recall : 91.217%
+
+Training Time : 48484s
+Loss at epoch 682 : 0.3002893030643463
+Average accuracy : 92.008%
+Average recall : 91.157%
+
+Training Time : 48562s
+Loss at epoch 683 : 0.3123515844345093
+Average accuracy : 91.749%
+Average recall : 90.836%
+
+Training Time : 48639s
+Loss at epoch 684 : 0.30130115151405334
+Average accuracy : 91.999%
+Average recall : 91.123%
+
+Training Time : 48717s
+Loss at epoch 685 : 0.3026086688041687
+Average accuracy : 91.997%
+Average recall : 91.172%
+
+Training Time : 48794s
+Loss at epoch 686 : 0.30238428711891174
+Average accuracy : 91.969%
+Average recall : 91.132%
+
+Training Time : 48872s
+Loss at epoch 687 : 0.29798680543899536
+Average accuracy : 92.045%
+Average recall : 91.239%
+
+Training Time : 48949s
+Loss at epoch 688 : 0.294295996427536
+Average accuracy : 92.115%
+Average recall : 91.305%
+
+Training Time : 49026s
+Loss at epoch 689 : 0.2995380163192749
+Average accuracy : 92.025%
+Average recall : 91.202%
+
+Training Time : 49104s
+Loss at epoch 690 : 0.2890273332595825
+Average accuracy : 92.251%
+Average recall : 91.481%
+
+Training Time : 49181s
+Loss at epoch 691 : 0.3012581467628479
+Average accuracy : 91.972%
+Average recall : 91.148%
+
+Training Time : 49258s
+Loss at epoch 692 : 0.29579806327819824
+Average accuracy : 92.069%
+Average recall : 91.225%
+
+Training Time : 49336s
+Loss at epoch 693 : 0.2917766571044922
+Average accuracy : 92.119%
+Average recall : 91.344%
+
+Training Time : 49413s
+Loss at epoch 694 : 0.3010347783565521
+Average accuracy : 91.903%
+Average recall : 91.011%
+
+Training Time : 49491s
+Loss at epoch 695 : 0.29289332032203674
+Average accuracy : 92.134%
+Average recall : 91.332%
+
+Training Time : 49568s
+Loss at epoch 696 : 0.2982196509838104
+Average accuracy : 91.985%
+Average recall : 91.143%
+
+Training Time : 49645s
+Loss at epoch 697 : 0.2958081364631653
+Average accuracy : 92.025%
+Average recall : 91.196%
+
+Training Time : 49722s
+Loss at epoch 698 : 0.28827938437461853
+Average accuracy : 92.246%
+Average recall : 91.397%
+
+Training Time : 49799s
+Loss at epoch 699 : 0.2923985719680786
+Average accuracy : 92.139%
+Average recall : 91.327%
+
+Training Time : 49876s
+Loss at epoch 700 : 0.28577739000320435
+Average accuracy : 92.314%
+Average recall : 91.538%
+
+Training Time : 49953s
+Loss at epoch 701 : 0.2881617248058319
+Average accuracy : 92.216%
+Average recall : 91.371%
+
+Training Time : 50030s
+Loss at epoch 702 : 0.2883167564868927
+Average accuracy : 92.243%
+Average recall : 91.445%
+
+Training Time : 50108s
+Loss at epoch 703 : 0.28571340441703796
+Average accuracy : 92.233%
+Average recall : 91.426%
+
+Training Time : 50185s
+Loss at epoch 704 : 0.290698379278183
+Average accuracy : 92.169%
+Average recall : 91.338%
+
+Training Time : 50262s
+Loss at epoch 705 : 0.2873670160770416
+Average accuracy : 92.218%
+Average recall : 91.372%
+
+Training Time : 50339s
+Loss at epoch 706 : 0.2777216136455536
+Average accuracy : 92.438%
+Average recall : 91.630%
+
+Training Time : 50417s
+Loss at epoch 707 : 0.2829282879829407
+Average accuracy : 92.333%
+Average recall : 91.544%
+
+Training Time : 50494s
+Loss at epoch 708 : 0.2763545513153076
+Average accuracy : 92.483%
+Average recall : 91.726%
+
+Training Time : 50571s
+Loss at epoch 709 : 0.2841430902481079
+Average accuracy : 92.322%
+Average recall : 91.470%
+
+Training Time : 50649s
+Loss at epoch 710 : 0.28314003348350525
+Average accuracy : 92.353%
+Average recall : 91.520%
+
+Training Time : 50726s
+Loss at epoch 711 : 0.28213584423065186
+Average accuracy : 92.380%
+Average recall : 91.530%
+
+Training Time : 50803s
+Loss at epoch 712 : 0.2802504599094391
+Average accuracy : 92.352%
+Average recall : 91.520%
+
+Training Time : 50880s
+Loss at epoch 713 : 0.27589303255081177
+Average accuracy : 92.490%
+Average recall : 91.678%
+
+Training Time : 50958s
+Loss at epoch 714 : 0.2802727520465851
+Average accuracy : 92.346%
+Average recall : 91.525%
+
+Training Time : 51035s
+Loss at epoch 715 : 0.27734851837158203
+Average accuracy : 92.416%
+Average recall : 91.662%
+
+Training Time : 51112s
+Loss at epoch 716 : 0.2761879563331604
+Average accuracy : 92.453%
+Average recall : 91.654%
+
+Training Time : 51189s
+Loss at epoch 717 : 0.27058878540992737
+Average accuracy : 92.588%
+Average recall : 91.855%
+
+Training Time : 51267s
+Loss at epoch 718 : 0.278788298368454
+Average accuracy : 92.349%
+Average recall : 91.545%
+
+Training Time : 51344s
+Loss at epoch 719 : 0.2724907696247101
+Average accuracy : 92.540%
+Average recall : 91.733%
+
+Training Time : 51421s
+Loss at epoch 720 : 0.2771442234516144
+Average accuracy : 92.454%
+Average recall : 91.640%
+
+Training Time : 51498s
+Loss at epoch 721 : 0.2663886845111847
+Average accuracy : 92.688%
+Average recall : 91.895%
+
+Training Time : 51576s
+Loss at epoch 722 : 0.27409687638282776
+Average accuracy : 92.458%
+Average recall : 91.697%
+
+Training Time : 51653s
+Loss at epoch 723 : 0.2665347754955292
+Average accuracy : 92.660%
+Average recall : 91.910%
+
+Training Time : 51730s
+Loss at epoch 724 : 0.27148762345314026
+Average accuracy : 92.529%
+Average recall : 91.714%
+
+Training Time : 51807s
+Loss at epoch 725 : 0.26655784249305725
+Average accuracy : 92.682%
+Average recall : 91.921%
+
+Training Time : 51884s
+Loss at epoch 726 : 0.26839783787727356
+Average accuracy : 92.630%
+Average recall : 91.865%
+
+Training Time : 51962s
+Loss at epoch 727 : 0.2660446763038635
+Average accuracy : 92.639%
+Average recall : 91.866%
+
+Training Time : 52039s
+Loss at epoch 728 : 0.2623187005519867
+Average accuracy : 92.741%
+Average recall : 91.976%
+
+Training Time : 52116s
+Loss at epoch 729 : 0.2665492594242096
+Average accuracy : 92.639%
+Average recall : 91.888%
+
+Training Time : 52193s
+Loss at epoch 730 : 0.2672843635082245
+Average accuracy : 92.587%
+Average recall : 91.802%
+
+Training Time : 52270s
+Loss at epoch 731 : 0.2685060203075409
+Average accuracy : 92.579%
+Average recall : 91.748%
+
+Training Time : 52348s
+Loss at epoch 732 : 0.2615908682346344
+Average accuracy : 92.786%
+Average recall : 92.036%
+
+Training Time : 52425s
+Loss at epoch 733 : 0.26358655095100403
+Average accuracy : 92.711%
+Average recall : 91.879%
+
+Training Time : 52502s
+Loss at epoch 734 : 0.2635367810726166
+Average accuracy : 92.681%
+Average recall : 91.914%
+
+Training Time : 52579s
+Loss at epoch 735 : 0.26159217953681946
+Average accuracy : 92.741%
+Average recall : 91.960%
+
+Training Time : 52657s
+Loss at epoch 736 : 0.2623503506183624
+Average accuracy : 92.710%
+Average recall : 91.990%
+
+Training Time : 52734s
+Loss at epoch 737 : 0.25329726934432983
+Average accuracy : 92.976%
+Average recall : 92.253%
+
+Training Time : 52811s
+Loss at epoch 738 : 0.26407530903816223
+Average accuracy : 92.644%
+Average recall : 91.793%
+
+Training Time : 52888s
+Loss at epoch 739 : 0.25365251302719116
+Average accuracy : 92.954%
+Average recall : 92.176%
+
+Training Time : 52965s
+Loss at epoch 740 : 0.260354608297348
+Average accuracy : 92.730%
+Average recall : 91.912%
+
+Training Time : 53043s
+Loss at epoch 741 : 0.2581768333911896
+Average accuracy : 92.825%
+Average recall : 91.990%
+
+Training Time : 53120s
+Loss at epoch 742 : 0.2582935392856598
+Average accuracy : 92.778%
+Average recall : 91.968%
+
+Training Time : 53197s
+Loss at epoch 743 : 0.2647603452205658
+Average accuracy : 92.600%
+Average recall : 91.770%
+
+Training Time : 53274s
+Loss at epoch 744 : 0.25496962666511536
+Average accuracy : 92.878%
+Average recall : 92.037%
+
+Training Time : 53351s
+Loss at epoch 745 : 0.25895604491233826
+Average accuracy : 92.765%
+Average recall : 91.939%
+
+Training Time : 53429s
+Loss at epoch 746 : 0.2592162787914276
+Average accuracy : 92.752%
+Average recall : 91.923%
+
+Training Time : 53506s
+Loss at epoch 747 : 0.25796398520469666
+Average accuracy : 92.779%
+Average recall : 91.891%
+
+Training Time : 53583s
+Loss at epoch 748 : 0.2570381164550781
+Average accuracy : 92.793%
+Average recall : 91.958%
+
+Training Time : 53660s
+Loss at epoch 749 : 0.2482660859823227
+Average accuracy : 93.057%
+Average recall : 92.338%
+
+Training Time : 53738s
+Loss at epoch 750 : 0.2572643458843231
+Average accuracy : 92.834%
+Average recall : 91.985%
+
+Training Time : 53815s
+Loss at epoch 751 : 0.2552852928638458
+Average accuracy : 92.846%
+Average recall : 92.067%
+
+Training Time : 53892s
+Loss at epoch 752 : 0.24981622397899628
+Average accuracy : 92.973%
+Average recall : 92.251%
+
+Training Time : 53969s
+Loss at epoch 753 : 0.25611674785614014
+Average accuracy : 92.796%
+Average recall : 91.951%
+
+Training Time : 54047s
+Loss at epoch 754 : 0.25647687911987305
+Average accuracy : 92.840%
+Average recall : 92.000%
+
+Training Time : 54124s
+Loss at epoch 755 : 0.2490650862455368
+Average accuracy : 93.051%
+Average recall : 92.303%
+
+Training Time : 54201s
+Loss at epoch 756 : 0.247600719332695
+Average accuracy : 92.985%
+Average recall : 92.281%
+
+Training Time : 54279s
+Loss at epoch 757 : 0.24894677102565765
+Average accuracy : 92.940%
+Average recall : 92.116%
+
+Training Time : 54356s
+Loss at epoch 758 : 0.25017404556274414
+Average accuracy : 92.972%
+Average recall : 92.132%
+
+Training Time : 54433s
+Loss at epoch 759 : 0.2461053729057312
+Average accuracy : 93.073%
+Average recall : 92.255%
+
+Training Time : 54510s
+Loss at epoch 760 : 0.24419666826725006
+Average accuracy : 93.113%
+Average recall : 92.333%
+
+Training Time : 54587s
+Loss at epoch 761 : 0.25054243206977844
+Average accuracy : 92.907%
+Average recall : 92.107%
+
+Training Time : 54665s
+Loss at epoch 762 : 0.2443971037864685
+Average accuracy : 93.109%
+Average recall : 92.339%
+
+Training Time : 54742s
+Loss at epoch 763 : 0.24536900222301483
+Average accuracy : 93.100%
+Average recall : 92.355%
+
+Training Time : 54819s
+Loss at epoch 764 : 0.244155153632164
+Average accuracy : 93.096%
+Average recall : 92.296%
+
+Training Time : 54896s
+Loss at epoch 765 : 0.2423456311225891
+Average accuracy : 93.181%
+Average recall : 92.456%
+
+Training Time : 54973s
+Loss at epoch 766 : 0.24563521146774292
+Average accuracy : 93.023%
+Average recall : 92.278%
+
+Training Time : 55051s
+Loss at epoch 767 : 0.24223582446575165
+Average accuracy : 93.146%
+Average recall : 92.364%
+
+Training Time : 55128s
+Loss at epoch 768 : 0.23816414177417755
+Average accuracy : 93.199%
+Average recall : 92.458%
+
+Training Time : 55205s
+Loss at epoch 769 : 0.23633861541748047
+Average accuracy : 93.313%
+Average recall : 92.596%
+
+Training Time : 55283s
+Loss at epoch 770 : 0.24041657149791718
+Average accuracy : 93.171%
+Average recall : 92.450%
+
+Training Time : 55360s
+Loss at epoch 771 : 0.24715952575206757
+Average accuracy : 92.950%
+Average recall : 92.089%
+
+Training Time : 55437s
+Loss at epoch 772 : 0.24415849149227142
+Average accuracy : 93.086%
+Average recall : 92.327%
+
+Training Time : 55514s
+Loss at epoch 773 : 0.23674334585666656
+Average accuracy : 93.287%
+Average recall : 92.552%
+
+Training Time : 55592s
+Loss at epoch 774 : 0.2440664917230606
+Average accuracy : 93.058%
+Average recall : 92.265%
+
+Training Time : 55669s
+Loss at epoch 775 : 0.23417890071868896
+Average accuracy : 93.313%
+Average recall : 92.585%
+
+Training Time : 55746s
+Loss at epoch 776 : 0.2370118647813797
+Average accuracy : 93.230%
+Average recall : 92.469%
+
+Training Time : 55824s
+Loss at epoch 777 : 0.24475687742233276
+Average accuracy : 93.016%
+Average recall : 92.215%
+
+Training Time : 55901s
+Loss at epoch 778 : 0.23029087483882904
+Average accuracy : 93.450%
+Average recall : 92.742%
+
+Training Time : 55978s
+Loss at epoch 779 : 0.23946590721607208
+Average accuracy : 93.165%
+Average recall : 92.362%
+
+Training Time : 56055s
+Loss at epoch 780 : 0.2372903972864151
+Average accuracy : 93.199%
+Average recall : 92.390%
+
+Training Time : 56133s
+Loss at epoch 781 : 0.2370041459798813
+Average accuracy : 93.201%
+Average recall : 92.378%
+
+Training Time : 56210s
+Loss at epoch 782 : 0.2344687432050705
+Average accuracy : 93.312%
+Average recall : 92.533%
+
+Training Time : 56287s
+Loss at epoch 783 : 0.23396380245685577
+Average accuracy : 93.322%
+Average recall : 92.580%
+
+Training Time : 56364s
+Loss at epoch 784 : 0.24144159257411957
+Average accuracy : 93.120%
+Average recall : 92.336%
+
+Training Time : 56441s
+Loss at epoch 785 : 0.2342592030763626
+Average accuracy : 93.285%
+Average recall : 92.484%
+
+Training Time : 56519s
+Loss at epoch 786 : 0.23354987800121307
+Average accuracy : 93.306%
+Average recall : 92.498%
+
+Training Time : 56596s
+Loss at epoch 787 : 0.23247623443603516
+Average accuracy : 93.334%
+Average recall : 92.583%
+
+Training Time : 56673s
+Loss at epoch 788 : 0.23418468236923218
+Average accuracy : 93.275%
+Average recall : 92.516%
+
+Training Time : 56750s
+Loss at epoch 789 : 0.23470087349414825
+Average accuracy : 93.319%
+Average recall : 92.543%
+
+Training Time : 56827s
+Loss at epoch 790 : 0.23136360943317413
+Average accuracy : 93.374%
+Average recall : 92.658%
+
+Training Time : 56904s
+Loss at epoch 791 : 0.22923053801059723
+Average accuracy : 93.435%
+Average recall : 92.722%
+
+Training Time : 56982s
+Loss at epoch 792 : 0.24327747523784637
+Average accuracy : 93.080%
+Average recall : 92.255%
+
+Training Time : 57059s
+Loss at epoch 793 : 0.2340978980064392
+Average accuracy : 93.325%
+Average recall : 92.547%
+
+Training Time : 57136s
+Loss at epoch 794 : 0.22788573801517487
+Average accuracy : 93.428%
+Average recall : 92.667%
+
+Training Time : 57213s
+Loss at epoch 795 : 0.22860224545001984
+Average accuracy : 93.401%
+Average recall : 92.610%
+
+Training Time : 57291s
+Loss at epoch 796 : 0.2274467945098877
+Average accuracy : 93.407%
+Average recall : 92.642%
+
+Training Time : 57368s
+Loss at epoch 797 : 0.22690290212631226
+Average accuracy : 93.507%
+Average recall : 92.749%
+
+Training Time : 57445s
+Loss at epoch 798 : 0.22557586431503296
+Average accuracy : 93.501%
+Average recall : 92.750%
+
+Training Time : 57522s
+Loss at epoch 799 : 0.2297450304031372
+Average accuracy : 93.402%
+Average recall : 92.633%
+
+Training Time : 57599s
+Loss at epoch 800 : 0.22568728029727936
+Average accuracy : 93.532%
+Average recall : 92.798%
+
+Training Time : 57677s
+Loss at epoch 801 : 0.24216888844966888
+Average accuracy : 93.130%
+Average recall : 92.372%
+
+Training Time : 57754s
+Loss at epoch 802 : 0.24033121764659882
+Average accuracy : 93.201%
+Average recall : 92.427%
+
+Training Time : 57831s
+Loss at epoch 803 : 0.23014473915100098
+Average accuracy : 93.383%
+Average recall : 92.637%
+
+Training Time : 57908s
+Loss at epoch 804 : 0.22847987711429596
+Average accuracy : 93.420%
+Average recall : 92.630%
+
+Training Time : 57985s
+Loss at epoch 805 : 0.23082603514194489
+Average accuracy : 93.328%
+Average recall : 92.475%
+
+Training Time : 58062s
+Loss at epoch 806 : 0.22556661069393158
+Average accuracy : 93.491%
+Average recall : 92.731%
+
+Training Time : 58140s
+Loss at epoch 807 : 0.22713111340999603
+Average accuracy : 93.418%
+Average recall : 92.655%
+
+Training Time : 58217s
+Loss at epoch 808 : 0.22671152651309967
+Average accuracy : 93.424%
+Average recall : 92.618%
+
+Training Time : 58294s
+Loss at epoch 809 : 0.22386814653873444
+Average accuracy : 93.533%
+Average recall : 92.784%
+
+Training Time : 58371s
+Loss at epoch 810 : 0.21986792981624603
+Average accuracy : 93.626%
+Average recall : 92.876%
+
+Training Time : 58449s
+Loss at epoch 811 : 0.22681379318237305
+Average accuracy : 93.440%
+Average recall : 92.653%
+
+Training Time : 58526s
+Loss at epoch 812 : 0.2219480276107788
+Average accuracy : 93.580%
+Average recall : 92.846%
+
+Training Time : 58603s
+Loss at epoch 813 : 0.2239006608724594
+Average accuracy : 93.524%
+Average recall : 92.740%
+
+Training Time : 58680s
+Loss at epoch 814 : 0.2236946076154709
+Average accuracy : 93.494%
+Average recall : 92.705%
+
+Training Time : 58757s
+Loss at epoch 815 : 0.2221674919128418
+Average accuracy : 93.554%
+Average recall : 92.744%
+
+Training Time : 58835s
+Loss at epoch 816 : 0.21932657063007355
+Average accuracy : 93.602%
+Average recall : 92.793%
+
+Training Time : 58912s
+Loss at epoch 817 : 0.22150997817516327
+Average accuracy : 93.554%
+Average recall : 92.770%
+
+Training Time : 58989s
+Loss at epoch 818 : 0.21790795028209686
+Average accuracy : 93.657%
+Average recall : 92.823%
+
+Training Time : 59066s
+Loss at epoch 819 : 0.22670598328113556
+Average accuracy : 93.421%
+Average recall : 92.635%
+
+Training Time : 59143s
+Loss at epoch 820 : 0.22197604179382324
+Average accuracy : 93.573%
+Average recall : 92.803%
+
+Training Time : 59221s
+Loss at epoch 821 : 0.21751923859119415
+Average accuracy : 93.635%
+Average recall : 92.858%
+
+Training Time : 59298s
+Loss at epoch 822 : 0.21107788383960724
+Average accuracy : 93.875%
+Average recall : 93.163%
+
+Training Time : 59375s
+Loss at epoch 823 : 0.2166793942451477
+Average accuracy : 93.701%
+Average recall : 92.935%
+
+Training Time : 59452s
+Loss at epoch 824 : 0.21576035022735596
+Average accuracy : 93.752%
+Average recall : 92.970%
+
+Training Time : 59529s
+Loss at epoch 825 : 0.21227000653743744
+Average accuracy : 93.812%
+Average recall : 93.106%
+
+Training Time : 59606s
+Loss at epoch 826 : 0.21425653994083405
+Average accuracy : 93.739%
+Average recall : 92.965%
+
+Training Time : 59684s
+Loss at epoch 827 : 0.21100103855133057
+Average accuracy : 93.832%
+Average recall : 93.105%
+
+Training Time : 59761s
+Loss at epoch 828 : 0.2145969271659851
+Average accuracy : 93.748%
+Average recall : 92.999%
+
+Training Time : 59838s
+Loss at epoch 829 : 0.21014922857284546
+Average accuracy : 93.890%
+Average recall : 93.189%
+
+Training Time : 59915s
+Loss at epoch 830 : 0.20877043902873993
+Average accuracy : 93.899%
+Average recall : 93.187%
+
+Training Time : 59992s
+Loss at epoch 831 : 0.20846737921237946
+Average accuracy : 93.876%
+Average recall : 93.124%
+
+Training Time : 60070s
+Loss at epoch 832 : 0.2123897820711136
+Average accuracy : 93.750%
+Average recall : 92.950%
+
+Training Time : 60147s
+Loss at epoch 833 : 0.21290171146392822
+Average accuracy : 93.765%
+Average recall : 92.981%
+
+Training Time : 60224s
+Loss at epoch 834 : 0.2132784128189087
+Average accuracy : 93.750%
+Average recall : 92.930%
+
+Training Time : 60301s
+Loss at epoch 835 : 0.21467410027980804
+Average accuracy : 93.679%
+Average recall : 92.885%
+
+Training Time : 60378s
+Loss at epoch 836 : 0.20583970844745636
+Average accuracy : 93.960%
+Average recall : 93.275%
+
+Training Time : 60456s
+Loss at epoch 837 : 0.208934485912323
+Average accuracy : 93.824%
+Average recall : 93.087%
+
+Training Time : 60533s
+Loss at epoch 838 : 0.2055422067642212
+Average accuracy : 93.946%
+Average recall : 93.226%
+
+Training Time : 60610s
+Loss at epoch 839 : 0.20487822592258453
+Average accuracy : 94.003%
+Average recall : 93.302%
+
+Training Time : 60687s
+Loss at epoch 840 : 0.2072758674621582
+Average accuracy : 93.956%
+Average recall : 93.225%
+
+Training Time : 60764s
+Loss at epoch 841 : 0.20465897023677826
+Average accuracy : 93.966%
+Average recall : 93.293%
+
+Training Time : 60842s
+Loss at epoch 842 : 0.20661287009716034
+Average accuracy : 93.913%
+Average recall : 93.141%
+
+Training Time : 60919s
+Loss at epoch 843 : 0.20750485360622406
+Average accuracy : 93.877%
+Average recall : 93.151%
+
+Training Time : 60996s
+Loss at epoch 844 : 0.20777983963489532
+Average accuracy : 93.896%
+Average recall : 93.111%
+
+Training Time : 61073s
+Loss at epoch 845 : 0.20875297486782074
+Average accuracy : 93.864%
+Average recall : 93.103%
+
+Training Time : 61150s
+Loss at epoch 846 : 0.20197398960590363
+Average accuracy : 94.083%
+Average recall : 93.360%
+
+Training Time : 61228s
+Loss at epoch 847 : 0.2023831009864807
+Average accuracy : 94.052%
+Average recall : 93.300%
+
+Training Time : 61305s
+Loss at epoch 848 : 0.20376157760620117
+Average accuracy : 93.979%
+Average recall : 93.266%
+
+Training Time : 61382s
+Loss at epoch 849 : 0.20279985666275024
+Average accuracy : 93.986%
+Average recall : 93.210%
+
+Training Time : 61459s
+Loss at epoch 850 : 0.20871244370937347
+Average accuracy : 93.888%
+Average recall : 93.163%
+
+Training Time : 61537s
+Loss at epoch 851 : 0.2089492231607437
+Average accuracy : 93.879%
+Average recall : 93.139%
+
+Training Time : 61614s
+Loss at epoch 852 : 0.2053319364786148
+Average accuracy : 93.935%
+Average recall : 93.242%
+
+Training Time : 61691s
+Loss at epoch 853 : 0.2023846060037613
+Average accuracy : 94.059%
+Average recall : 93.376%
+
+Training Time : 61768s
+Loss at epoch 854 : 0.21163630485534668
+Average accuracy : 93.735%
+Average recall : 92.960%
+
+Training Time : 61846s
+Loss at epoch 855 : 0.20603741705417633
+Average accuracy : 93.922%
+Average recall : 93.153%
+
+Training Time : 61923s
+Loss at epoch 856 : 0.20302395522594452
+Average accuracy : 94.029%
+Average recall : 93.275%
+
+Training Time : 62000s
+Loss at epoch 857 : 0.20075386762619019
+Average accuracy : 94.086%
+Average recall : 93.360%
+
+Training Time : 62077s
+Loss at epoch 858 : 0.2050400972366333
+Average accuracy : 93.959%
+Average recall : 93.204%
+
+Training Time : 62155s
+Loss at epoch 859 : 0.20147675275802612
+Average accuracy : 94.059%
+Average recall : 93.326%
+
+Training Time : 62232s
+Loss at epoch 860 : 0.204974964261055
+Average accuracy : 93.950%
+Average recall : 93.181%
+
+Training Time : 62309s
+Loss at epoch 861 : 0.20134292542934418
+Average accuracy : 94.034%
+Average recall : 93.305%
+
+Training Time : 62386s
+Loss at epoch 862 : 0.202712282538414
+Average accuracy : 94.041%
+Average recall : 93.285%
+
+Training Time : 62463s
+Loss at epoch 863 : 0.1970854252576828
+Average accuracy : 94.121%
+Average recall : 93.393%
+
+Training Time : 62540s
+Loss at epoch 864 : 0.19859160482883453
+Average accuracy : 94.112%
+Average recall : 93.375%
+
+Training Time : 62618s
+Loss at epoch 865 : 0.1974218338727951
+Average accuracy : 94.131%
+Average recall : 93.358%
+
+Training Time : 62695s
+Loss at epoch 866 : 0.2002309411764145
+Average accuracy : 94.047%
+Average recall : 93.326%
+
+Training Time : 62772s
+Loss at epoch 867 : 0.2006080597639084
+Average accuracy : 94.014%
+Average recall : 93.277%
+
+Training Time : 62849s
+Loss at epoch 868 : 0.2012033611536026
+Average accuracy : 94.028%
+Average recall : 93.260%
+
+Training Time : 62926s
+Loss at epoch 869 : 0.2019001841545105
+Average accuracy : 94.035%
+Average recall : 93.277%
+
+Training Time : 63004s
+Loss at epoch 870 : 0.19829027354717255
+Average accuracy : 94.124%
+Average recall : 93.375%
+
+Training Time : 63081s
+Loss at epoch 871 : 0.19578219950199127
+Average accuracy : 94.201%
+Average recall : 93.507%
+
+Training Time : 63158s
+Loss at epoch 872 : 0.1973549872636795
+Average accuracy : 94.136%
+Average recall : 93.458%
+
+Training Time : 63235s
+Loss at epoch 873 : 0.19803805649280548
+Average accuracy : 94.089%
+Average recall : 93.352%
+
+Training Time : 63312s
+Loss at epoch 874 : 0.19200392067432404
+Average accuracy : 94.258%
+Average recall : 93.551%
+
+Training Time : 63389s
+Loss at epoch 875 : 0.19043773412704468
+Average accuracy : 94.316%
+Average recall : 93.606%
+
+Training Time : 63467s
+Loss at epoch 876 : 0.19257156550884247
+Average accuracy : 94.248%
+Average recall : 93.553%
+
+Training Time : 63544s
+Loss at epoch 877 : 0.19334213435649872
+Average accuracy : 94.251%
+Average recall : 93.538%
+
+Training Time : 63621s
+Loss at epoch 878 : 0.194383904337883
+Average accuracy : 94.192%
+Average recall : 93.456%
+
+Training Time : 63698s
+Loss at epoch 879 : 0.19369207322597504
+Average accuracy : 94.229%
+Average recall : 93.493%
+
+Training Time : 63775s
+Loss at epoch 880 : 0.19940049946308136
+Average accuracy : 94.062%
+Average recall : 93.312%
+
+Training Time : 63853s
+Loss at epoch 881 : 0.19046463072299957
+Average accuracy : 94.302%
+Average recall : 93.626%
+
+Training Time : 63930s
+Loss at epoch 882 : 0.19879595935344696
+Average accuracy : 94.090%
+Average recall : 93.349%
+
+Training Time : 64007s
+Loss at epoch 883 : 0.19165323674678802
+Average accuracy : 94.270%
+Average recall : 93.535%
+
+Training Time : 64084s
+Loss at epoch 884 : 0.1912074089050293
+Average accuracy : 94.282%
+Average recall : 93.557%
+
+Training Time : 64162s
+Loss at epoch 885 : 0.1862393170595169
+Average accuracy : 94.419%
+Average recall : 93.749%
+
+Training Time : 64239s
+Loss at epoch 886 : 0.19231738150119781
+Average accuracy : 94.275%
+Average recall : 93.561%
+
+Training Time : 64316s
+Loss at epoch 887 : 0.18988554179668427
+Average accuracy : 94.331%
+Average recall : 93.623%
+
+Training Time : 64393s
+Loss at epoch 888 : 0.19026046991348267
+Average accuracy : 94.284%
+Average recall : 93.579%
+
+Training Time : 64470s
+Loss at epoch 889 : 0.19058452546596527
+Average accuracy : 94.259%
+Average recall : 93.560%
+
+Training Time : 64548s
+Loss at epoch 890 : 0.19023995101451874
+Average accuracy : 94.287%
+Average recall : 93.537%
+
+Training Time : 64625s
+Loss at epoch 891 : 0.18634778261184692
+Average accuracy : 94.451%
+Average recall : 93.745%
+
+Training Time : 64702s
+Loss at epoch 892 : 0.18744148313999176
+Average accuracy : 94.389%
+Average recall : 93.698%
+
+Training Time : 64779s
+Loss at epoch 893 : 0.18647630512714386
+Average accuracy : 94.426%
+Average recall : 93.743%
+
+Training Time : 64857s
+Loss at epoch 894 : 0.19574010372161865
+Average accuracy : 94.160%
+Average recall : 93.410%
+
+Training Time : 64934s
+Loss at epoch 895 : 0.18482829630374908
+Average accuracy : 94.457%
+Average recall : 93.757%
+
+Training Time : 65011s
+Loss at epoch 896 : 0.18723034858703613
+Average accuracy : 94.392%
+Average recall : 93.676%
+
+Training Time : 65088s
+Loss at epoch 897 : 0.2090027779340744
+Average accuracy : 93.889%
+Average recall : 93.066%
+
+Training Time : 65165s
+Loss at epoch 898 : 0.24224631488323212
+Average accuracy : 93.044%
+Average recall : 91.962%
+
+Training Time : 65242s
+Loss at epoch 899 : 0.2629335820674896
+Average accuracy : 92.633%
+Average recall : 91.463%
+
+Training Time : 65320s
+Loss at epoch 900 : 0.26834625005722046
+Average accuracy : 92.380%
+Average recall : 91.141%
+
+Training Time : 65397s
+Loss at epoch 901 : 0.26929596066474915
+Average accuracy : 92.311%
+Average recall : 91.150%
+
+Training Time : 65474s
+Loss at epoch 902 : 0.2730800211429596
+Average accuracy : 92.206%
+Average recall : 90.956%
+
+Training Time : 65551s
+Loss at epoch 903 : 0.27555549144744873
+Average accuracy : 92.069%
+Average recall : 90.805%
+
+Training Time : 65628s
+Loss at epoch 904 : 0.2860414683818817
+Average accuracy : 91.895%
+Average recall : 90.646%
+
+Training Time : 65705s
+Loss at epoch 905 : 0.3054525554180145
+Average accuracy : 91.431%
+Average recall : 90.052%
+
+Training Time : 65783s
+Loss at epoch 906 : 0.2682724893093109
+Average accuracy : 92.368%
+Average recall : 91.195%
+
+Training Time : 65860s
+Loss at epoch 907 : 0.24426080286502838
+Average accuracy : 93.008%
+Average recall : 92.017%
+
+Training Time : 65937s
+Loss at epoch 908 : 0.24779479205608368
+Average accuracy : 92.866%
+Average recall : 91.840%
+
+Training Time : 66014s
+Loss at epoch 909 : 0.23152868449687958
+Average accuracy : 93.314%
+Average recall : 92.342%
+
+Training Time : 66092s
+Loss at epoch 910 : 0.22186309099197388
+Average accuracy : 93.619%
+Average recall : 92.738%
+
+Training Time : 66169s
+Loss at epoch 911 : 0.22210632264614105
+Average accuracy : 93.574%
+Average recall : 92.720%
+
+Training Time : 66246s
+Loss at epoch 912 : 0.21306318044662476
+Average accuracy : 93.796%
+Average recall : 93.004%
+
+Training Time : 66323s
+Loss at epoch 913 : 0.2076909989118576
+Average accuracy : 93.918%
+Average recall : 93.119%
+
+Training Time : 66401s
+Loss at epoch 914 : 0.20337450504302979
+Average accuracy : 94.047%
+Average recall : 93.320%
+
+Training Time : 66478s
+Loss at epoch 915 : 0.203390434384346
+Average accuracy : 94.046%
+Average recall : 93.281%
+
+Training Time : 66555s
+Loss at epoch 916 : 0.19890807569026947
+Average accuracy : 94.181%
+Average recall : 93.484%
+
+Training Time : 66632s
+Loss at epoch 917 : 0.198985293507576
+Average accuracy : 94.085%
+Average recall : 93.327%
+
+Training Time : 66709s
+Loss at epoch 918 : 0.19949732720851898
+Average accuracy : 94.102%
+Average recall : 93.336%
+
+Training Time : 66787s
+Loss at epoch 919 : 0.19887827336788177
+Average accuracy : 94.116%
+Average recall : 93.335%
+
+Training Time : 66864s
+Loss at epoch 920 : 0.19805580377578735
+Average accuracy : 94.108%
+Average recall : 93.330%
+
+Training Time : 66941s
+Loss at epoch 921 : 0.19588561356067657
+Average accuracy : 94.163%
+Average recall : 93.348%
+
+Training Time : 67018s
+Loss at epoch 922 : 0.19348448514938354
+Average accuracy : 94.194%
+Average recall : 93.466%
+
+Training Time : 67095s
+Loss at epoch 923 : 0.19745893776416779
+Average accuracy : 94.113%
+Average recall : 93.279%
+
+Training Time : 67173s
+Loss at epoch 924 : 0.19363589584827423
+Average accuracy : 94.225%
+Average recall : 93.452%
+
+Training Time : 67250s
+Loss at epoch 925 : 0.1896454244852066
+Average accuracy : 94.342%
+Average recall : 93.607%
+
+Training Time : 67327s
+Loss at epoch 926 : 0.1832723468542099
+Average accuracy : 94.512%
+Average recall : 93.776%
+
+Training Time : 67404s
+Loss at epoch 927 : 0.18796654045581818
+Average accuracy : 94.366%
+Average recall : 93.607%
+
+Training Time : 67481s
+Loss at epoch 928 : 0.18531537055969238
+Average accuracy : 94.445%
+Average recall : 93.719%
+
+Training Time : 67559s
+Loss at epoch 929 : 0.1863788217306137
+Average accuracy : 94.432%
+Average recall : 93.697%
+
+Training Time : 67636s
+Loss at epoch 930 : 0.18109959363937378
+Average accuracy : 94.564%
+Average recall : 93.817%
+
+Training Time : 67713s
+Loss at epoch 931 : 0.1822592169046402
+Average accuracy : 94.526%
+Average recall : 93.808%
+
+Training Time : 67790s
+Loss at epoch 932 : 0.1800013780593872
+Average accuracy : 94.607%
+Average recall : 93.902%
+
+Training Time : 67868s
+Loss at epoch 933 : 0.1827625036239624
+Average accuracy : 94.495%
+Average recall : 93.770%
+
+Training Time : 67945s
+Loss at epoch 934 : 0.18355606496334076
+Average accuracy : 94.473%
+Average recall : 93.718%
+
+Training Time : 68022s
+Loss at epoch 935 : 0.1848265528678894
+Average accuracy : 94.464%
+Average recall : 93.679%
+
+Training Time : 68099s
+Loss at epoch 936 : 0.1773807853460312
+Average accuracy : 94.656%
+Average recall : 93.971%
+
+Training Time : 68176s
+Loss at epoch 937 : 0.1787535697221756
+Average accuracy : 94.593%
+Average recall : 93.862%
+
+Training Time : 68254s
+Loss at epoch 938 : 0.17917411029338837
+Average accuracy : 94.618%
+Average recall : 93.926%
+
+Training Time : 68331s
+Loss at epoch 939 : 0.17961494624614716
+Average accuracy : 94.561%
+Average recall : 93.810%
+
+Training Time : 68408s
+Loss at epoch 940 : 0.18238835036754608
+Average accuracy : 94.507%
+Average recall : 93.770%
+
+Training Time : 68485s
+Loss at epoch 941 : 0.18084411323070526
+Average accuracy : 94.558%
+Average recall : 93.820%
+
+Training Time : 68562s
+Loss at epoch 942 : 0.18027269840240479
+Average accuracy : 94.514%
+Average recall : 93.765%
+
+Training Time : 68639s
+Loss at epoch 943 : 0.17761467397212982
+Average accuracy : 94.625%
+Average recall : 93.893%
+
+Training Time : 68716s
+Loss at epoch 944 : 0.17761045694351196
+Average accuracy : 94.650%
+Average recall : 93.946%
+
+Training Time : 68794s
+Loss at epoch 945 : 0.1741139143705368
+Average accuracy : 94.757%
+Average recall : 94.074%
+
+Training Time : 68871s
+Loss at epoch 946 : 0.18203842639923096
+Average accuracy : 94.490%
+Average recall : 93.757%
+
+Training Time : 68948s
+Loss at epoch 947 : 0.17577283084392548
+Average accuracy : 94.673%
+Average recall : 93.960%
+
+Training Time : 69025s
+Loss at epoch 948 : 0.1716179996728897
+Average accuracy : 94.774%
+Average recall : 94.087%
+
+Training Time : 69102s
+Loss at epoch 949 : 0.17172248661518097
+Average accuracy : 94.793%
+Average recall : 94.118%
+
+Training Time : 69179s
+Loss at epoch 950 : 0.1748896986246109
+Average accuracy : 94.699%
+Average recall : 93.979%
+
+Training Time : 69257s
+Loss at epoch 951 : 0.17601114511489868
+Average accuracy : 94.685%
+Average recall : 93.983%
+
+Training Time : 69334s
+Loss at epoch 952 : 0.17387555539608002
+Average accuracy : 94.717%
+Average recall : 94.004%
+
+Training Time : 69411s
+Loss at epoch 953 : 0.17623980343341827
+Average accuracy : 94.652%
+Average recall : 93.927%
+
+Training Time : 69489s
+Loss at epoch 954 : 0.17878176271915436
+Average accuracy : 94.560%
+Average recall : 93.790%
+
+Training Time : 69566s
+Loss at epoch 955 : 0.17449693381786346
+Average accuracy : 94.665%
+Average recall : 93.962%
+
+Training Time : 69643s
+Loss at epoch 956 : 0.17771126329898834
+Average accuracy : 94.612%
+Average recall : 93.878%
+
+Training Time : 69720s
+Loss at epoch 957 : 0.17409561574459076
+Average accuracy : 94.686%
+Average recall : 93.985%
+
+Training Time : 69798s
+Loss at epoch 958 : 0.17300713062286377
+Average accuracy : 94.775%
+Average recall : 94.081%
+
+Training Time : 69875s
+Loss at epoch 959 : 0.16902358829975128
+Average accuracy : 94.851%
+Average recall : 94.144%
+
+Training Time : 69952s
+Loss at epoch 960 : 0.17425914108753204
+Average accuracy : 94.706%
+Average recall : 93.969%
+
+Training Time : 70029s
+Loss at epoch 961 : 0.17411650717258453
+Average accuracy : 94.694%
+Average recall : 93.974%
+
+Training Time : 70106s
+Loss at epoch 962 : 0.17133182287216187
+Average accuracy : 94.794%
+Average recall : 94.072%
+
+Training Time : 70184s
+Loss at epoch 963 : 0.16405436396598816
+Average accuracy : 94.994%
+Average recall : 94.375%
+
+Training Time : 70260s
+Loss at epoch 964 : 0.167311891913414
+Average accuracy : 94.903%
+Average recall : 94.195%
+
+Training Time : 70336s
+Loss at epoch 965 : 0.17034167051315308
+Average accuracy : 94.795%
+Average recall : 94.096%
+
+Training Time : 70413s
+Loss at epoch 966 : 0.17325232923030853
+Average accuracy : 94.723%
+Average recall : 94.005%
+
+Training Time : 70489s
+Loss at epoch 967 : 0.167328879237175
+Average accuracy : 94.939%
+Average recall : 94.269%
+
+Training Time : 70566s
+Loss at epoch 968 : 0.17333053052425385
+Average accuracy : 94.740%
+Average recall : 94.028%
+
+Training Time : 70643s
+Loss at epoch 969 : 0.17197579145431519
+Average accuracy : 94.779%
+Average recall : 94.081%
+
+Training Time : 70720s
+Loss at epoch 970 : 0.16942675411701202
+Average accuracy : 94.832%
+Average recall : 94.133%
+
+Training Time : 70797s
+Loss at epoch 971 : 0.16846336424350739
+Average accuracy : 94.870%
+Average recall : 94.211%
+
+Training Time : 70874s
+Loss at epoch 972 : 0.16573180258274078
+Average accuracy : 94.927%
+Average recall : 94.289%
+
+Training Time : 70951s
+Loss at epoch 973 : 0.16528190672397614
+Average accuracy : 94.921%
+Average recall : 94.254%
+
+Training Time : 71028s
+Loss at epoch 974 : 0.16592909395694733
+Average accuracy : 94.917%
+Average recall : 94.250%
+
+Training Time : 71105s
+Loss at epoch 975 : 0.16536198556423187
+Average accuracy : 94.971%
+Average recall : 94.284%
+
+Training Time : 71182s
+Loss at epoch 976 : 0.1647452563047409
+Average accuracy : 94.967%
+Average recall : 94.302%
+
+Training Time : 71259s
+Loss at epoch 977 : 0.1695592999458313
+Average accuracy : 94.825%
+Average recall : 94.090%
+
+Training Time : 71336s
+Loss at epoch 978 : 0.16533076763153076
+Average accuracy : 94.948%
+Average recall : 94.283%
+
+Training Time : 71413s
+Loss at epoch 979 : 0.16809017956256866
+Average accuracy : 94.850%
+Average recall : 94.203%
+
+Training Time : 71491s
+Loss at epoch 980 : 0.16063570976257324
+Average accuracy : 95.073%
+Average recall : 94.401%
+
+Training Time : 71568s
+Loss at epoch 981 : 0.16746902465820312
+Average accuracy : 94.859%
+Average recall : 94.115%
+
+Training Time : 71645s
+Loss at epoch 982 : 0.1694183498620987
+Average accuracy : 94.831%
+Average recall : 94.158%
+
+Training Time : 71723s
+Loss at epoch 983 : 0.16513434052467346
+Average accuracy : 94.927%
+Average recall : 94.271%
+
+Training Time : 71800s
+Loss at epoch 984 : 0.16637836396694183
+Average accuracy : 94.899%
+Average recall : 94.153%
+
+Training Time : 71878s
+Loss at epoch 985 : 0.16347934305667877
+Average accuracy : 94.992%
+Average recall : 94.303%
+
+Training Time : 71955s
+Loss at epoch 986 : 0.16131766140460968
+Average accuracy : 95.070%
+Average recall : 94.407%
+
+Training Time : 72032s
+Loss at epoch 987 : 0.16177499294281006
+Average accuracy : 95.025%
+Average recall : 94.353%
+
+Training Time : 72109s
+Loss at epoch 988 : 0.16198265552520752
+Average accuracy : 95.043%
+Average recall : 94.361%
+
+Training Time : 72187s
+Loss at epoch 989 : 0.16464629769325256
+Average accuracy : 94.958%
+Average recall : 94.240%
+
+Training Time : 72264s
+Loss at epoch 990 : 0.16309215128421783
+Average accuracy : 95.013%
+Average recall : 94.324%
+
+Training Time : 72341s
+Loss at epoch 991 : 0.15937839448451996
+Average accuracy : 95.128%
+Average recall : 94.494%
+
+Training Time : 72419s
+Loss at epoch 992 : 0.15997053682804108
+Average accuracy : 95.132%
+Average recall : 94.447%
+
+Training Time : 72496s
+Loss at epoch 993 : 0.161614790558815
+Average accuracy : 95.048%
+Average recall : 94.378%
+
+Training Time : 72573s
+Loss at epoch 994 : 0.1612202674150467
+Average accuracy : 95.030%
+Average recall : 94.335%
+
+Training Time : 72651s
+Loss at epoch 995 : 0.16058586537837982
+Average accuracy : 95.059%
+Average recall : 94.392%
+
+Training Time : 72728s
+Loss at epoch 996 : 0.16079004108905792
+Average accuracy : 95.059%
+Average recall : 94.395%
+
+Training Time : 72805s
+Loss at epoch 997 : 0.160015270113945
+Average accuracy : 95.063%
+Average recall : 94.372%
+
+Training Time : 72883s
+Loss at epoch 998 : 0.16307072341442108
+Average accuracy : 95.006%
+Average recall : 94.335%
+
+Training Time : 72960s
+Loss at epoch 999 : 0.1589788943529129
+Average accuracy : 95.100%
+Average recall : 94.435%
+
+Training Time : 73038s
+Loss at epoch 1000 : 0.1590406745672226
+Average accuracy : 95.095%
+Average recall : 94.394%
+
+Training Time : 73115s
+Loss at epoch 1001 : 0.1588580310344696
+Average accuracy : 95.130%
+Average recall : 94.394%
+
+Training Time : 73192s
+Loss at epoch 1002 : 0.1595342457294464
+Average accuracy : 95.096%
+Average recall : 94.405%
+
+Training Time : 73270s
+Loss at epoch 1003 : 0.15959729254245758
+Average accuracy : 95.077%
+Average recall : 94.396%
+
+Training Time : 73347s
+Loss at epoch 1004 : 0.15810491144657135
+Average accuracy : 95.151%
+Average recall : 94.469%
+
+Training Time : 73425s
+Loss at epoch 1005 : 0.1603173464536667
+Average accuracy : 95.048%
+Average recall : 94.387%
+
+Training Time : 73502s
+Loss at epoch 1006 : 0.1594206541776657
+Average accuracy : 95.085%
+Average recall : 94.382%
+
+Training Time : 73579s
+Loss at epoch 1007 : 0.15214203298091888
+Average accuracy : 95.321%
+Average recall : 94.721%
+
+Training Time : 73657s
+Loss at epoch 1008 : 0.1548435389995575
+Average accuracy : 95.202%
+Average recall : 94.570%
+
+Training Time : 73734s
+Loss at epoch 1009 : 0.15869159996509552
+Average accuracy : 95.115%
+Average recall : 94.419%
+
+Training Time : 73811s
+Loss at epoch 1010 : 0.16075459122657776
+Average accuracy : 95.068%
+Average recall : 94.394%
+
+Training Time : 73888s
+Loss at epoch 1011 : 0.16879619657993317
+Average accuracy : 94.894%
+Average recall : 94.202%
+
+Training Time : 73965s
+Loss at epoch 1012 : 0.16531850397586823
+Average accuracy : 94.950%
+Average recall : 94.309%
+
+Training Time : 74043s
+Loss at epoch 1013 : 0.15822502970695496
+Average accuracy : 95.116%
+Average recall : 94.497%
+
+Training Time : 74120s
+Loss at epoch 1014 : 0.15877823531627655
+Average accuracy : 95.095%
+Average recall : 94.436%
+
+Training Time : 74197s
+Loss at epoch 1015 : 0.15725210309028625
+Average accuracy : 95.160%
+Average recall : 94.529%
+
+Training Time : 74274s
+Loss at epoch 1016 : 0.15878979861736298
+Average accuracy : 95.106%
+Average recall : 94.425%
+
+Training Time : 74351s
+Loss at epoch 1017 : 0.15909984707832336
+Average accuracy : 95.084%
+Average recall : 94.398%
+
+Training Time : 74429s
+Loss at epoch 1018 : 0.16014166176319122
+Average accuracy : 95.039%
+Average recall : 94.363%
+
+Training Time : 74506s
+Loss at epoch 1019 : 0.156417116522789
+Average accuracy : 95.166%
+Average recall : 94.506%
+
+Training Time : 74583s
+Loss at epoch 1020 : 0.1514901965856552
+Average accuracy : 95.314%
+Average recall : 94.714%
+
+Training Time : 74660s
+Loss at epoch 1021 : 0.15391063690185547
+Average accuracy : 95.246%
+Average recall : 94.607%
+
+Training Time : 74738s
+Loss at epoch 1022 : 0.15449799597263336
+Average accuracy : 95.225%
+Average recall : 94.565%
+
+Training Time : 74815s
+Loss at epoch 1023 : 0.15401823818683624
+Average accuracy : 95.243%
+Average recall : 94.627%
+
+Training Time : 74892s
+Loss at epoch 1024 : 0.15441690385341644
+Average accuracy : 95.220%
+Average recall : 94.588%
+
+Training Time : 74969s
+Loss at epoch 1025 : 0.15635967254638672
+Average accuracy : 95.179%
+Average recall : 94.504%
+
+Training Time : 75047s
+Loss at epoch 1026 : 0.21617956459522247
+Average accuracy : 93.900%
+Average recall : 93.051%
+
+Training Time : 75124s
+Loss at epoch 1027 : 0.24985064566135406
+Average accuracy : 93.023%
+Average recall : 92.126%
+
+Training Time : 75201s
+Loss at epoch 1028 : 0.21519066393375397
+Average accuracy : 93.694%
+Average recall : 92.917%
+
+Training Time : 75278s
+Loss at epoch 1029 : 0.19339652359485626
+Average accuracy : 94.243%
+Average recall : 93.531%
+
+Training Time : 75355s
+Loss at epoch 1030 : 0.182850182056427
+Average accuracy : 94.536%
+Average recall : 93.852%
+
+Training Time : 75432s
+Loss at epoch 1031 : 0.17540456354618073
+Average accuracy : 94.721%
+Average recall : 94.065%
+
+Training Time : 75510s
+Loss at epoch 1032 : 0.18120121955871582
+Average accuracy : 94.568%
+Average recall : 93.836%
+
+Training Time : 75587s
+Loss at epoch 1033 : 0.16957662999629974
+Average accuracy : 94.882%
+Average recall : 94.240%
+
+Training Time : 75665s
+Loss at epoch 1034 : 0.16658498346805573
+Average accuracy : 94.948%
+Average recall : 94.314%
+
+Training Time : 75742s
+Loss at epoch 1035 : 0.1671781688928604
+Average accuracy : 94.904%
+Average recall : 94.215%
+
+Training Time : 75820s
+Loss at epoch 1036 : 0.16472826898097992
+Average accuracy : 94.953%
+Average recall : 94.297%
+
+Training Time : 75897s
+Loss at epoch 1037 : 0.1622876524925232
+Average accuracy : 95.032%
+Average recall : 94.374%
+
+Training Time : 75975s
+Loss at epoch 1038 : 0.1623704582452774
+Average accuracy : 95.041%
+Average recall : 94.421%
+
+Training Time : 76053s
+Loss at epoch 1039 : 0.16036628186702728
+Average accuracy : 95.102%
+Average recall : 94.478%
+
+Training Time : 76131s
+Loss at epoch 1040 : 0.160872682929039
+Average accuracy : 95.088%
+Average recall : 94.389%
+
+Training Time : 76209s
+Loss at epoch 1041 : 0.16258539259433746
+Average accuracy : 94.998%
+Average recall : 94.295%
+
+Training Time : 76287s
+Loss at epoch 1042 : 0.1580697000026703
+Average accuracy : 95.133%
+Average recall : 94.475%
+
+Training Time : 76365s
+Loss at epoch 1043 : 0.16126148402690887
+Average accuracy : 95.042%
+Average recall : 94.345%
+
+Training Time : 76443s
+Loss at epoch 1044 : 0.15892358124256134
+Average accuracy : 95.099%
+Average recall : 94.418%
+
+Training Time : 76521s
+Loss at epoch 1045 : 0.15654098987579346
+Average accuracy : 95.199%
+Average recall : 94.563%
+
+Training Time : 76599s
+Loss at epoch 1046 : 0.15944021940231323
+Average accuracy : 95.098%
+Average recall : 94.430%
+
+Training Time : 76677s
+Loss at epoch 1047 : 0.15469960868358612
+Average accuracy : 95.221%
+Average recall : 94.572%
+
+Training Time : 76755s
+Loss at epoch 1048 : 0.16122578084468842
+Average accuracy : 95.044%
+Average recall : 94.346%
+
+Training Time : 76833s
+Loss at epoch 1049 : 0.15768647193908691
+Average accuracy : 95.182%
+Average recall : 94.576%
+
+Training Time : 76911s
+Loss at epoch 1050 : 0.15815991163253784
+Average accuracy : 95.168%
+Average recall : 94.494%
+
+Training Time : 76989s
+Loss at epoch 1051 : 0.15990957617759705
+Average accuracy : 95.071%
+Average recall : 94.375%
+
+Training Time : 77067s
+Loss at epoch 1052 : 0.15372277796268463
+Average accuracy : 95.272%
+Average recall : 94.699%
+
+Training Time : 77145s
+Loss at epoch 1053 : 0.15730927884578705
+Average accuracy : 95.159%
+Average recall : 94.499%
+
+Training Time : 77223s
+Loss at epoch 1054 : 0.15185199677944183
+Average accuracy : 95.300%
+Average recall : 94.656%
+
+Training Time : 77300s
+Loss at epoch 1055 : 0.15565694868564606
+Average accuracy : 95.214%
+Average recall : 94.579%
+
+Training Time : 77378s
+Loss at epoch 1056 : 0.1543077975511551
+Average accuracy : 95.215%
+Average recall : 94.548%
+
+Training Time : 77457s
+Loss at epoch 1057 : 0.15696404874324799
+Average accuracy : 95.131%
+Average recall : 94.455%
+
+Training Time : 77535s
+Loss at epoch 1058 : 0.1474662572145462
+Average accuracy : 95.442%
+Average recall : 94.788%
+
+Training Time : 77613s
+Loss at epoch 1059 : 0.16704241931438446
+Average accuracy : 94.944%
+Average recall : 94.277%
+
+Training Time : 77691s
+Loss at epoch 1060 : 0.18479222059249878
+Average accuracy : 94.469%
+Average recall : 93.797%
+
+Training Time : 77769s
+Loss at epoch 1061 : 0.17998822033405304
+Average accuracy : 94.556%
+Average recall : 93.849%
+
+Training Time : 77847s
+Loss at epoch 1062 : 0.16489988565444946
+Average accuracy : 94.973%
+Average recall : 94.351%
+
+Training Time : 77926s
+Loss at epoch 1063 : 0.16206978261470795
+Average accuracy : 95.032%
+Average recall : 94.340%
+
+Training Time : 78004s
+Loss at epoch 1064 : 0.1551407128572464
+Average accuracy : 95.226%
+Average recall : 94.590%
+
+Training Time : 78083s
+Loss at epoch 1065 : 0.161940798163414
+Average accuracy : 95.041%
+Average recall : 94.326%
+
+Training Time : 78161s
+Loss at epoch 1066 : 0.1560935229063034
+Average accuracy : 95.152%
+Average recall : 94.470%
+
+Training Time : 78239s
+Loss at epoch 1067 : 0.15368203818798065
+Average accuracy : 95.225%
+Average recall : 94.568%
+
+Training Time : 78318s
+Loss at epoch 1068 : 0.15151478350162506
+Average accuracy : 95.312%
+Average recall : 94.663%
+
+Training Time : 78396s
+Loss at epoch 1069 : 0.15078367292881012
+Average accuracy : 95.337%
+Average recall : 94.710%
+
+Training Time : 78475s
+Loss at epoch 1070 : 0.1568596214056015
+Average accuracy : 95.136%
+Average recall : 94.488%
+
+Training Time : 78553s
+Loss at epoch 1071 : 0.15169142186641693
+Average accuracy : 95.340%
+Average recall : 94.705%
+
+Training Time : 78632s
+Loss at epoch 1072 : 0.14850635826587677
+Average accuracy : 95.407%
+Average recall : 94.785%
+
+Training Time : 78710s
+Loss at epoch 1073 : 0.14914169907569885
+Average accuracy : 95.380%
+Average recall : 94.733%
+
+Training Time : 78789s
+Loss at epoch 1074 : 0.14633530378341675
+Average accuracy : 95.449%
+Average recall : 94.818%
+
+Training Time : 78867s
+Loss at epoch 1075 : 0.1491016000509262
+Average accuracy : 95.406%
+Average recall : 94.766%
+
+Training Time : 78945s
+Loss at epoch 1076 : 0.18899039924144745
+Average accuracy : 94.403%
+Average recall : 93.642%
+
+Training Time : 79023s
+Loss at epoch 1077 : 0.17402738332748413
+Average accuracy : 94.712%
+Average recall : 94.001%
+
+Training Time : 79102s
+Loss at epoch 1078 : 0.16115370392799377
+Average accuracy : 95.036%
+Average recall : 94.370%
+
+Training Time : 79180s
+Loss at epoch 1079 : 0.15474842488765717
+Average accuracy : 95.225%
+Average recall : 94.591%
+
+Training Time : 79259s
+Loss at epoch 1080 : 0.15582039952278137
+Average accuracy : 95.134%
+Average recall : 94.489%
+
+Training Time : 79337s
+Loss at epoch 1081 : 0.15534460544586182
+Average accuracy : 95.214%
+Average recall : 94.546%
+
+Training Time : 79416s
+Loss at epoch 1082 : 0.1510027050971985
+Average accuracy : 95.320%
+Average recall : 94.694%
+
+Training Time : 79494s
+Loss at epoch 1083 : 0.15437068045139313
+Average accuracy : 95.242%
+Average recall : 94.537%
+
+Training Time : 79573s
+Loss at epoch 1084 : 0.1484152376651764
+Average accuracy : 95.392%
+Average recall : 94.753%
+
+Training Time : 79652s
+Loss at epoch 1085 : 0.14758862555027008
+Average accuracy : 95.398%
+Average recall : 94.776%
+
+Training Time : 79730s
+Loss at epoch 1086 : 0.14814679324626923
+Average accuracy : 95.412%
+Average recall : 94.746%
+
+Training Time : 79808s
+Loss at epoch 1087 : 0.1496616005897522
+Average accuracy : 95.352%
+Average recall : 94.725%
+
+Training Time : 79887s
+Loss at epoch 1088 : 0.1463584154844284
+Average accuracy : 95.432%
+Average recall : 94.803%
+
+Training Time : 79965s
+Loss at epoch 1089 : 0.14782318472862244
+Average accuracy : 95.390%
+Average recall : 94.745%
+
+Training Time : 80043s
+Loss at epoch 1090 : 0.14221428334712982
+Average accuracy : 95.573%
+Average recall : 94.977%
+
+Training Time : 80122s
+Loss at epoch 1091 : 0.14530842006206512
+Average accuracy : 95.448%
+Average recall : 94.784%
+
+Training Time : 80200s
+Loss at epoch 1092 : 0.14241428673267365
+Average accuracy : 95.575%
+Average recall : 94.998%
+
+Training Time : 80278s
+Loss at epoch 1093 : 0.14234621822834015
+Average accuracy : 95.550%
+Average recall : 94.883%
+
+Training Time : 80357s
+Loss at epoch 1094 : 0.14547015726566315
+Average accuracy : 95.457%
+Average recall : 94.800%
+
+Training Time : 80435s
+Loss at epoch 1095 : 0.14455372095108032
+Average accuracy : 95.463%
+Average recall : 94.799%
+
+Training Time : 80514s
+Loss at epoch 1096 : 0.1411440372467041
+Average accuracy : 95.589%
+Average recall : 94.967%
+
+Training Time : 80593s
+Loss at epoch 1097 : 0.14642131328582764
+Average accuracy : 95.459%
+Average recall : 94.808%
+
+Training Time : 80672s
+Loss at epoch 1098 : 0.14279022812843323
+Average accuracy : 95.526%
+Average recall : 94.879%
+
+Training Time : 80751s
+Loss at epoch 1099 : 0.14116568863391876
+Average accuracy : 95.562%
+Average recall : 94.952%
+
+Training Time : 80829s
+Loss at epoch 1100 : 0.1417316198348999
+Average accuracy : 95.560%
+Average recall : 94.942%
+
+Training Time : 80908s
+Loss at epoch 1101 : 0.14345760643482208
+Average accuracy : 95.521%
+Average recall : 94.865%
+
+Training Time : 80986s
+Loss at epoch 1102 : 0.1433694064617157
+Average accuracy : 95.494%
+Average recall : 94.822%
+
+Training Time : 81065s
+Loss at epoch 1103 : 0.14101342856884003
+Average accuracy : 95.559%
+Average recall : 94.916%
+
+Training Time : 81144s
+Loss at epoch 1104 : 0.1423943042755127
+Average accuracy : 95.567%
+Average recall : 94.926%
+
+Training Time : 81222s
+Loss at epoch 1105 : 0.14406196773052216
+Average accuracy : 95.500%
+Average recall : 94.843%
+
+Training Time : 81301s
+Loss at epoch 1106 : 0.1369960457086563
+Average accuracy : 95.691%
+Average recall : 95.077%
+
+Training Time : 81379s
+Loss at epoch 1107 : 0.1385560780763626
+Average accuracy : 95.657%
+Average recall : 95.014%
+
+Training Time : 81458s
+Loss at epoch 1108 : 0.13812077045440674
+Average accuracy : 95.674%
+Average recall : 95.045%
+
+Training Time : 81537s
+Loss at epoch 1109 : 0.14013393223285675
+Average accuracy : 95.620%
+Average recall : 95.005%
+
+Training Time : 81616s
+Loss at epoch 1110 : 0.14102396368980408
+Average accuracy : 95.608%
+Average recall : 95.011%
+
+Training Time : 81695s
+Loss at epoch 1111 : 0.1415073424577713
+Average accuracy : 95.549%
+Average recall : 94.905%
+
+Training Time : 81773s
+Loss at epoch 1112 : 0.14386138319969177
+Average accuracy : 95.484%
+Average recall : 94.796%
+
+Training Time : 81852s
+Loss at epoch 1113 : 0.1373155266046524
+Average accuracy : 95.702%
+Average recall : 95.097%
+
+Training Time : 81931s
+Loss at epoch 1114 : 0.13613618910312653
+Average accuracy : 95.745%
+Average recall : 95.161%
+
+Training Time : 82010s
+Loss at epoch 1115 : 0.1435200721025467
+Average accuracy : 95.524%
+Average recall : 94.848%
+
+Training Time : 82089s
+Loss at epoch 1116 : 0.13859586417675018
+Average accuracy : 95.662%
+Average recall : 95.052%
+
+Training Time : 82167s
+Loss at epoch 1117 : 0.14011023938655853
+Average accuracy : 95.613%
+Average recall : 94.988%
+
+Training Time : 82246s
+Loss at epoch 1118 : 0.13485078513622284
+Average accuracy : 95.746%
+Average recall : 95.125%
+
+Training Time : 82325s
+Loss at epoch 1119 : 0.14148232340812683
+Average accuracy : 95.581%
+Average recall : 94.948%
+
+Training Time : 82404s
+Loss at epoch 1120 : 0.14171145856380463
+Average accuracy : 95.577%
+Average recall : 94.927%
+
+Training Time : 82482s
+Loss at epoch 1121 : 0.1403529793024063
+Average accuracy : 95.589%
+Average recall : 94.979%
+
+Training Time : 82561s
+Loss at epoch 1122 : 0.13654382526874542
+Average accuracy : 95.716%
+Average recall : 95.092%
+
+Training Time : 82640s
+Loss at epoch 1123 : 0.13896913826465607
+Average accuracy : 95.651%
+Average recall : 95.037%
+
+Training Time : 82718s
+Loss at epoch 1124 : 0.13799965381622314
+Average accuracy : 95.682%
+Average recall : 95.077%
+
+Training Time : 82797s
+Loss at epoch 1125 : 0.14196249842643738
+Average accuracy : 95.589%
+Average recall : 94.955%
+
+Training Time : 82876s
+Loss at epoch 1126 : 0.1355801820755005
+Average accuracy : 95.756%
+Average recall : 95.150%
+
+Training Time : 82954s
+Loss at epoch 1127 : 0.13633759319782257
+Average accuracy : 95.718%
+Average recall : 95.088%
+
+Training Time : 83033s
+Loss at epoch 1128 : 0.13820137083530426
+Average accuracy : 95.674%
+Average recall : 95.032%
+
+Training Time : 83112s
+Loss at epoch 1129 : 0.13710512220859528
+Average accuracy : 95.702%
+Average recall : 95.124%
+
+Training Time : 83190s
+Loss at epoch 1130 : 0.13698403537273407
+Average accuracy : 95.703%
+Average recall : 95.103%
+
+Training Time : 83269s
+Loss at epoch 1131 : 0.1362263709306717
+Average accuracy : 95.736%
+Average recall : 95.130%
+
+Training Time : 83347s
+Loss at epoch 1132 : 0.13288523256778717
+Average accuracy : 95.829%
+Average recall : 95.226%
+
+Training Time : 83426s
+Loss at epoch 1133 : 0.13415570557117462
+Average accuracy : 95.785%
+Average recall : 95.192%
+
+Training Time : 83504s
+Loss at epoch 1134 : 0.13503485918045044
+Average accuracy : 95.775%
+Average recall : 95.168%
+
+Training Time : 83583s
+Loss at epoch 1135 : 0.132858544588089
+Average accuracy : 95.799%
+Average recall : 95.199%
+
+Training Time : 83662s
+Loss at epoch 1136 : 0.13499528169631958
+Average accuracy : 95.768%
+Average recall : 95.169%
+
+Training Time : 83740s
+Loss at epoch 1137 : 0.13428521156311035
+Average accuracy : 95.774%
+Average recall : 95.150%
+
+Training Time : 83819s
+Loss at epoch 1138 : 0.13837061822414398
+Average accuracy : 95.653%
+Average recall : 94.989%
+
+Training Time : 83897s
+Loss at epoch 1139 : 0.1322871893644333
+Average accuracy : 95.812%
+Average recall : 95.229%
+
+Training Time : 83975s
+Loss at epoch 1140 : 0.1325298249721527
+Average accuracy : 95.832%
+Average recall : 95.260%
+
+Training Time : 84054s
+Loss at epoch 1141 : 0.13202601671218872
+Average accuracy : 95.854%
+Average recall : 95.251%
+
+Training Time : 84132s
+Loss at epoch 1142 : 0.13459981977939606
+Average accuracy : 95.799%
+Average recall : 95.212%
+
+Training Time : 84210s
+Loss at epoch 1143 : 0.13298796117305756
+Average accuracy : 95.827%
+Average recall : 95.245%
+
+Training Time : 84289s
+Loss at epoch 1144 : 0.13587944209575653
+Average accuracy : 95.703%
+Average recall : 95.068%
+
+Training Time : 84367s
+Loss at epoch 1145 : 0.12906230986118317
+Average accuracy : 95.932%
+Average recall : 95.361%
+
+Training Time : 84445s
+Loss at epoch 1146 : 0.13293911516666412
+Average accuracy : 95.833%
+Average recall : 95.240%
+
+Training Time : 84523s
+Loss at epoch 1147 : 0.12924830615520477
+Average accuracy : 95.938%
+Average recall : 95.382%
+
+Training Time : 84602s
+Loss at epoch 1148 : 0.13190145790576935
+Average accuracy : 95.855%
+Average recall : 95.286%
+
+Training Time : 84680s
+Loss at epoch 1149 : 0.13075654208660126
+Average accuracy : 95.893%
+Average recall : 95.317%
+
+Training Time : 84758s
+Loss at epoch 1150 : 0.13574953377246857
+Average accuracy : 95.723%
+Average recall : 95.098%
+
+Training Time : 84837s
+Loss at epoch 1151 : 0.13003656268119812
+Average accuracy : 95.892%
+Average recall : 95.299%
+
+Training Time : 84915s
+Loss at epoch 1152 : 0.13093961775302887
+Average accuracy : 95.863%
+Average recall : 95.258%
+
+Training Time : 84993s
+Loss at epoch 1153 : 0.128388449549675
+Average accuracy : 95.956%
+Average recall : 95.415%
+
+Training Time : 85072s
+Loss at epoch 1154 : 0.13235899806022644
+Average accuracy : 95.835%
+Average recall : 95.192%
+
+Training Time : 85150s
+Loss at epoch 1155 : 0.13062269985675812
+Average accuracy : 95.883%
+Average recall : 95.274%
+
+Training Time : 85229s
+Loss at epoch 1156 : 0.13139250874519348
+Average accuracy : 95.840%
+Average recall : 95.233%
+
+Training Time : 85307s
+Loss at epoch 1157 : 0.1284947544336319
+Average accuracy : 95.930%
+Average recall : 95.327%
+
+Training Time : 85386s
+Loss at epoch 1158 : 0.13023477792739868
+Average accuracy : 95.906%
+Average recall : 95.300%
+
+Training Time : 85464s
+Loss at epoch 1159 : 0.12988519668579102
+Average accuracy : 95.918%
+Average recall : 95.335%
+
+Training Time : 85543s
+Loss at epoch 1160 : 0.1330297738313675
+Average accuracy : 95.856%
+Average recall : 95.285%
+
+Training Time : 85621s
+Loss at epoch 1161 : 0.1284860223531723
+Average accuracy : 95.952%
+Average recall : 95.370%
+
+Training Time : 85700s
+Loss at epoch 1162 : 0.13325737416744232
+Average accuracy : 95.784%
+Average recall : 95.152%
+
+Training Time : 85778s
+Loss at epoch 1163 : 0.1303936392068863
+Average accuracy : 95.906%
+Average recall : 95.326%
+
+Training Time : 85857s
+Loss at epoch 1164 : 0.12708531320095062
+Average accuracy : 95.974%
+Average recall : 95.418%
+
+Training Time : 85936s
+Loss at epoch 1165 : 0.12909488379955292
+Average accuracy : 95.926%
+Average recall : 95.331%
+
+Training Time : 86014s
+Loss at epoch 1166 : 0.12776441872119904
+Average accuracy : 95.959%
+Average recall : 95.325%
+
+Training Time : 86093s
+Loss at epoch 1167 : 0.12854376435279846
+Average accuracy : 95.935%
+Average recall : 95.335%
+
+Training Time : 86172s
+Loss at epoch 1168 : 0.12768740952014923
+Average accuracy : 95.958%
+Average recall : 95.354%
+
+Training Time : 86251s
+Loss at epoch 1169 : 0.1299474984407425
+Average accuracy : 95.901%
+Average recall : 95.290%
+
+Training Time : 86330s
+Loss at epoch 1170 : 0.1344340294599533
+Average accuracy : 95.779%
+Average recall : 95.153%
+
+Training Time : 86409s
+Loss at epoch 1171 : 0.13038600981235504
+Average accuracy : 95.888%
+Average recall : 95.320%
+
+Training Time : 86488s
+Loss at epoch 1172 : 0.12863560020923615
+Average accuracy : 95.950%
+Average recall : 95.353%
+
+Training Time : 86566s
+Loss at epoch 1173 : 0.12761686742305756
+Average accuracy : 95.995%
+Average recall : 95.412%
+
+Training Time : 86645s
+Loss at epoch 1174 : 0.12431102246046066
+Average accuracy : 96.046%
+Average recall : 95.472%
+
+Training Time : 86723s
+Loss at epoch 1175 : 0.1277768462896347
+Average accuracy : 95.953%
+Average recall : 95.329%
+
+Training Time : 86802s
+Loss at epoch 1176 : 0.13003510236740112
+Average accuracy : 95.870%
+Average recall : 95.261%
+
+Training Time : 86880s
+Loss at epoch 1177 : 0.13546012341976166
+Average accuracy : 95.749%
+Average recall : 95.148%
+
+Training Time : 86959s
+Loss at epoch 1178 : 0.134041428565979
+Average accuracy : 95.786%
+Average recall : 95.223%
+
+Training Time : 87037s
+Loss at epoch 1179 : 0.13460244238376617
+Average accuracy : 95.774%
+Average recall : 95.145%
+
+Training Time : 87116s
+Loss at epoch 1180 : 0.12999217212200165
+Average accuracy : 95.899%
+Average recall : 95.323%
+
+Training Time : 87194s
+Loss at epoch 1181 : 0.13095740973949432
+Average accuracy : 95.878%
+Average recall : 95.296%
+
+Training Time : 87273s
+Loss at epoch 1182 : 0.12786813080310822
+Average accuracy : 95.943%
+Average recall : 95.344%
+
+Training Time : 87351s
+Loss at epoch 1183 : 0.1287740021944046
+Average accuracy : 95.936%
+Average recall : 95.328%
+
+Training Time : 87430s
+Loss at epoch 1184 : 0.13016165792942047
+Average accuracy : 95.874%
+Average recall : 95.265%
+
+Training Time : 87509s
+Loss at epoch 1185 : 0.12274675816297531
+Average accuracy : 96.097%
+Average recall : 95.527%
+
+Training Time : 87587s
+Loss at epoch 1186 : 0.12634249031543732
+Average accuracy : 95.990%
+Average recall : 95.437%
+
+Training Time : 87666s
+Loss at epoch 1187 : 0.12938149273395538
+Average accuracy : 95.910%
+Average recall : 95.274%
+
+Training Time : 87745s
+Loss at epoch 1188 : 0.13157226145267487
+Average accuracy : 95.863%
+Average recall : 95.290%
+
+Training Time : 87823s
+Loss at epoch 1189 : 0.1274317353963852
+Average accuracy : 95.994%
+Average recall : 95.437%
+
+Training Time : 87902s
+Loss at epoch 1190 : 0.1263124793767929
+Average accuracy : 95.944%
+Average recall : 95.379%
+
+Training Time : 87980s
+Loss at epoch 1191 : 0.12688760459423065
+Average accuracy : 96.011%
+Average recall : 95.398%
+
+Training Time : 88059s
+Loss at epoch 1192 : 0.12353181838989258
+Average accuracy : 96.082%
+Average recall : 95.518%
+
+Training Time : 88137s
+Loss at epoch 1193 : 0.12344660609960556
+Average accuracy : 96.073%
+Average recall : 95.476%
+
+Training Time : 88216s
+Loss at epoch 1194 : 0.1241627112030983
+Average accuracy : 96.057%
+Average recall : 95.489%
+
+Training Time : 88295s
+Loss at epoch 1195 : 0.1254076212644577
+Average accuracy : 96.011%
+Average recall : 95.410%
+

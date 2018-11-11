@@ -43,9 +43,35 @@ def _parse_args():
         )
 
     parser.add_argument(
+        '-f',
+        '--filter-out',
+        help="This value will be used for filtering out short sounds. "
+             "If set to 0, then no filtering will be done. (default: 0)",
+        type=int,
+        default=0
+        )
+
+    parser.add_argument(
+        '-m',
+        '--merge',
+        help="This value will be used for merging nearby notes. "
+             "If set to 0, then no merging will be done. (default: 0)",
+        type=int,
+        default=0
+        )
+
+    parser.add_argument(
+        '--merge-first',
+        help="Merge notes and then filter.",
+        action='store_true',
+        default=False
+        )
+
+    parser.add_argument(
         '--verbose',
         help="make the process more verbose.",
-        action='store_true'
+        action='store_true',
+        default=False
         )
 
     parser.add_argument(
@@ -80,9 +106,15 @@ def _parse_args():
     if args.csv and not osp.isdir(osp.dirname(args.csv)):
         parser.error("The result path does not exist. Please, use an existing directory.")
 
+    if args.filter_out < 0:
+        parser.error("The value for filter_out must be a non-negative integer.")
+
+    if args.merge < 0:
+        parser.error("The value for merge must be a non-negative integer.")
+
     return args
 
-def text_to_midicsv(midi_text, ticks_per_step=25, vel=80, add_end_track=False):
+def text_to_midicsv(midi_text, ticks_per_step=25, vel=80, add_end_track=False, filter_interval=0, merge_interval=0, merge_first=False, verbose=False):
     """
     Converts the given midi text file into a pandas dataframe.
     Then, the resulting dataframe is returned.
@@ -92,6 +124,10 @@ def text_to_midicsv(midi_text, ticks_per_step=25, vel=80, add_end_track=False):
 
     If add_end_track is True, it will add an 'End_track' 1920 ticks after the last item from the text.
     Otherwise, it will consider the last item in the text as the 'End_track'.
+
+    If clean is True, it will filter out short noises that are only 1 timestep long and merge notes that are only 1 timestep away from each other.
+
+    I verbose is True, it will report the progress as it processes the data.
     """
     NUMBER_OF_PITCH = 128
     COL_NAMES = ['Track', 'Time', 'Type', 'Val1', 'Val2', 'Val3']
@@ -100,10 +136,16 @@ def text_to_midicsv(midi_text, ticks_per_step=25, vel=80, add_end_track=False):
 
     next_line_num = ord('\n')
 
+    if add_end_track:
+        midi_text = midi_text + chr(next_line_num)
+
     text_list = midi_text.split(chr(next_line_num))
 
     # Total number of time steps
     n_steps = len(text_list)
+
+    if verbose:
+        print("\n* Converting the text into a numpy matrix ...")
 
     note_time_matrix = np.zeros((NUMBER_OF_PITCH, n_steps), dtype=np.uint8)
 
@@ -112,6 +154,43 @@ def text_to_midicsv(midi_text, ticks_per_step=25, vel=80, add_end_track=False):
         if note_str != '':
             for note_chr in note_str:
                 note_time_matrix[ord(note_chr) - next_line_num - 1, time_step] = 1
+
+    if merge_first and merge_interval > 0:
+        if verbose:
+            print("* Merging nearby notes ...")
+        for interval in range(1, merge_interval + 1):
+            pattern = [1] + [0] * interval + [1]
+            for time_step in range(1, n_steps - interval):
+                pattern_match_indices = np.equal(note_time_matrix[:, (time_step - 1) : (time_step + interval + 1)], pattern).all(axis=1).nonzero()[0]
+                if len(pattern_match_indices) > 0:
+                    note_time_matrix[pattern_match_indices, time_step : (time_step + interval)] = 1
+
+    if filter_interval > 0:
+        if verbose:
+            print("* Filtering short notes ...")
+        for interval in range(1, filter_interval + 1):
+            pattern = [1] * interval + [0]
+            pattern_match_indices = np.equal(note_time_matrix[:, :interval + 1], pattern).all(axis=1).nonzero()[0]
+            if len(pattern_match_indices) > 0:
+                note_time_matrix[pattern_match_indices, :interval] = 0
+            pattern = [0] + [1] * interval + [0]
+            for time_step in range(1, n_steps - interval):
+                pattern_match_indices = np.equal(note_time_matrix[:, (time_step - 1) : (time_step + interval + 1)], pattern).all(axis=1).nonzero()[0]
+                if len(pattern_match_indices) > 0:
+                    note_time_matrix[pattern_match_indices, time_step : (time_step + interval)] = 0
+
+    if not merge_first and merge_interval > 0:
+        if verbose:
+            print("* Merging nearby notes ...")
+        for interval in range(1, merge_interval + 1):
+            pattern = [1] + [0] * interval + [1]
+            for time_step in range(1, n_steps - interval):
+                pattern_match_indices = np.equal(note_time_matrix[:, (time_step - 1) : (time_step + interval + 1)], pattern).all(axis=1).nonzero()[0]
+                if len(pattern_match_indices) > 0:
+                    note_time_matrix[pattern_match_indices, time_step : (time_step + interval)] = 1
+
+    if verbose:
+        print("* Converting the matrix into a pandas dataframe ...")
 
     data_lists = [HEADER, START_TRACK]
 
@@ -142,6 +221,9 @@ def text_to_midicsv(midi_text, ticks_per_step=25, vel=80, add_end_track=False):
 
     midi_csv = pd.DataFrame(data=data_lists, columns=COL_NAMES)
 
+    if verbose:
+        print("* ... Converted!")
+
     return midi_csv
 
 if __name__ == '__main__':
@@ -149,10 +231,13 @@ if __name__ == '__main__':
     args = _parse_args()
 
     txt_path = args.text
-    csv_path = args.csv if args.csv else (args.txt.rsplit('.', 1)[0] + '.csv')
+    csv_path = args.csv if args.csv else (txt_path.rsplit('.', 1)[0] + '.csv')
     ticks_per_step = args.ticks
     vel = args.velocity
     add_end = args.end_track
+    filter_out_interval = args.filter_out
+    merge_interval = args.merge
+    merge_first = args.merge_first
     verbose = args.verbose
 
     if verbose:
@@ -164,7 +249,7 @@ if __name__ == '__main__':
     if verbose:
         print("\nConverting the text into a csv dataframe ...")
 
-    csv = text_to_midicsv(text, ticks_per_step=ticks_per_step, vel=vel, add_end_track=add_end)
+    csv = text_to_midicsv(text, ticks_per_step=ticks_per_step, vel=vel, add_end_track=add_end, filter_interval=filter_out_interval, merge_interval=merge_interval, merge_first=merge_first, verbose=verbose)
 
     if verbose:
         print("\nSaving the csv file ...")

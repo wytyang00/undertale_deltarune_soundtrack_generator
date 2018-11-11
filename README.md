@@ -12,18 +12,19 @@ Conversions between midi and csv files are done by a 3rd party program: [midi <-
 
 Also, I am using this simple [free midi player](http://falcosoft.hu/softwares.html#midiplayer) to listen to the music from midi files.
 
-Actual machine learning model is yet to be built.
+Several models using LSTM are built and put into training & experimentation.
 
-Neural Networks to use:
-* 3-Layer LSTM with 300 units 
+Models tried or currently being tried:
+* Plain 3-Layer LSTM with 300 units
+* 3-Layer LSTM with skip connections
+* 8-Layer Deep LSTM
 
 Sources of the file I will be using for training:
 * Undertale: Complete OST - https://musescore.com/user/29625/scores/2075346
 
 ## To-Do
 
-* Divide converted MIDI texts into several examples I can use for training
-* Augment the data by transposing them (This will possibly yield more than 6 times more data)
+* Train the deep LSTM further. Doesn't matter if it overfits the data.
 
 ## Requirements and Dependancies
 
@@ -33,7 +34,37 @@ Sources of the file I will be using for training:
 * Numpy (For [MICI-csv <-> Text] conversion and visualization)
 * Matplotlib (For visualization)
 
-## Update History
+## Update Logs
+
+---
+
+### Nov 10th 2018
+
+First of all, I am so embarassed. I realized that I used a Sigmoid activation before using a Softmax, restricting the expressiveness of the model drastically. The lack of learning was due to this setup. In fact, I would say that it was quite miraculous that my model actually ended up learning something. When I removed the last activation functions altogether and used PyTorch's CrossEntropyLoss, they clearly started to learn. There are some images showing some of the improvements below.
+
+By the way, I made the experimentation notebook much cleaner; now it mostly has only the dataset classes, neural nets, and training & predicting & generating sessions. But, it's still more about me trying out things, so the locations for the files might not match.
+
+Also, in addition to my last models, I created another model that has 8 layers of LSTM with 300 units each. I replaced all the training sessions with this deep model and got pretty impressive results:
+
+* Loss and accuracy
+![Deep Model Performance Plot](https://github.com/dragonoken/undertale_soundtrack_generator/blob/master/source/images/model_outputs/deep_stat.png)
+* Some of the predicted notes
+![Some Predicted Notes](https://github.com/dragonoken/undertale_soundtrack_generator/blob/master/source/images/model_outputs/deep_predicted.jpg)
+* Some of the generated notes
+![Some Predicted Notes](https://github.com/dragonoken/undertale_soundtrack_generator/blob/master/source/images/model_outputs/deep_generated.jpg)
+
+While it did get very good at guessing notes one by one, it had some issues with different rhythms playing together (e.g. slow base part and fast treble part). In an attempt to address this problem, I took a new approach: instead of guessing notes one by one, guessing one entire timestep at a time. I created a new dataset to get k-hot vector representations of the notes instead of one-hot vectors. Then, I used Sigmoid instead of Softmax, Binary Cross Entropy Loss instead of normal Cross Entropy Loss, and a threshold instead of the maximum value. In short, the results weren't bad, but they were still dissapointing.
+
+* Loss and accuracy
+![New Model Performance Plot](https://github.com/dragonoken/undertale_soundtrack_generator/blob/master/source/images/model_outputs/new_stat.png)
+* Some of the predicted notes
+![Some Predicted Notes](https://github.com/dragonoken/undertale_soundtrack_generator/blob/master/source/images/model_outputs/new_predicted.jpg)
+* Some of the generated notes
+![Some Predicted Notes](https://github.com/dragonoken/undertale_soundtrack_generator/blob/master/source/images/model_outputs/new_generated.jpg)
+
+The rhythm issues were somewhat fixed with it, but the noise got quite severe. More than that, generating from skretch was such a pain. I had to manually set the threshold, add some randomness, and adjust the output values in order to get any reasonable result.
+
+So, I went back to my original character by character model and now I am continuing to train it further. I am trying to see if it can overfit...
 
 ---
 

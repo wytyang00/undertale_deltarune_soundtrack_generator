@@ -56,7 +56,7 @@ def _parse_args():
     if not osp.isfile(args.csv):
         parser.error("The input csv file does not exist. Please, check the file path and try again.")
 
-    if args.txt and not osp.isdir(osp.dirname(args.txt)):
+    if args.text and not osp.isdir(osp.dirname(args.text)):
         parser.error("The result path does not exist. Please, use an existing directory.")
 
     return args
@@ -247,7 +247,7 @@ if __name__ == '__main__':
     args = _parse_args()
 
     csv_path = args.csv
-    txt_path = args.txt if args.txt else (args.csv.rsplit('.', 1)[0] + '.txt')
+    txt_path = args.text if args.text else (args.csv.rsplit('.', 1)[0] + '.txt')
     ticks_per_step = args.ticks
     verbose = args.verbose
 

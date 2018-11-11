@@ -51,7 +51,7 @@ Also, in addition to my last models, I created another model that has 8 layers o
 * Some of the predicted notes
 ![Some Predicted Notes](https://github.com/dragonoken/undertale_soundtrack_generator/blob/master/source/images/model_outputs/deep_predicted.jpg)
 * Some of the generated notes
-![Some Predicted Notes](https://github.com/dragonoken/undertale_soundtrack_generator/blob/master/source/images/model_outputs/deep_generated.jpg)
+![Some Generated Notes](https://github.com/dragonoken/undertale_soundtrack_generator/blob/master/source/images/model_outputs/deep_generate.jpg)
 
 While it did get very good at guessing notes one by one, it had some issues with different rhythms playing together (e.g. slow base part and fast treble part). In an attempt to address this problem, I took a new approach: instead of guessing notes one by one, guessing one entire timestep at a time. I created a new dataset to get k-hot vector representations of the notes instead of one-hot vectors. Then, I used Sigmoid instead of Softmax, Binary Cross Entropy Loss instead of normal Cross Entropy Loss, and a threshold instead of the maximum value. In short, the results weren't bad, but they were still dissapointing.
 
@@ -60,7 +60,7 @@ While it did get very good at guessing notes one by one, it had some issues with
 * Some of the predicted notes
 ![Some Predicted Notes](https://github.com/dragonoken/undertale_soundtrack_generator/blob/master/source/images/model_outputs/new_predicted.jpg)
 * Some of the generated notes
-![Some Predicted Notes](https://github.com/dragonoken/undertale_soundtrack_generator/blob/master/source/images/model_outputs/new_generated.jpg)
+![Some Generated Notes](https://github.com/dragonoken/undertale_soundtrack_generator/blob/master/source/images/model_outputs/new_generated.jpg)
 
 The rhythm issues were somewhat fixed with it, but the noise got quite severe. More than that, generating from skretch was such a pain. I had to manually set the threshold, add some randomness, and adjust the output values in order to get any reasonable result.
 

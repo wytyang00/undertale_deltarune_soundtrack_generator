@@ -192,8 +192,6 @@ def midicsv_to_text(midi_dataframe, ticks_per_step=25):
     PITCH_COL = 4
     VEL_COL = 5
 
-    next_line_num = ord('\n')
-
     base_midi = midi_dataframe.copy()
 
     col_names = base_midi.columns
@@ -229,15 +227,14 @@ def midicsv_to_text(midi_dataframe, ticks_per_step=25):
     text_list = []
 
     for time_step in range(n_steps):
-        text = ''
         for pitch in note_time_matrix[:, time_step].nonzero()[0]:
             # To make the text look nice and organized, I'll use nextline to indicate time steps
             # All other pitches will come after the code for nextline
-            text += chr(pitch + next_line_num + 1)
-        text_list.append(text)
+            text_list.append(str(pitch + 1))
+        text_list.append('0')
 
     # Separator between timesteps will be chr(128 + 1)
-    midi_text = chr(next_line_num).join(text_list)
+    midi_text = ' '.join(text_list)
 
     return midi_text
 

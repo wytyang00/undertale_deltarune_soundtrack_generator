@@ -134,12 +134,12 @@ def text_to_midicsv(midi_text, ticks_per_step=25, vel=80, add_end_track=False, f
     HEADER = [0, 0, 'Header', 1, 1, 480]
     START_TRACK = [1, 0, 'Start_track', np.nan, np.nan, np.nan]
 
-    next_line_num = ord('\n')
+    midi_text = ' ' + midi_text
 
     if add_end_track:
-        midi_text = midi_text + chr(next_line_num)
+        midi_text = midi_text + ' 0'
 
-    text_list = midi_text.split(chr(next_line_num))
+    text_list = midi_text.split(' 0')
 
     # Total number of time steps
     n_steps = len(text_list)
@@ -152,8 +152,8 @@ def text_to_midicsv(midi_text, ticks_per_step=25, vel=80, add_end_track=False, f
     for time_step in range(n_steps):
         note_str = text_list[time_step]
         if note_str != '':
-            for note_chr in note_str:
-                note_time_matrix[ord(note_chr) - next_line_num - 1, time_step] = 1
+            for note_num in note_str.strip().split(' '):
+                note_time_matrix[int(note_num), time_step] = 1
 
     if merge_first and merge_interval > 0:
         if verbose:

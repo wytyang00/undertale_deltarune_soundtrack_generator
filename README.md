@@ -2,9 +2,9 @@
 
 ## Description
 
-Still Work in progress!
+Still a work in progress!
 
-This is my own project where I try to generate original music using one of my favorite OST, Undertale OST!
+This is my own project where I try to generate original music based on the official soundtracks for some of my favorite video games: Undertale and Deltarune!
 
 I had set up the utility functions for conversions between csv and text files.
 
@@ -16,15 +16,17 @@ Several models using LSTM are built and put into training & experimentation.
 
 Models tried or currently being tried:
 * Plain 3-Layer LSTM with 300 units
-* 3-Layer LSTM with skip connections
-* 8-Layer Deep LSTM
+* 3-Layer LSTM with skip connections (Best Loss, but too much overfitting)
+* 8-Layer Deep LSTM (Best Result so far)
 
-Sources of the file I will be using for training:
+Originally used training data source:
 * Undertale: Complete OST - https://musescore.com/user/29625/scores/2075346
+
+New training data sources are organized in source/source_midi/sources.txt
 
 ## To-Do
 
-* Train the deep LSTM further. Doesn't matter if it overfits the data.
+* Put individual soundtrack data together into a single training dataset.
 
 ## Requirements and Dependancies
 
@@ -35,6 +37,26 @@ Sources of the file I will be using for training:
 * Matplotlib (For visualization)
 
 ## Update Logs
+
+---
+
+### Jan 8th 2019
+
+First of all, HAPPY NEW YEAR!
+
+I've been keeping myself busy with PyTorch Udacity scholarship challenge, which started on the day before the last update (Nov 9th 2018). This scholarship challenge's last assignment deadline is tomorrow, and I recently finished it with satisfaction. So, I'm planning to continue with this project quite soon.
+
+One more regarding the scholarship program: there's a Side Project Showcase event going on, and I decided to participate with this project. I'll start posting updates on my Facebook and sharing results and samples until I find a way to make my model accessible for other people. (Though I'm not sure if I'll get myself to do that soon)
+
+Speaking of which, I converted one of my best results to a mp3 audio file, selected several parts that were particularly interesting, and then uploaded them all together. I'm sharing the links here:
+
+* Original full soundtrack (approx. 2 hours and 38 minutes): https://audiomack.com/song/dragonoken/generated
+
+* Samples of my choice: https://audiomack.com/album/dragonoken/robots-are-made-of-metal-magic-and-music
+
+Now that there is a sequel(?) of Undertale, Deltarune, I collected new training data! I originally used a single MIDI file that had all the soundtracks in piano version, but I realized that my model learned to play some rather noisy soundtracks as well (like the sound of an elevator...), which was a bit annoying. Now, I have 1 MIDI file for each soundtrack from both Undertale and Deltarune (rearranged for piano by several people on MuseScore). My next challenge will be to put them all together into a single training set...
+
+Looking forward to trying out several techniques I learned and, hopefully, getting better results!
 
 ---
 

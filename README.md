@@ -2,6 +2,8 @@
 
 ## Description
 
+**Sample results shared in the links [here](#Jan-8th-2019)!**
+
 Still a work in progress!
 
 This is my own project where I try to generate original music based on the official soundtracks for some of my favorite video games: Undertale and Deltarune!

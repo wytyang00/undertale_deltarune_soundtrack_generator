@@ -153,7 +153,7 @@ def text_to_midicsv(midi_text, ticks_per_step=25, vel=80, add_end_track=False, f
         note_str = text_list[time_step]
         if note_str != '':
             for note_num in note_str.strip().split(' '):
-                note_time_matrix[int(note_num), time_step] = 1
+                note_time_matrix[int(note_num) - 1, time_step] = 1
 
     if merge_first and merge_interval > 0:
         if verbose:

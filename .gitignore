@@ -3,11 +3,13 @@
 
 *.jpg
 *.pth
+*.bz2
 /*.txt
 /*.csv
 /*.mid
 
 /main.py
+/source/setup*
 
 !midimage0.jpg
 !midimage1.jpg
@@ -17,3 +19,4 @@
 !train_log_n.txt
 !train_log_nc.txt
 !source/images/model_outputs/**
+*.mid

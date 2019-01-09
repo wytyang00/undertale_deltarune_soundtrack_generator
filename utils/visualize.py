@@ -88,7 +88,16 @@ def _parse_args():
         '-v',
         '--verbose',
         help="make the process more verbose.",
-        action='store_true'
+        action='store_true',
+        default=False
+        )
+
+    parser.add_argument(
+        '-z',
+        '--zero-pad',
+        help="add zero paddings to the image number so that the number of digits match",
+        action='store_true',
+        default=False
         )
 
     if len(sys.argv) == 1:
@@ -314,7 +323,7 @@ def notematrix_to_image(note_matrix):
 
     return imgs
 
-def save_images(imgs, dir_path='.', prefix='', verbose=False):
+def save_images(imgs, dir_path='.', prefix='', verbose=False, zero_pad=False):
     """
     Takes a list of numpy matrices and saves them as image files.
     No value is returned.
@@ -324,13 +333,17 @@ def save_images(imgs, dir_path='.', prefix='', verbose=False):
 
     If the verbose is True, prints the progress for every image.
 
+    If the zero_pad is True, pad zeros to the image numbers in order to match the number of digits.
+
     By default, the images are saved in the current directory with no prefix.
     """
     n_imgs = len(imgs)
+    n_digits = len(str(n_imgs))
     if verbose:
         print(f"Saving {n_imgs} images:")
     for i, img in enumerate(imgs):
-        filename = prefix + str(i) + '.jpg'
+        image_num_str = f"{i:0{n_digits}d}" if zero_pad else str(i)
+        filename = prefix + image_num_str + '.jpg'
         filepath = osp.join(dir_path, filename).replace('\\', '/')
         plt.imsave(filepath, img, cmap='gray', format='jpeg')
         if verbose:
@@ -355,6 +368,7 @@ if __name__ == '__main__':
     ticks_per_step = args.ticks
 
     verbose = args.verbose
+    zero_pad = args.zero_pad
 
     if csv_path:
 
@@ -404,7 +418,7 @@ if __name__ == '__main__':
     if verbose:
         print("\nSaving the images ...\n")
 
-    save_images(images, dir_path=result_dir, prefix=prefix, verbose=verbose)
+    save_images(images, dir_path=result_dir, prefix=prefix, verbose=verbose, zero_pad=zero_pad)
 
     if verbose:
         print("\n... Done!\n")

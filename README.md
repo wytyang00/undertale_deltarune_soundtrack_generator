@@ -24,10 +24,13 @@ Models tried or currently being tried:
 Originally used training data source:
 * Undertale: Complete OST - https://musescore.com/user/29625/scores/2075346
 
-New training data sources are organized in source/source_midi/sources.txt
+New training data sources are listed in https://github.com/dragonoken/undertale_soundtrack_generator/blob/master/source/source_midi/sources.txt
 
 ## To-Do
 
+* Make a functioning LSTM variant that has layer normalization and peepholes for memory cells.
+* Try skip connections with addition rather than concatenation.
+* Try training models on a single music and test out the results.
 * Put individual soundtrack data together into a single training dataset.
 
 ## Requirements and Dependancies
@@ -39,6 +42,18 @@ New training data sources are organized in source/source_midi/sources.txt
 * Matplotlib (For visualization)
 
 ## Update Logs
+
+---
+
+### Jan 28th 2019
+
+No progress on the project itself, yet.
+
+I'm currently working on implementing several variants of LSTM with PyTorch's C++ interface. When it's done, it will be hopefully better than my previous models.
+
+I still need to work on preprocessing, though. Having larger timesteps in order to reduce the length is under consideration...
+
+While looking through other works on generating music, I read about one case where they trained a model on only one song at a time. So, I'll try that too and see the outcome. Shouldn't take long since it will make the size of the dataset smaller and also reduce the number of patterns to memorize. Yet, I'm aiming for a full training with the entire music at the end.
 
 ---
 

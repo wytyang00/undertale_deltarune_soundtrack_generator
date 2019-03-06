@@ -1,5 +1,9 @@
 /temp
+/_saved
 **/.ipynb_checkpoints
+/main.py
+/source/setup*
+/source/source_midi/**
 
 *.jpg
 *.pth
@@ -8,15 +12,10 @@
 /*.csv
 /*.mid
 
-/main.py
-/source/setup*
-
 !midimage0.jpg
 !midimage1.jpg
 !midimage2.jpg
 !note_losses.jpg
-!train_log_d.txt
-!train_log_n.txt
-!train_log_nc.txt
 !source/images/model_outputs/**
+!source/source_midi/sources.txt
 *.mid

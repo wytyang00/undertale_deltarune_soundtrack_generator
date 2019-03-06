@@ -2,6 +2,7 @@
 This script contains functions for simplifying and converting midi csv files.
 """
 from argparse import ArgumentParser
+import os
 import os.path as osp
 import sys
 import pandas as pd
@@ -33,7 +34,8 @@ def _parse_args():
     parser.add_argument(
         'csv',
         type=str,
-        help="File path for the csv file to convert."
+        help="File path for the csv file to convert or path to the directory which"
+             " contains one or more csv files to convert."
         )
 
     parser.add_argument(
@@ -42,6 +44,7 @@ def _parse_args():
         type=str,
         help="File path for the resulting text file (Optional). By default, the text file"
              " will be generated in the same directory as the source csv file."
+             " If `csv` is a directory, this will be the resulting directory."
         )
 
     if len(sys.argv) == 1:
@@ -53,13 +56,14 @@ def _parse_args():
     if not args.ticks > 0:
         parser.error("The value for ticks per time step must be at least 1.")
 
-    if not osp.isfile(args.csv):
-        parser.error("The input csv file does not exist. Please, check the file path and try again.")
+    csv_is_dir = osp.isdir(args.csv)
+    if not osp.isfile(args.csv) and not csv_is_dir:
+        parser.error("The input csv file or directory does not exist. Please, check the path and try again.\n{}".format(args.csv))
 
-    if args.text and not osp.isdir(osp.dirname(args.text)):
-        parser.error("The result path does not exist. Please, use an existing directory.")
+    if args.text and not osp.isdir(args.text if csv_is_dir else osp.dirname(args.text)):
+        parser.error("The result path does not exist. Please, use an existing directory.\n{}".format(args.text if csv_is_dir else osp.dirname(args.text)))
 
-    return args
+    return args, csv_is_dir
 
 def read_midi_csv(midi_file_path):
     """
@@ -238,49 +242,137 @@ def midicsv_to_text(midi_dataframe, ticks_per_step=25):
 
     return midi_text
 
-
-if __name__ == '__main__':
-
-    args = _parse_args()
-
+def _single_file_conversion(args):
     csv_path = args.csv
-    txt_path = args.text if args.text else (args.csv.rsplit('.', 1)[0] + '.txt')
+    txt_path = args.text if args.text else (osp.splitext(args.csv)[0] + '.txt')
     ticks_per_step = args.ticks
     verbose = args.verbose
 
     if verbose:
         print("\nReading CSV file ...")
-
     csv = read_midi_csv(csv_path)
-
     if verbose:
-        print("\nDropping non-essencial items ...")
-
+        print("\nDropping non-essencial entries ...")
     csv = drop_nonessentials(csv)
-
     if verbose:
         print("\nAdjusting time and dropping tempo changes ...")
-
     csv = time_adjustment(csv)
-
     if verbose:
         print("\nMerging tracks ...")
-
     csv = merge_tracks(csv)
-
     if verbose:
         print("\nConverting CSV into text ...")
-
-    # Not necessary for the process
-    # csv = constantize_velocities(csv)
-
     text = midicsv_to_text(csv, ticks_per_step=ticks_per_step)
-
     if verbose:
         print("\nWriting to text file ...")
-
     with open(txt_path, 'w', encoding='utf-8') as txt_f:
         txt_f.write(text)
-
     if verbose:
         print("\n... Done!\n")
+
+def _multiple_file_conversion(args):
+    csv_dir = osp.abspath(args.csv)
+    txt_dir = osp.abspath(args.text) if args.text else csv_dir
+    ticks_per_step = args.ticks
+    verbose = args.verbose
+
+    print()
+    print("Files to convert")
+    print("================")
+    print("From: {}\nTo: {}\n".format(csv_dir, txt_dir))
+
+    csv_files = [file for file in os.scandir(csv_dir) if file.is_file() and file.name.endswith('.csv')]
+    n_files = len(csv_files)
+    if n_files == 0:
+        print("No files to convert: no csv file found.")
+        return
+    csv_paths = [file.path for file in csv_files]
+    csv_names = [file.name for file in csv_files]
+
+    txt_names = [file_name[:-3] + 'txt' for file_name in csv_names]
+    txt_paths = [osp.join(txt_dir, txt_name) for txt_name in txt_names]
+
+    txt_dir_txtlist = [file.name for file in os.scandir(txt_dir)
+                       if file.is_file() and file.name.endswith('.txt')]
+    already_exist = [txt_name in txt_dir_txtlist for txt_name in txt_names]
+
+    for csv_name, already_exists in zip(csv_names, already_exist):
+        print(csv_name, "(target file already exists)" if already_exists else '')
+    print()
+
+    if any(already_exist):
+        print("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
+        print("!!! There are one or more files in the resulting directory that have the same file name !!!")
+        print("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!", end="\n\n")
+
+    proceed = input("Convert {} file{} above? Y/N: ".format(n_files, '' if n_files == 1 else 's')).strip().lower()
+    while proceed not in ('y', 'n'):
+        proceed = input("Convert the file(s) above? Y/N: ").strip().lower()
+
+    if proceed == 'n':
+        return
+
+    print()
+    if verbose:
+        for i, (csv_path, csv_name, txt_path, txt_name) in enumerate(zip(csv_paths, csv_names, txt_paths, txt_names), 1):
+
+            prefix = "[{}/{}] ".format(i, n_files)
+
+            s = "reading CSV file - {}".format(csv_name)
+            print(prefix + s, end='')
+            l = len(s)
+            csv = read_midi_csv(csv_path)
+
+            s = "Dropping non-essencial entries ..."
+            print("\r" + prefix + s + " " * (l - len(s)), end='')
+            l = len(s)
+            csv = drop_nonessentials(csv)
+
+            s = "Adjusting time and dropping tempo changes ..."
+            print("\r" + prefix + s + " " * (l - len(s)), end='')
+            l = len(s)
+            csv = time_adjustment(csv)
+
+            s = "Merging tracks ..."
+            print("\r" + prefix + s + " " * (l - len(s)), end='')
+            l = len(s)
+            csv = merge_tracks(csv)
+
+            s = "Converting CSV into text ..."
+            print("\r" + prefix + s + " " * (l - len(s)), end='')
+            l = len(s)
+            text = midicsv_to_text(csv, ticks_per_step=ticks_per_step)
+
+            s = "Writing to text file - {}".format(txt_name)
+            print("\r" + prefix + s + " " * (l - len(s)))
+            with open(txt_path, 'w', encoding='utf-8') as txt_f:
+                txt_f.write(text)
+
+    else:
+        count_max_len = len(str(n_files))
+        for i, (csv_path, txt_path) in enumerate(zip(csv_paths, txt_paths)):
+
+            print("\r{:>{max_len}}/{} files converted ...".format(i, n_files, max_len=count_max_len), end='')
+
+            csv = read_midi_csv(csv_path)
+            csv = drop_nonessentials(csv)
+            csv = time_adjustment(csv)
+            csv = merge_tracks(csv)
+            text = midicsv_to_text(csv, ticks_per_step=ticks_per_step)
+            with open(txt_path, 'w', encoding='utf-8') as txt_f:
+                txt_f.write(text)
+
+        print("{n}/{n} files converted ...".format(n=n_files))
+
+    print("\nDone!\n"\
+          "{} CSV files from this directory: {}\n"\
+          "are converted into text files and saved in the following directory: {}".format(n_files, csv_dir, txt_dir))
+
+if __name__ == '__main__':
+
+    args, csv_is_dir = _parse_args()
+
+    if csv_is_dir:
+        _multiple_file_conversion(args)
+    else:
+        _single_file_conversion(args)

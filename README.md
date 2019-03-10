@@ -28,10 +28,8 @@ New training data sources are listed in https://github.com/dragonoken/undertale_
 
 ## To-Do
 
-* Make a functioning LSTM variant that has layer normalization and peepholes for memory cells.
-* Try skip connections with addition rather than concatenation.
-* Try training models on a single music and test out the results.
 * Put individual soundtrack data together into a single training dataset.
+* Use "word" embeddings for input and output of the models.
 
 ## Requirements and Dependancies
 
@@ -42,6 +40,20 @@ New training data sources are listed in https://github.com/dragonoken/undertale_
 * Matplotlib (For visualization)
 
 ## Update Logs
+
+---
+
+### Mar 9th 2019
+
+So far, I have written functioning C++ & CUDA implementations of various LSTM variants—though I'm uncertain about the advantages compared to the vanila PyTorch implementation.
+
+Instead of working on it any further, I decided that it was enough and moved on to writing a fresh notebook in a organized, reproducible way.
+
+I updated the CSV to TXT conversion code so that multiple CSV files in a folder can be converted at once. Then, I created a new IPython Notebook file that would contain all codes for data loading and preprocessing, model definition, training function, and generator function.
+
+I've done the data loading part and partially preprocessing as well. I'm considering using something like word embedding—in this case, taking a single note, chord, or no note as a "word", instead of taking only one note, or "character", at a time. Since a word can contain several notes in it, and note separations are no longer part of the input—because there's always a separator between two "words"—the sequence should get shorter and help the models overcome the chanllenges regarding long-term dependencies.
+
+When I gathered all appearances of notes and chords, I found out there would be almost 8000 "words". Compared to the original 129 note inputs, this is significantly huge. I'm not sure if it would cause memory or training issues; I'll have to figure it out through some experimentations.
 
 ---
 

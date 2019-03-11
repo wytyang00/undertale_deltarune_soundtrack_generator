@@ -52,9 +52,9 @@ This resulted in a great reduction of sequence lengths. Most of the sequences sh
 * No Repeats (Just word tokenizations)
 ![Tokenization (No Repeats)](source/images/tokenization/no_repetition_tokens.jpg)
 * Repeats up to 10 (Up to 10 repeats are encoded as one token)
-![Tokenization (Up to 10 Repeats)](source/images/model_outputs/10_repetition_tokens.jpg)
+![Tokenization (Up to 10 Repeats)](source/images/tokenization/10_repetition_tokens.jpg)
 * Unlimited Repeats (Any number of repetition is just one token)
-![Tokenization (Unlimited Repeats)](source/images/model_outputs/unlimited_repetition_tokens.jpg)
+![Tokenization (Unlimited Repeats)](source/images/tokenization/unlimited_repetition_tokens.jpg)
 
 This will greatly help with the training since it reduces long-term dependencies. However, this gives me some extra things to worry about: **1)** will my model overfit because of very short sequences? Or, **2)** will my model struggle because of some possible disruption in patterns of the tokens and repetitions?
 

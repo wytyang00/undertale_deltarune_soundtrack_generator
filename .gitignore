@@ -17,5 +17,6 @@
 !midimage2.jpg
 !note_losses.jpg
 !source/images/model_outputs/**
+!source/images/tokenization/**
 !source/source_midi/sources.txt
 *.mid

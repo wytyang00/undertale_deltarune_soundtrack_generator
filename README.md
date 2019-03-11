@@ -24,7 +24,7 @@ Models tried or currently being tried:
 Originally used training data source:
 * Undertale: Complete OST - https://musescore.com/user/29625/scores/2075346
 
-New training data sources are listed in https://github.com/dragonoken/undertale_soundtrack_generator/blob/master/source/source_midi/sources.txt
+New training data sources are listed in https://github.com/dragonoken/undertale_deltarune_soundtrack_generator/blob/master/source/source_midi/sources.txt
 
 ## To-Do
 
@@ -40,6 +40,25 @@ New training data sources are listed in https://github.com/dragonoken/undertale_
 * Matplotlib (For visualization)
 
 ## Update Logs
+
+---
+
+### Mar 10th 2019
+
+In my "*word*" tokenization implementation, in addition to tokenizing common patterns such as chords and notes, I also implemented *repetition tokenization*; repeating the same word for several time steps can be reduced to a word + repetition. (e.g. part of a sequence \[39, 39, 39, 39, 0, 0, 0, 5\] can be further converted into \[39, (<REPEAT>, 3), 0, (<REPEAT>, 2), 5\].)
+
+This resulted in a great reduction of sequence lengths. Most of the sequences showed more than 50% of length reduction using this trick.
+
+* No Repeats (Just word tokenizations)
+![Tokenization (No Repeats)](source/images/tokenization/no_repetition_tokens.jpg)
+* Repeats up to 10 (Up to 10 repeats are encoded as one token)
+![Tokenization (Up to 10 Repeats)](source/images/model_outputs/10_repetition_tokens.jpg)
+* Unlimited Repeats (Any number of repetition is just one token)
+![Tokenization (Unlimited Repeats)](source/images/model_outputs/unlimited_repetition_tokens.jpg)
+
+This will greatly help with the training since it reduces long-term dependencies. However, this gives me some extra things to worry about: **1)** will my model overfit because of very short sequences? Or, **2)** will my model struggle because of some possible disruption in patterns of the tokens and repetitions?
+
+To test this empirically, I first need to go and write all the codes necessary for training...
 
 ---
 
@@ -98,20 +117,20 @@ By the way, I made the experimentation notebook much cleaner; now it mostly has 
 Also, in addition to my last models, I created another model that has 8 layers of LSTM with 300 units each. I replaced all the training sessions with this deep model and got pretty impressive results:
 
 * Loss and accuracy
-![Deep Model Performance Plot](https://github.com/dragonoken/undertale_soundtrack_generator/blob/master/source/images/model_outputs/deep_stat.png)
+![Deep Model Performance Plot](source/images/model_outputs/deep_stat.png)
 * Some of the predicted notes
-![Some Predicted Notes](https://github.com/dragonoken/undertale_soundtrack_generator/blob/master/source/images/model_outputs/deep_predicted.jpg)
+![Some Predicted Notes](source/images/model_outputs/deep_predicted.jpg)
 * Some of the generated notes
-![Some Generated Notes](https://github.com/dragonoken/undertale_soundtrack_generator/blob/master/source/images/model_outputs/deep_generate.jpg)
+![Some Generated Notes](source/images/model_outputs/deep_generate.jpg)
 
 While it did get very good at guessing notes one by one, it had some issues with different rhythms playing together (e.g. slow base part and fast treble part). In an attempt to address this problem, I took a new approach: instead of guessing notes one by one, guessing one entire timestep at a time. I created a new dataset to get k-hot vector representations of the notes instead of one-hot vectors. Then, I used Sigmoid instead of Softmax, Binary Cross Entropy Loss instead of normal Cross Entropy Loss, and a threshold instead of the maximum value. In short, the results weren't bad, but they were still dissapointing.
 
 * Loss and accuracy
-![New Model Performance Plot](https://github.com/dragonoken/undertale_soundtrack_generator/blob/master/source/images/model_outputs/new_stat.png)
+![New Model Performance Plot](source/images/model_outputs/new_stat.png)
 * Some of the predicted notes
-![Some Predicted Notes](https://github.com/dragonoken/undertale_soundtrack_generator/blob/master/source/images/model_outputs/new_predicted.jpg)
+![Some Predicted Notes](source/images/model_outputs/new_predicted.jpg)
 * Some of the generated notes
-![Some Generated Notes](https://github.com/dragonoken/undertale_soundtrack_generator/blob/master/source/images/model_outputs/new_generated.jpg)
+![Some Generated Notes](source/images/model_outputs/new_generated.jpg)
 
 The rhythm issues were somewhat fixed with it, but the noise got quite severe. More than that, generating from skretch was such a pain. I had to manually set the threshold, add some randomness, and adjust the output values in order to get any reasonable result.
 
@@ -167,7 +186,7 @@ However, I came up with a solution to this problem without having to change the 
 
 The result was quite amazing. With 25 ticks per timestep, the ratio of notes lost went down from 5% to 0.4%. Here are the results I gathered before and after this modification:
 
-![Note Loss Log Screenshot](https://github.com/dragonoken/undertale_soundtrack_generator/blob/master/source/note_losses.jpg)
+![Note Loss Log Screenshot](source/images/note_losses.jpg)
 
 ---
 
@@ -186,11 +205,11 @@ Removing tempo changed the music drastically. Since the pace of a music differed
   
 Also, I successfully visualized the notes and saved them as jpeg images. Here are the first 3 parts of the music, from 0 sec to approximately 156 sec:
 
-![midi image 1](https://github.com/dragonoken/undertale_soundtrack_generator/blob/master/source/images/midimage0.jpg)
+![midi image 1](source/images/midimage0.jpg)
 
-![midi image 2](https://github.com/dragonoken/undertale_soundtrack_generator/blob/master/source/images/midimage1.jpg)
+![midi image 2](source/images/midimage1.jpg)
 
-![midi image 3](https://github.com/dragonoken/undertale_soundtrack_generator/blob/master/source/images/midimage2.jpg)
+![midi image 3](source/images/midimage2.jpg)
 
 After a bit of more testing, I will put the codes into a python script, possibly with argument parsing!
 

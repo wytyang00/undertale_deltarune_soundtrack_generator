@@ -40,6 +40,19 @@ New training data sources are listed in https://github.com/dragonoken/undertale_
 * Matplotlib (For visualization)
 
 ## Update Logs
+---
+
+### Mar 15th 2019
+
+The dataset and the model are defined.
+
+The dataset contains a list of lists of integers, with each integer being the index of the token at that step and each list being a single soundtrack. Indexing this dataset returns a randomly shuffled copy of the sequence, converted into a 1-D torch.LongTensor. The actual index has nothing to do with this process.
+
+As for the model, the overall architecture contains an embedding layer in the beginning, followed by 3 LSTM RNN layers and a fully connected layer. Through shortcuts, each layer after the embedding layer uses the outputs from the previous layer and the layer before that previous layer. ReLU is used as the activation function for hidden layers and dropouts are applied to the inputs of the recurrent and fully connected layers. Also, layer normalization is applied to the outputs of the recurrent layers.
+
+If I were to use a fully connected layer to directly guess the probability for each token, it will be quite expensive in terms of both computation and memory since the number of tokens is usually very large. So, instead, the final fully connected layer has an output dimension equivalent to the embedding dimension. Euclidean distances are calculated between each output and every embedding vectors of the embedding layer, and the negative values of these distances come out as the output of this whole model. Ideally, it should be possible to use a softmax function on this output to get a decent probability distribution predictions for the target labels.
+
+Whether my intuitions are right or not, I shall find out when I train it...
 
 ---
 

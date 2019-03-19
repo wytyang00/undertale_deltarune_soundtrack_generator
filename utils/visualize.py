@@ -25,7 +25,7 @@ def _parse_args():
      stores the resulting images in the "results" directory with prefix "midi_image"
     resulting images will have names like these: midi_image0.jpg, midi_image1.jpg, ...
 
-    python visualize.py --text .../txt_dir/txtfile.txt -r .../results -p 
+    python visualize.py --text .../txt_dir/txtfile.txt -r .../results -p
     '''
 
     parser = ArgumentParser(description='utility script for visualization of a midi file in either text or csv form.',
@@ -265,7 +265,7 @@ def midicsv_to_notematrix(midi_dataframe, ticks_per_step=25):
                     # Checking 2 steps back minimizes note loss when there are more than 2 subsequent notes
                     if note_time_matrix[pitch, (start_from - 2):start_from].sum() == 2:
                         note_time_matrix[pitch, start_from - 1] = 0
-          
+
     return note_time_matrix
 
 def text_to_notematrix(midi_text):
@@ -274,9 +274,8 @@ def text_to_notematrix(midi_text):
     Returns the matrix.
     """
     NUMBER_OF_PITCH = 128
-    next_line_num = ord('\n')
 
-    text_list = midi_text.split(chr(next_line_num))
+    text_list = (' ' + midi_text).split(' 0')
 
     # Total number of time steps
     n_steps = len(text_list)
@@ -284,10 +283,10 @@ def text_to_notematrix(midi_text):
     note_time_matrix = np.zeros((NUMBER_OF_PITCH, n_steps), dtype=np.uint8)
 
     for time_step in range(n_steps):
-        note_str = text_list[time_step]
+        note_str = text_list[time_step].strip()
         if note_str != '':
-            for note_chr in note_str:
-                note_time_matrix[ord(note_chr) - next_line_num - 1, time_step] = 1
+            for note_num in note_str.split(' '):
+                note_time_matrix[int(note_num) - 1, time_step] = 1
 
     return note_time_matrix
 

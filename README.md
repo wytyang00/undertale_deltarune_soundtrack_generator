@@ -26,10 +26,13 @@ Originally used training data source:
 
 New training data sources are listed in https://github.com/dragonoken/undertale_deltarune_soundtrack_generator/blob/master/source/source_midi/sources.txt
 
-## To-Do
+## Tasks
 
-* Put individual soundtrack data together into a single training dataset.
-* Use "word" embeddings for input and output of the models.
+- [x] Combine multiple text data into a single-long dataset.
+- [x] Try overfitting a model on a small subset of the dataset.
+- [] Train a deep model on the full dataset.
+- [] Try using LR Scheduler.
+- [] Try using LR finder in conjunction with the LR Scheduler.
 
 ## Requirements and Dependancies
 
@@ -40,6 +43,21 @@ New training data sources are listed in https://github.com/dragonoken/undertale_
 * Matplotlib (For visualization)
 
 ## Update Logs
+
+---
+
+### Mar 22nd 2019
+
+My intuition was incorrect.
+
+First of all, after using several output methods on a small dataset, I found out that my euclidean-distance-based models were performing significantly worse than just using a single fully-connected layer at the end. Using negative euclidean distances eventually converged to a decent minimum, achieving almost 100% accuracy, but it was slower at doing so. Using the reciprocal of the euclidean distances converged to a terrible minimum, with 60-70% accuracy after 1000 epochs. A simple fully-connected layer, on the other hand, showed rapid decrease in loss and increase in accuracy.
+
+Moreover, matrix multiplication with a fully-connected layer had a much lower memory load than those other options. It seems that it's due to many operations involved in calculating euclidean distances (element-wise subtraction -> square -> sum -> square root) in contrast to a single matrix multiplication.
+
+Also, as I read on several articles on the internet, most people use an embedding dimension of 32, 64, or 128, depending on the number of vocabulary you are using. Considering my relatively "small" vocab size—many language models have like hundreds of thousands of words or so—I can probably go with 32 or even 16. The effect of the large vocabulary size should be canceled out by a small embedding dimension size.
+
+My next goal is to scale it up: make the model deeper and wider. I'm hoping for something creative out of it.
+
 ---
 
 ### Mar 15th 2019

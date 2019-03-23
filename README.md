@@ -30,9 +30,9 @@ New training data sources are listed in https://github.com/dragonoken/undertale_
 
 - [x] Combine multiple text data into a single-long dataset.
 - [x] Try overfitting a model on a small subset of the dataset.
-- [] Train a deep model on the full dataset.
-- [] Try using LR Scheduler.
-- [] Try using LR finder in conjunction with the LR Scheduler.
+- [ ] Train a deep model on the full dataset.
+- [ ] Try using LR Scheduler.
+- [ ] Try using LR finder in conjunction with the LR Scheduler.
 
 ## Requirements and Dependancies
 

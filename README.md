@@ -42,6 +42,10 @@ New training data sources are listed in https://github.com/dragonoken/undertale_
 * Numpy (For [MICI-csv <-> Text] conversion and visualization)
 * Matplotlib (For visualization)
 
+## Additional Note
+
+`utils` folder contains scripts you can run in a cmd or terminal. These scripts are for conversions between CSV and TXT files, and for visualizing the content.
+
 ## Update Logs
 
 ---

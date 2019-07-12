@@ -4,13 +4,16 @@
 /main.py
 /source/setup*
 /source/source_midi/**
+/utils/*.exe
+debug.log
 
 *.jpg
 *.pth
 *.bz2
-/*.txt
-/*.csv
-/*.mid
+*.txt
+*.csv
+*.mid
+*.7z
 
 !midimage0.jpg
 !midimage1.jpg
@@ -19,4 +22,3 @@
 !source/images/model_outputs/**
 !source/images/tokenization/**
 !source/source_midi/sources.txt
-*.mid

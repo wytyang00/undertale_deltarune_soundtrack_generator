@@ -26,27 +26,46 @@ Originally used training data source:
 
 New training data sources are listed in https://github.com/dragonoken/undertale_deltarune_soundtrack_generator/blob/master/source/source_midi/sources.txt
 
-## Tasks
+## To-Do
 
-- [x] Combine multiple text data into a single-long dataset.
-- [x] Try overfitting a model on a small subset of the dataset.
-- [ ] Train a deep model on the full dataset.
-- [ ] Try using LR Scheduler.
-- [ ] Try using LR finder in conjunction with the LR Scheduler.
+- [ ] Use [Professor Forcing](https://arxiv.org/abs/1610.09038) method.
+  - [ ] Create the Generator and Discriminator models.
+  - [ ] Implement Professor Forcing training.
+  - [ ] Generate samples and evaluate the quality.
+  - [ ] After some iterations, conclude with my evaluation of this method.
 
-## Requirements and Dependancies
+## Requirements and Dependencies
 
 * Python 3.\*
 * PyTorch
 * Pandas (For [MICI-csv <-> Text] conversion)
 * Numpy (For [MICI-csv <-> Text] conversion and visualization)
 * Matplotlib (For visualization)
+* TQDM (Progress bar)
 
 ## Additional Note
 
 `utils` folder contains scripts you can run in a cmd or terminal. These scripts are for conversions between CSV and TXT files, and for visualizing the content.
 
+For conversions between MIDI files and CSV files, download and use the program [here](http://www.fourmilab.ch/webtools/midicsv/).
+
 ## Update Logs
+
+---
+
+### July 26th 2019
+
+I haven't touched this project for a while since March. I was quite busy with school and other programs like the Deep Reinforcement Learning course on Udacity.
+
+Now, I've finally decided to continue this project before it's dead forever.
+
+My second attempt was successful in a sense that my model could reach a high accuracy in rather short time, but the generated samples were much less diverse compared to the ones I got from my first attempt—which I had uploaded [here](https://audiomack.com/album/dragonoken/robots-are-made-of-metal-magic-and-music).
+
+It turns out that it's quite obvious how hard it is to get creative models out of these ways of training; they are trained to **correctly guess what the next note—or chord—is, not necessarilly to be creative.**
+
+So, this time, I decided to try something different: using Professor Forcing.
+
+Simply put, training a sequential model with Professor Forcing methods is like training GANs. Instead of strictly guessing the next note, the generator network learns to _fool_ the discriminator network by making "realistic" samples. This way, the generator should be able to be more creative rather than being just accurate.
 
 ---
 
@@ -236,8 +255,8 @@ I started with taking each component out and see how it changes the music. Lucki
 Tracks were a bit tricky to handle. Notes were separated into 2 tracks. They are played together, but considered as separate parts. To further simplify the format, I removed all Start_tracks and End_tracks other than the ones with lowest time value and highest time value, then changed all track values greater than 1 to 1.
 
 Removing tempo changed the music drastically. Since the pace of a music differed from part to part, having a same tempo throughout the music was... not really good. So, I adjusted all time values according to the tempo changes by stretching and squashing time intervals with different tempos. As a result, even though there is no tempo change, I managed to make the music sound identical to the original one (except I previously removed reverbs and chorus and all).
-  
-  
+
+
 Also, I successfully visualized the notes and saved them as jpeg images. Here are the first 3 parts of the music, from 0 sec to approximately 156 sec:
 
 ![midi image 1](source/images/midimage0.jpg)

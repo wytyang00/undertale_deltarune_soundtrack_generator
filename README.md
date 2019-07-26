@@ -29,7 +29,7 @@ New training data sources are listed in https://github.com/dragonoken/undertale_
 ## To-Do
 
 - [ ] Use [Professor Forcing](https://arxiv.org/abs/1610.09038) method.
-  - [ ] Create the Generator and Discriminator models.
+  - [x] Create the Generator and Discriminator models.
   - [ ] Implement Professor Forcing training.
   - [ ] Generate samples and evaluate the quality.
   - [ ] After some iterations, conclude with my evaluation of this method.
@@ -50,6 +50,16 @@ New training data sources are listed in https://github.com/dragonoken/undertale_
 For conversions between MIDI files and CSV files, download and use the program [here](http://www.fourmilab.ch/webtools/midicsv/).
 
 ## Update Logs
+
+---
+
+### July 27th 2019
+
+I've designed a reasonable Generator and Discriminator models with GRU layers.
+
+In order to do Professor Forcing training in the near future, I've defined the Generator's `forward()` method so that it would optionally return all the hidden states from all GRU layers for all timesteps.
+
+Next step would be the harder—or rather time-consuming—part, since both the Generator and Discriminator models need to be optimized, and the Generator model would have 3 loss terms.
 
 ---
 

@@ -31,6 +31,12 @@ New training data sources are listed in https://github.com/dragonoken/undertale_
 - [ ] Use [Professor Forcing](https://arxiv.org/abs/1610.09038) method.
   - [x] Create the Generator and Discriminator models.
   - [ ] Implement Professor Forcing training.
+    - [x] Implement Free-Running Generation Function.
+    - [ ] Implement Discriminator Loss.
+    - [ ] Implement Generator Loss.
+    - [ ] Write a training loop.
+    - [ ] Add dynamic plots by writing a separate utility module.
+  - [ ] Choose appropriate hyperparameters and train the models.
   - [ ] Generate samples and evaluate the quality.
   - [ ] After some iterations, conclude with my evaluation of this method.
 
@@ -50,6 +56,14 @@ New training data sources are listed in https://github.com/dragonoken/undertale_
 For conversions between MIDI files and CSV files, download and use the program [here](http://www.fourmilab.ch/webtools/midicsv/).
 
 ## Update Logs
+
+---
+
+### July 28th 2019
+
+Today's plan was to implement the entire Professor Forcing training algorithm, but I ended up just creating the free-running generation function only.
+
+There were some confusions regarding the derivation of the behavior sequence described in the [paper](https://arxiv.org/abs/1610.09038). It seems like I would need to make some changes to the derivation since I would be giving away the answers as part of inputs if I blindly follow the method shown in the paper.
 
 ---
 

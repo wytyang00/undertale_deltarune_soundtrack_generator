@@ -29,10 +29,12 @@ New training data sources are listed in https://github.com/dragonoken/undertale_
 ## To-Do
 
 - [ ] Use [Professor Forcing](https://arxiv.org/abs/1610.09038) method.
-  - [x] Create the Generator and Discriminator models.
+  - [ ] Create the Generator and Discriminator models.
+    - [x] Create the Generator.
+    - [ ] Create the Discriminator.
   - [ ] Implement Professor Forcing training.
     - [x] Implement Free-Running Generation Function.
-    - [ ] Implement Discriminator Loss.
+    - [x] Implement Discriminator Loss.
     - [ ] Implement Generator Loss.
     - [ ] Write a training loop.
     - [ ] Add dynamic plots by writing a separate utility module.
@@ -56,6 +58,16 @@ New training data sources are listed in https://github.com/dragonoken/undertale_
 For conversions between MIDI files and CSV files, download and use the program [here](http://www.fourmilab.ch/webtools/midicsv/).
 
 ## Update Logs
+
+---
+
+### July 29th 2019
+
+As I read about the details of Professor Forcing many times, I've noticed that the discriminator part in the paper is quite vague. Getting a single probability output using bidirectional RNN layers doesn't appear straightforward to me. I'm going to look into this particular issue for a bit.
+
+Meanwhile, I'm calling the discriminator **unfinished**.
+
+Besides that, I've just finished the Discriminator Loss Function with the assumption that the discriminator outputs a single value per batch, regardless of the sequence length.
 
 ---
 

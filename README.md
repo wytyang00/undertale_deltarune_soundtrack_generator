@@ -29,13 +29,13 @@ New training data sources are listed in https://github.com/dragonoken/undertale_
 ## To-Do
 
 - [ ] Use [Professor Forcing](https://arxiv.org/abs/1610.09038) method.
-  - [ ] Create the Generator and Discriminator models.
+  - [x] Create the Generator and Discriminator models.
     - [x] Create the Generator.
-    - [ ] Create the Discriminator.
+    - [x] Create the Discriminator.
   - [ ] Implement Professor Forcing training.
     - [x] Implement Free-Running Generation Function.
     - [x] Implement Discriminator Loss.
-    - [ ] Implement Generator Loss.
+    - [x] Implement Generator Loss.
     - [ ] Write a training loop.
     - [ ] Add dynamic plots by writing a separate utility module.
   - [ ] Choose appropriate hyperparameters and train the models.
@@ -58,6 +58,16 @@ New training data sources are listed in https://github.com/dragonoken/undertale_
 For conversions between MIDI files and CSV files, download and use the program [here](http://www.fourmilab.ch/webtools/midicsv/).
 
 ## Update Logs
+
+---
+
+### July 30th 2019
+
+With similar assumptions for the Discriminator Loss function, I've implemented the Generator Loss function that returns up to 3 individual loss terms for the Generator.
+
+Also, I decided to use the method in which the updated hidden states for the last bidirectional RNN in the Discriminator is passed into the MLP layers. This makes the output of the Discriminator a single value regardless of the sequence length. Now, the Discriminator model should be functional.
+
+All of these things are not tested, but any problem that might arise should be something I can track down and fix individually.
 
 ---
 

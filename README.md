@@ -64,6 +64,8 @@ For conversions between MIDI files and CSV files, download and use the program [
 
 ---
 
+### July 31st 2019
+
 Making a training loop was fairly simple. As long as the loss functions are correct, the training loop should be alright.
 
 As I ran the training loop several times, I found some issues with the Discriminator architecture, mainly the dimensionality of the inputs to the first RNN layer and to the MLP layer.. Fixing the first issue was rather simple with a hard-coded change to the input size of the first RNN layer. The latter was a bit tricky since passing the updated hidden states to the MLP needs something like transposing when the hidden states are from a bidirectional RNN. For that, instead of the updated hidden states, I decided to use part of the output from the last RNN layer to as input for the MLP layers.

@@ -36,8 +36,11 @@ New training data sources are listed in https://github.com/dragonoken/undertale_
     - [x] Implement Free-Running Generation Function.
     - [x] Implement Discriminator Loss.
     - [x] Implement Generator Loss.
-    - [ ] Write a training loop.
-    - [ ] Add dynamic plots by writing a separate utility module.
+    - [x] Write a training loop.
+    - [x] Test the training process with an arbitrary set of hyperparameters and debug any issue that arises.
+    - [ ] Run the training and observe the progress, or lack thereof.
+  - [ ] Add dynamic plots by writing a separate utility module.
+  - [ ] Add intermittent plots of generated sequences during the free-running mode.
   - [ ] Choose appropriate hyperparameters and train the models.
   - [ ] Generate samples and evaluate the quality.
   - [ ] After some iterations, conclude with my evaluation of this method.
@@ -58,6 +61,14 @@ New training data sources are listed in https://github.com/dragonoken/undertale_
 For conversions between MIDI files and CSV files, download and use the program [here](http://www.fourmilab.ch/webtools/midicsv/).
 
 ## Update Logs
+
+---
+
+Making a training loop was fairly simple. As long as the loss functions are correct, the training loop should be alright.
+
+As I ran the training loop several times, I found some issues with the Discriminator architecture, mainly the dimensionality of the inputs to the first RNN layer and to the MLP layer.. Fixing the first issue was rather simple with a hard-coded change to the input size of the first RNN layer. The latter was a bit tricky since passing the updated hidden states to the MLP needs something like transposing when the hidden states are from a bidirectional RNN. For that, instead of the updated hidden states, I decided to use part of the output from the last RNN layer to as input for the MLP layers.
+
+Now, the training runs just fine—at least without any error. I'm going to let it run overnight and see if the quality of the generated sequences improves at all.
 
 ---
 

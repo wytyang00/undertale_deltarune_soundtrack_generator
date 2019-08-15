@@ -28,22 +28,7 @@ New training data sources are listed in https://github.com/dragonoken/undertale_
 
 ## To-Do
 
-- [ ] Use [Professor Forcing](https://arxiv.org/abs/1610.09038) method.
-  - [x] Create the Generator and Discriminator models.
-    - [x] Create the Generator.
-    - [x] Create the Discriminator.
-  - [ ] Implement Professor Forcing training.
-    - [x] Implement Free-Running Generation Function.
-    - [x] Implement Discriminator Loss.
-    - [x] Implement Generator Loss.
-    - [x] Write a training loop.
-    - [x] Test the training process with an arbitrary set of hyperparameters and debug any issue that arises.
-    - [ ] Run the training and observe the progress, or lack thereof.
-  - [ ] Add dynamic plots by writing a separate utility module.
-  - [ ] Add intermittent plots of generated sequences during the free-running mode.
-  - [ ] Choose appropriate hyperparameters and train the models.
-  - [ ] Generate samples and evaluate the quality.
-  - [ ] After some iterations, conclude with my evaluation of this method.
+- [ ] Follow the preprocessing method used in the paper [Music Transformer](https://arxiv.org/abs/1809.04281).
 
 ## Requirements and Dependencies
 
@@ -61,6 +46,18 @@ New training data sources are listed in https://github.com/dragonoken/undertale_
 For conversions between MIDI files and CSV files, download and use the program [here](http://www.fourmilab.ch/webtools/midicsv/).
 
 ## Update Logs
+
+---
+
+### August 15th 2019
+
+I haven't updated this log for a while, but several things happened so far.
+
+First of all, my Professor Forcing method ended up being unsuccessful; the quality of generated samples was bad and did not improve much as the training continued. Therefore, I decided to scrub this approach.
+
+After that, I tried to see which of my previous model was the most successful. As it turns out, the model with 8 layers of LSTM gave me the best samples. So, I made another deep LSTM network with 10 LSTM layers and trained it with much longer sequence lengths. The trained model did generate better samples, but they were still not that good.
+
+My plan now is to try a different way of preprocessing the data: the method used in Music Transformer. I'd like to see how this new representation would work with my previous models and also see if I can make this Transformer model as well.
 
 ---
 
